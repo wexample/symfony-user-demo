@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonyUserDemo\Controller\:
+        resource: '../../Controller/'
+        exclude: '../../Controller/**/Abstract*.php'
+        tags: ['controller.service_arguments']

@@ -1,0 +1,3 @@
+user_demo_controllers:
+    resource: '../../Controller/'
+    type: attribute
