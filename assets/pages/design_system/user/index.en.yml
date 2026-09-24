@@ -1,2 +1,7 @@
 page_title: User
 page_icon: ph:bold/user
+intro: The login form of symfony-user, submitted over ajax. Only test accounts created from the console can sign in.
+signed_in: Signed in as %name%.
+action:
+  account: Account
+  logout: Sign out

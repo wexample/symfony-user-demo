@@ -1,0 +1,10 @@
+page_title: Account
+page_icon: ph:bold/user-circle
+field:
+  email: Email
+  username: Username
+  roles: Roles
+  date_last_login: Last sign-in
+  date_created: Created
+action:
+  logout: Sign out

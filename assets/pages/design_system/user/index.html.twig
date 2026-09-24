@@ -2,6 +2,17 @@
 
 {%- block page_body -%}
     <article class="content">
-        <h1>User</h1>
+        <h1>{{ '@page::page_title' | trans }}</h1>
+
+        {%- if app.user -%}
+            <p>{{ '@page::signed_in' | trans({'%name%': app.user.displayName}) }}</p>
+            <p>
+                {{ button_link('ph:bold/user-circle', '@page::action.account' | trans, path('wexample_user_demo_account')) }}
+                {{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout')) }}
+            </p>
+        {%- else -%}
+            <p>{{ '@page::intro' | trans }}</p>
+            {{ form_load(render_pass, login_form, '@WexampleSymfonyUserBundle/forms/login_form.html.twig') }}
+        {%- endif -%}
     </article>
 {%- endblock -%}
