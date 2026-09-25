@@ -1,7 +1,17 @@
 page_title: User
 page_icon: ph:bold/user
-intro: The login form of symfony-user, submitted over ajax. Only test accounts created from the console can sign in.
+intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username.
 signed_in: Signed in as %name%.
+accounts:
+  email: Email
+  username: Username
+  password: Password
+  expected: Result
+  missing: The test accounts do not exist yet, create them with
+  result:
+    active: Signed in, then sent to the account page
+    locked: Refused, the account is locked
+    inactive: Refused, the account is not activated
 action:
   account: Account
   logout: Sign out

@@ -12,6 +12,32 @@
             </p>
         {%- else -%}
             <p>{{ '@page::intro' | trans }}</p>
+
+            {%- if accounts_created -%}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>{{ '@page::accounts.email' | trans }}</th>
+                            <th>{{ '@page::accounts.username' | trans }}</th>
+                            <th>{{ '@page::accounts.password' | trans }}</th>
+                            <th>{{ '@page::accounts.expected' | trans }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {%- for account in accounts -%}
+                            <tr>
+                                <td><code>{{ account.email }}</code></td>
+                                <td><code>{{ account.username }}</code></td>
+                                <td><code>{{ account.password }}</code></td>
+                                <td>{{ ('@page::accounts.result.' ~ account.name | lower) | trans }}</td>
+                            </tr>
+                        {%- endfor -%}
+                    </tbody>
+                </table>
+            {%- else -%}
+                <p>{{ '@page::accounts.missing' | trans }} <code>bin/console user-demo:create-accounts</code></p>
+            {%- endif -%}
+
             {{ form_load(render_pass, login_form, '@WexampleSymfonyUserBundle/forms/login_form.html.twig') }}
         {%- endif -%}
     </article>

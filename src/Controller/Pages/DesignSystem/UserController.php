@@ -11,6 +11,8 @@ use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyLoader\Controller\Pages\AbstractDesignSystemController;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
+use Wexample\SymfonyUserDemo\Enum\DemoAccount;
+use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
 use Wexample\SymfonyUserDemo\Traits\SymfonyUserDemoBundleClassTrait;
 
 #[Route(
@@ -25,13 +27,13 @@ final class UserController extends AbstractPagesController
     private const string FIREWALL = 'main';
 
     /**
-     * Public: the login form is shown to anyone, only the test accounts
-     * created from the console can get past it.
+     * Public, like the credentials of the demo accounts it prints.
      */
     #[Route(name: 'index', path: '')]
     public function index(
         Request $request,
-        LoginFormProcessor $loginFormProcessor
+        LoginFormProcessor $loginFormProcessor,
+        DemoUserRepository $demoUserRepository
     ): Response {
         // The page decides where a successful login lands, the way a tunnel
         // step embedding the form would.
@@ -43,6 +45,8 @@ final class UserController extends AbstractPagesController
 
         return $this->renderPage('index', [
             'login_form' => $loginFormProcessor->createForm()->createView(),
+            'accounts' => DemoAccount::cases(),
+            'accounts_created' => (bool) $demoUserRepository->findOneByUserIdentifier(DemoAccount::ACTIVE->getEmail()),
         ]);
     }
 
