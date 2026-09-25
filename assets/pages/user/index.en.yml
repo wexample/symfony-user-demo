@@ -19,6 +19,10 @@ accounts:
 magic_link:
   title: Magic link
   intro: The demo sends no email. The link lands in the demo mailbox, visible to you only.
+signup:
+  title: Sign-up tunnel
+  intro: The email and login steps of symfony-user, in a tunnel. An address with an account asks to sign in; any other one creates an account, not activated.
+  open: Walk the tunnel
 forgot:
   title: Forgotten password
   intro: The reset link lands in the demo mailbox too.

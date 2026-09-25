@@ -76,4 +76,20 @@
             </section>
         </div>
     {%- endif -%}
+
+    {#- The two user steps of symfony-user, in a tunnel: open to anyone, a
+        signed-in visitor going through without the login. -#}
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/path') }}</span>
+            <span class="block--title-label">{{ '@page::signup.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            <p class="text-secondary">{{ '@page::signup.intro' | trans }}</p>
+        </div>
+        <div class="block--footer">
+            <span></span>
+            {{ button_link('ph:bold/path', '@page::signup.open' | trans, path('user_signup_index', { step: 'user-mail' })) }}
+        </div>
+    </section>
 {%- endblock -%}

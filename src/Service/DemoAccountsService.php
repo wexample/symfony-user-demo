@@ -28,6 +28,14 @@ class DemoAccountsService
 
     public function reset(): void
     {
+        // The accounts the sign-up tunnel created for visitors' addresses.
+        $demoEmails = array_map(static fn (DemoAccount $account): string => $account->getEmail(), DemoAccount::cases());
+        foreach ($this->demoUserRepository->findAll() as $user) {
+            if (! in_array($user->getEmail(), $demoEmails, true)) {
+                $this->entityManager->remove($user);
+            }
+        }
+
         foreach (DemoAccount::cases() as $account) {
             $user = $this->demoUserRepository->findOneByUserIdentifier($account->getEmail());
 

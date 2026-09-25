@@ -1,0 +1,24 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{#- A step of the sign-up: where it stands, then one card holding what the step
+    asks and the way on. -#}
+{%- block page_body -%}
+    {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-navigation.html.twig' -%}
+
+    {%- set tunnelButtons -%}
+        {%- include '@WexampleSymfonyTunnelsBundle/partials/tunnel-buttons.html.twig' -%}
+    {%- endset -%}
+
+    <section class="block block--card">
+        <div class="block--body stack--vertical">
+            <h1 class="page--title">{{ '@page::title'|trans }}</h1>
+            <p class="lead">{%- block tunnel_step_lead -%}{{ '@page::lead'|trans }}{%- endblock -%}</p>
+
+            {%- block tunnel_step_body -%}{%- endblock -%}
+        </div>
+
+        {%- if tunnelButtons|trim is not empty -%}
+            <div class="block--footer">{{ tunnelButtons }}</div>
+        {%- endif -%}
+    </section>
+{%- endblock -%}

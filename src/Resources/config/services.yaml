@@ -6,6 +6,7 @@ services:
 
     Wexample\SymfonyUserDemo\:
         resource: '../../{Command,Repository,Service}'
+        exclude: '../../Service/**/Abstract*.php'
 
     # Overrides the mail sender of symfony-user, loaded before this bundle.
     Wexample\SymfonyUser\Interface\SecurityMessageSenderInterface:

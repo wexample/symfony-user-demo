@@ -1,0 +1,11 @@
+page_title: Sign up
+title: Welcome
+lead:
+  signed_in: Signed in, the tunnel goes on with your account.
+  created: A new account was created for this address. It is not activated, and nobody is signed in.
+field:
+  email: Email
+  activated: Activated
+"yes": "Yes"
+"no": "No"
+back: Back to the user demo

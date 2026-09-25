@@ -1,0 +1,15 @@
+{%- extends '@WexampleSymfonyUserDemoBundle/tunnels/layout.html.twig' -%}
+
+{%- block tunnel_step_lead -%}
+    {{ (signed_in ? '@page::lead.signed_in' : '@page::lead.created')|trans }}
+{%- endblock -%}
+
+{%- block tunnel_step_body -%}
+    {%- if account -%}
+        {{ properties([
+            { key: '@page::field.email'|trans, value: account.email },
+            { key: '@page::field.activated'|trans, value: (account.enabled ? '@page::yes' : '@page::no')|trans },
+        ], { bordered: true }) }}
+    {%- endif -%}
+    <p>{{ button_link('ph:bold/arrow-left', '@page::back'|trans, path('user_index'), { class: 'button--flat' }) }}</p>
+{%- endblock -%}
