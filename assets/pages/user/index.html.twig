@@ -1,59 +1,79 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
 
+{%- set page_show_title = true -%}
+
 {%- block page_body -%}
-    <article class="content">
-        <h1>{{ '@page::page_title' | trans }}</h1>
+    {%- if app.user -%}
+        <section class="block block--card">
+            <div class="block--body">
+                <p class="lead">{{ '@page::signed_in' | trans({'%name%': app.user.displayName}) }}</p>
+            </div>
+            <div class="block--footer">
+                {{ button_link('ph:bold/user-circle', '@page::action.account' | trans, path('user_account'), { class: 'button--invert' }) }}
+                {{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout'), { class: 'button--flat' }) }}
+            </div>
+        </section>
+    {%- else -%}
+        <p class="lead">{{ '@page::intro' | trans }}</p>
 
-        {%- if app.user -%}
-            <p>{{ '@page::signed_in' | trans({'%name%': app.user.displayName}) }}</p>
-            <p>
-                {{ button_link('ph:bold/user-circle', '@page::action.account' | trans, path('user_account')) }}
-                {{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout')) }}
-            </p>
-        {%- else -%}
-            <p>{{ '@page::intro' | trans }}</p>
-
-            {%- if accounts_created -%}
-                <table>
-                    <thead>
-                        <tr>
-                            <th>{{ '@page::accounts.email' | trans }}</th>
-                            <th>{{ '@page::accounts.username' | trans }}</th>
-                            <th>{{ '@page::accounts.password' | trans }}</th>
-                            <th>{{ '@page::accounts.expected' | trans }}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {%- for account in accounts -%}
-                            <tr>
-                                <td><code>{{ account.email }}</code></td>
-                                <td><code>{{ account.username }}</code></td>
-                                <td><code>{{ account.password }}</code></td>
-                                <td>{{ ('@page::accounts.result.' ~ account.name | lower) | trans }}</td>
-                            </tr>
-                        {%- endfor -%}
-                    </tbody>
-                </table>
-            {%- endif -%}
-            <form method="post" action="{{ path('user_reset_accounts') }}">
-                <p>
-                    {{ (accounts_created ? '@page::accounts.reset_intro' : '@page::accounts.missing') | trans }}
-                    <button type="submit">{{ (accounts_created ? '@page::accounts.reset' : '@page::accounts.create') | trans }}</button>
-                </p>
-            </form>
-
-            {{ form_load(render_pass, login_form, '@WexampleSymfonyUserBundle/forms/login_form.html.twig') }}
-
-            <h2>{{ '@page::magic_link.title' | trans }}</h2>
-            <p>{{ '@page::magic_link.intro' | trans }}</p>
-            {{ form_load(render_pass, magic_link_request_form, '@WexampleSymfonyUserBundle/forms/magic_link_request_form.html.twig') }}
-
-            <h2>{{ '@page::forgot.title' | trans }}</h2>
-            <p>{{ '@page::forgot.intro' | trans }}</p>
-            <p>
-                {{ button_link('ph:bold/key', '@page::action.forgot' | trans, path('user_password_forgot')) }}
-                {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('user_mailbox')) }}
-            </p>
+        {#- The accounts to try, and how each one is meant to end. -#}
+        <h2>{{ '@page::accounts.title' | trans }}</h2>
+        {%- if accounts_created -%}
+            {%- set account_rows = [] -%}
+            {%- for account in accounts -%}
+                {%- set account_rows = account_rows|merge([{
+                    email: account.email,
+                    username: account.username,
+                    password: '<code>' ~ account.password|e ~ '</code>',
+                    expected: ('@page::accounts.result.' ~ account.name|lower) | trans,
+                }]) -%}
+            {%- endfor -%}
+            {{ data_table([
+                { key: 'email', label: '@page::accounts.email' | trans },
+                { key: 'username', label: '@page::accounts.username' | trans, secondary: true },
+                { key: 'password', label: '@page::accounts.password' | trans, cell: 'html' },
+                { key: 'expected', label: '@page::accounts.expected' | trans, secondary: true },
+            ], account_rows) }}
         {%- endif -%}
-    </article>
+        <form class="cluster" method="post" action="{{ path('user_reset_accounts') }}">
+            <span class="text-secondary">{{ (accounts_created ? '@page::accounts.reset_intro' : '@page::accounts.missing') | trans }}</span>
+            {{ button('ph:bold/arrow-counter-clockwise', (accounts_created ? '@page::accounts.reset' : '@page::accounts.create') | trans, { type: 'submit' }) }}
+        </form>
+
+        <h2>{{ '@page::login.title' | trans }}</h2>
+        <section class="block block--card">
+            <div class="block--body">
+                {{ form_load(render_pass, login_form, '@WexampleSymfonyUserBundle/forms/login_form.html.twig') }}
+            </div>
+        </section>
+
+        {#- The two ways in without the password, side by side: both land in
+            the demo mailbox rather than in an inbox. -#}
+        <div class="grid grid--2">
+            <section class="block block--card">
+                <div class="block--title">
+                    <span class="block--title-leading">{{ icon('ph:bold/envelope-simple') }}</span>
+                    <span class="block--title-label">{{ '@page::magic_link.title' | trans }}</span>
+                </div>
+                <div class="block--body stack--vertical">
+                    <p class="text-secondary">{{ '@page::magic_link.intro' | trans }}</p>
+                    {{ form_load(render_pass, magic_link_request_form, '@WexampleSymfonyUserBundle/forms/magic_link_request_form.html.twig') }}
+                </div>
+            </section>
+
+            <section class="block block--card">
+                <div class="block--title">
+                    <span class="block--title-leading">{{ icon('ph:bold/key') }}</span>
+                    <span class="block--title-label">{{ '@page::forgot.title' | trans }}</span>
+                </div>
+                <div class="block--body">
+                    <p class="text-secondary">{{ '@page::forgot.intro' | trans }}</p>
+                </div>
+                <div class="block--footer">
+                    {{ button_link('ph:bold/key', '@page::action.forgot' | trans, path('user_password_forgot')) }}
+                    {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('user_mailbox'), { class: 'button--flat' }) }}
+                </div>
+            </section>
+        </div>
+    {%- endif -%}
 {%- endblock -%}

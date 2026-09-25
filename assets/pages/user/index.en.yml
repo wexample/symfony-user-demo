@@ -3,6 +3,7 @@ page_icon: ph:bold/user
 intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, delivered to the demo mailbox.
 signed_in: Signed in as %name%.
 accounts:
+  title: Test accounts
   email: Email
   username: Username
   password: Password
@@ -26,3 +27,5 @@ action:
   mailbox: Open the demo mailbox
   account: Account
   logout: Sign out
+login:
+  title: Sign in

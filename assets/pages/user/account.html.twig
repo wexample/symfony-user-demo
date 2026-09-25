@@ -1,34 +1,50 @@
 {%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
 
+{%- set page_show_title = true -%}
+
 {%- block page_body -%}
     {%- set user = app.user -%}
-    <article class="content">
-        <h1>{{ '@page::page_title' | trans }}</h1>
+    {%- set roles -%}
+        {%- for role in user.roles -%}{{ marker('neutral', role, { compact: true }) }} {% endfor -%}
+    {%- endset -%}
 
-        <dl>
-            <dt>{{ '@page::field.email' | trans }}</dt>
-            <dd>{{ user.email }}</dd>
-            <dt>{{ '@page::field.username' | trans }}</dt>
-            <dd>{{ user.username ?? '—' }}</dd>
-            <dt>{{ '@page::field.roles' | trans }}</dt>
-            <dd>{{ user.roles | join(', ') }}</dd>
-            <dt>{{ '@page::field.date_last_login' | trans }}</dt>
-            <dd>{{ user.dateLastLogin ? user.dateLastLogin | date('Y-m-d H:i') : '—' }}</dd>
-            <dt>{{ '@page::field.date_created' | trans }}</dt>
-            <dd>{{ user.dateCreated | date('Y-m-d H:i') }}</dd>
-        </dl>
+    <section class="block block--padded">
+        {{ properties([
+            { key: '@page::field.email' | trans, value: user.email },
+            { key: '@page::field.username' | trans, value: user.username ?? '—' },
+            { key: '@page::field.roles' | trans, value: roles, html: true },
+            { key: '@page::field.date_last_login' | trans, value: user.dateLastLogin ? date_display(user.dateLastLogin, 'date_time_short') : '—', html: true },
+            { key: '@page::field.date_created' | trans, value: date_display(user.dateCreated, 'date_time_short'), html: true },
+        ], { columns: true }) }}
+    </section>
 
-        <h2>{{ '@page::devices.title' | trans }}</h2>
-        <form method="post" action="{{ path('user_revoke_devices') }}">
-            <p>
-                {{ '@page::devices.intro' | trans }}
-                <button type="submit">{{ '@page::devices.revoke' | trans }}</button>
-            </p>
-        </form>
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/devices') }}</span>
+            <span class="block--title-label">{{ '@page::devices.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            <p class="text-secondary">{{ '@page::devices.intro' | trans }}</p>
+        </div>
+        <div class="block--footer">
+            <span></span>
+            <form method="post" action="{{ path('user_revoke_devices') }}">
+                {{ button('ph:bold/prohibit', '@page::devices.revoke' | trans, { type: 'submit' }) }}
+            </form>
+        </div>
+    </section>
 
-        <h2>{{ '@page::change_password' | trans }}</h2>
-        {{ form_load(render_pass, change_password_form, '@WexampleSymfonyUserBundle/forms/change_password_form.html.twig') }}
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/password') }}</span>
+            <span class="block--title-label">{{ '@page::change_password' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {{ form_load(render_pass, change_password_form, '@WexampleSymfonyUserBundle/forms/change_password_form.html.twig') }}
+        </div>
+    </section>
 
-        <p>{{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout')) }}</p>
-    </article>
+    <div class="cluster">
+        {{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout'), { class: 'button--flat' }) }}
+    </div>
 {%- endblock -%}
