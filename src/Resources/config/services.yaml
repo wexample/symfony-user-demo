@@ -5,7 +5,11 @@ services:
         public: false
 
     Wexample\SymfonyUserDemo\:
-        resource: '../../{Command,Repository}'
+        resource: '../../{Command,Repository,Service}'
+
+    # Overrides the mail sender of symfony-user, loaded before this bundle.
+    Wexample\SymfonyUser\Interface\MagicLinkSenderInterface:
+        alias: Wexample\SymfonyUserDemo\Service\SessionMagicLinkSenderService
 
     Wexample\SymfonyUserDemo\Controller\:
         resource: '../../Controller/'

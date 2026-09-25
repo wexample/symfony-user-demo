@@ -10,8 +10,10 @@ use Symfony\Component\Security\Http\Util\TargetPathTrait;
 use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
+use Wexample\SymfonyUser\Service\FormProcessor\MagicLinkRequestFormProcessor;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
+use Wexample\SymfonyUserDemo\Service\SessionMagicLinkSenderService;
 use Wexample\SymfonyUserDemo\Traits\SymfonyUserDemoBundleClassTrait;
 
 #[Route(path: 'user/', name: 'user_')]
@@ -29,6 +31,7 @@ final class UserController extends AbstractPagesController
     public function index(
         Request $request,
         LoginFormProcessor $loginFormProcessor,
+        MagicLinkRequestFormProcessor $magicLinkRequestFormProcessor,
         DemoUserRepository $demoUserRepository
     ): Response {
         // The page decides where a successful login lands, the way a tunnel
@@ -41,8 +44,20 @@ final class UserController extends AbstractPagesController
 
         return $this->renderPage('index', [
             'login_form' => $loginFormProcessor->createForm()->createView(),
+            'magic_link_request_form' => $magicLinkRequestFormProcessor->createForm()->createView(),
             'accounts' => DemoAccount::cases(),
             'accounts_created' => (bool) $demoUserRepository->findOneByUserIdentifier(DemoAccount::ACTIVE->getEmail()),
+        ]);
+    }
+
+    /**
+     * Where the demo delivers the magic links, in place of a real inbox.
+     */
+    #[Route(name: 'mailbox', path: 'mailbox')]
+    public function mailbox(SessionMagicLinkSenderService $sender): Response
+    {
+        return $this->renderPage('mailbox', [
+            'mail' => $sender->getLastMail(),
         ]);
     }
 

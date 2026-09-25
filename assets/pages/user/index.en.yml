@@ -12,6 +12,10 @@ accounts:
     active: Signed in, then sent to the account page
     locked: Refused, the account is locked
     inactive: Refused, the account is not activated
+magic_link:
+  title: Magic link
+  intro: The demo sends no email. The link lands in the demo mailbox, visible to you only.
 action:
+  mailbox: Open the demo mailbox
   account: Account
   logout: Sign out

@@ -1,0 +1,22 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- block page_body -%}
+    <article class="content">
+        <h1>{{ '@page::page_title' | trans }}</h1>
+        <p>{{ '@page::intro' | trans }}</p>
+
+        {%- if mail -%}
+            <dl>
+                <dt>{{ '@page::field.to' | trans }}</dt>
+                <dd>{{ mail.to }}</dd>
+                <dt>{{ '@page::field.expires_at' | trans }}</dt>
+                <dd>{{ mail.expires_at | date('Y-m-d H:i') }}</dd>
+            </dl>
+            <p>{{ button_link('ph:bold/sign-in', '@page::action.follow' | trans, mail.url) }}</p>
+        {%- else -%}
+            <p>{{ '@page::empty' | trans }}</p>
+        {%- endif -%}
+
+        <p>{{ button_link('ph:bold/arrow-left', '@page::action.back' | trans, path('user_index')) }}</p>
+    </article>
+{%- endblock -%}

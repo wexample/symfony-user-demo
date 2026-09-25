@@ -1,0 +1,10 @@
+page_title: Demo mailbox
+page_icon: ph:bold/envelope-simple
+intro: The last magic link requested from this browser, as the email would have delivered it.
+empty: No link requested yet.
+field:
+  to: To
+  expires_at: Valid until
+action:
+  follow: Follow the link
+  back: Back to the login forms
