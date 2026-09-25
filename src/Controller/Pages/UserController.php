@@ -1,6 +1,6 @@
 <?php
 
-namespace Wexample\SymfonyUserDemo\Controller\Pages\DesignSystem;
+namespace Wexample\SymfonyUserDemo\Controller\Pages;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -9,16 +9,12 @@ use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
 use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
-use Wexample\SymfonyLoader\Controller\Pages\AbstractDesignSystemController;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
 use Wexample\SymfonyUserDemo\Traits\SymfonyUserDemoBundleClassTrait;
 
-#[Route(
-    name: 'wexample_user_demo_',
-    path: AbstractDesignSystemController::CONTROLLER_BASE_ROUTE . '/user/',
-)]
+#[Route(path: 'user/', name: 'user_')]
 final class UserController extends AbstractPagesController
 {
     use SymfonyUserDemoBundleClassTrait;
@@ -40,7 +36,7 @@ final class UserController extends AbstractPagesController
         $this->saveTargetPath(
             $request->getSession(),
             self::FIREWALL,
-            $this->generateUrl('wexample_user_demo_account')
+            $this->generateUrl('user_account')
         );
 
         return $this->renderPage('index', [

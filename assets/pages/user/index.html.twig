@@ -7,7 +7,7 @@
         {%- if app.user -%}
             <p>{{ '@page::signed_in' | trans({'%name%': app.user.displayName}) }}</p>
             <p>
-                {{ button_link('ph:bold/user-circle', '@page::action.account' | trans, path('wexample_user_demo_account')) }}
+                {{ button_link('ph:bold/user-circle', '@page::action.account' | trans, path('user_account')) }}
                 {{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout')) }}
             </p>
         {%- else -%}
