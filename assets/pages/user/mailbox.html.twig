@@ -34,6 +34,19 @@
         <div class="block block--padded empty">{{ '@page::empty' | trans }}</div>
     {%- endif -%}
 
+    {%- if totp_code -%}
+        <section class="block block--card">
+            <div class="block--title">
+                <span class="block--title-leading">{{ icon('ph:bold/device-mobile') }}</span>
+                <span class="block--title-label">{{ '@page::totp.title' | trans }}</span>
+            </div>
+            <div class="block--body stack--vertical">
+                <p class="text-secondary">{{ '@page::totp.intro' | trans }}</p>
+                <p class="lead">{{ '@page::field.code' | trans }} <code>{{ totp_code }}</code></p>
+            </div>
+        </section>
+    {%- endif -%}
+
     <div class="cluster">
         {{ button_link('ph:bold/arrow-left', '@page::action.back' | trans, path('user_index'), { class: 'button--flat' }) }}
     </div>

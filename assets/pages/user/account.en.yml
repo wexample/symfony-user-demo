@@ -1,6 +1,11 @@
 page_title: Account
 page_icon: ph:bold/user-circle
 change_password: Change the password
+authenticator:
+  title: Authenticator app
+  "on": Set up. Its code replaces the email code at sign-in.
+  "off": Not set up. The sign-in code comes by email.
+  open: Manage the app
 devices:
   title: Trusted devices
   intro: The devices trusted after their code sign in without one.

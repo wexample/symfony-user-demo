@@ -20,6 +20,20 @@
 
     <section class="block block--card">
         <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/device-mobile') }}</span>
+            <span class="block--title-label">{{ '@page::authenticator.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            <p class="text-secondary">{{ (app.user.totpAuthenticationEnabled ? '@page::authenticator.on' : '@page::authenticator.off') | trans }}</p>
+        </div>
+        <div class="block--footer">
+            <span></span>
+            {{ button_link('ph:bold/device-mobile', '@page::authenticator.open' | trans, path('user_totp_index')) }}
+        </div>
+    </section>
+
+    <section class="block block--card">
+        <div class="block--title">
             <span class="block--title-leading">{{ icon('ph:bold/devices') }}</span>
             <span class="block--title-label">{{ '@page::devices.title' | trans }}</span>
         </div>

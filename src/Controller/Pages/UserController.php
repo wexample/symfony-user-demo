@@ -3,10 +3,13 @@
 namespace Wexample\SymfonyUserDemo\Controller\Pages;
 
 use Doctrine\ORM\EntityManagerInterface;
+use Scheb\TwoFactorBundle\Security\TwoFactor\Provider\Totp\TotpFactory;
+use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
 use Wexample\SymfonyHelpers\Helper\RoleHelper;
@@ -58,10 +61,21 @@ final class UserController extends AbstractPagesController
      * Where the demo delivers its links and codes, in place of a real inbox.
      */
     #[Route(name: 'mailbox', path: 'mailbox')]
-    public function mailbox(SessionSecurityMessageSenderService $sender): Response
-    {
+    public function mailbox(
+        SessionSecurityMessageSenderService $sender,
+        TokenStorageInterface $tokenStorage,
+        #[Autowire(service: 'scheb_two_factor.security.totp_factory')]
+        TotpFactory $totpFactory
+    ): Response {
+        // The demo has no phone at hand: it shows the code the authenticator
+        // app of the account would, whether signed in or waiting for the code.
+        $user = $tokenStorage->getToken()?->getUser();
+
         return $this->renderPage('mailbox', [
             'mail' => $sender->getLastMail(),
+            'totp_code' => $user instanceof AbstractUser && $user->isTotpAuthenticationEnabled()
+                ? $totpFactory->createTotpForUser($user)->now()
+                : null,
         ]);
     }
 

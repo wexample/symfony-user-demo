@@ -11,6 +11,9 @@ type:
   magic_link: Magic link, signs you in
   password_reset: Password reset
   two_factor_code: Sign-in code, second factor
+totp:
+  title: Authenticator app
+  intro: What the app set up on this account shows right now. It changes every 30 seconds.
 action:
   follow: Follow the link
   back: Back to the login forms
