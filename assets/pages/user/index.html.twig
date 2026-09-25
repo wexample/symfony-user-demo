@@ -34,16 +34,26 @@
                         {%- endfor -%}
                     </tbody>
                 </table>
-            {%- else -%}
-                <p>{{ '@page::accounts.missing' | trans }} <code>bin/console user-demo:create-accounts</code></p>
             {%- endif -%}
+            <form method="post" action="{{ path('user_reset_accounts') }}">
+                <p>
+                    {{ (accounts_created ? '@page::accounts.reset_intro' : '@page::accounts.missing') | trans }}
+                    <button type="submit">{{ (accounts_created ? '@page::accounts.reset' : '@page::accounts.create') | trans }}</button>
+                </p>
+            </form>
 
             {{ form_load(render_pass, login_form, '@WexampleSymfonyUserBundle/forms/login_form.html.twig') }}
 
             <h2>{{ '@page::magic_link.title' | trans }}</h2>
             <p>{{ '@page::magic_link.intro' | trans }}</p>
             {{ form_load(render_pass, magic_link_request_form, '@WexampleSymfonyUserBundle/forms/magic_link_request_form.html.twig') }}
-            <p>{{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('user_mailbox')) }}</p>
+
+            <h2>{{ '@page::forgot.title' | trans }}</h2>
+            <p>{{ '@page::forgot.intro' | trans }}</p>
+            <p>
+                {{ button_link('ph:bold/key', '@page::action.forgot' | trans, path('user_password_forgot')) }}
+                {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('user_mailbox')) }}
+            </p>
         {%- endif -%}
     </article>
 {%- endblock -%}

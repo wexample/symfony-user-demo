@@ -18,6 +18,9 @@
             <dd>{{ user.dateCreated | date('Y-m-d H:i') }}</dd>
         </dl>
 
+        <h2>{{ '@page::change_password' | trans }}</h2>
+        {{ form_load(render_pass, change_password_form, '@WexampleSymfonyUserBundle/forms/change_password_form.html.twig') }}
+
         <p>{{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout')) }}</p>
     </article>
 {%- endblock -%}

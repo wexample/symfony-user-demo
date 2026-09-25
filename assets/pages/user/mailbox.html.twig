@@ -7,6 +7,8 @@
 
         {%- if mail -%}
             <dl>
+                <dt>{{ '@page::field.type' | trans }}</dt>
+                <dd>{{ ('@page::type.' ~ mail.type) | trans }}</dd>
                 <dt>{{ '@page::field.to' | trans }}</dt>
                 <dd>{{ mail.to }}</dd>
                 <dt>{{ '@page::field.expires_at' | trans }}</dt>

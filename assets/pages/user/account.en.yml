@@ -1,5 +1,6 @@
 page_title: Account
 page_icon: ph:bold/user-circle
+change_password: Change the password
 field:
   email: Email
   username: Username

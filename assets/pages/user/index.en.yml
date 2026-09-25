@@ -7,7 +7,10 @@ accounts:
   username: Username
   password: Password
   expected: Result
-  missing: The test accounts do not exist yet, create them with
+  missing: The test accounts do not exist yet.
+  create: Create them
+  reset_intro: A visitor changed a password or locked themselves out?
+  reset: Reset the test accounts
   result:
     active: Signed in, then sent to the account page
     locked: Refused, the account is locked
@@ -15,7 +18,11 @@ accounts:
 magic_link:
   title: Magic link
   intro: The demo sends no email. The link lands in the demo mailbox, visible to you only.
+forgot:
+  title: Forgotten password
+  intro: The reset link lands in the demo mailbox too.
 action:
+  forgot: Forgot your password?
   mailbox: Open the demo mailbox
   account: Account
   logout: Sign out

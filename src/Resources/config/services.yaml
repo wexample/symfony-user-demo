@@ -8,8 +8,8 @@ services:
         resource: '../../{Command,Repository,Service}'
 
     # Overrides the mail sender of symfony-user, loaded before this bundle.
-    Wexample\SymfonyUser\Interface\MagicLinkSenderInterface:
-        alias: Wexample\SymfonyUserDemo\Service\SessionMagicLinkSenderService
+    Wexample\SymfonyUser\Interface\SecurityLinkSenderInterface:
+        alias: Wexample\SymfonyUserDemo\Service\SessionSecurityLinkSenderService
 
     Wexample\SymfonyUserDemo\Controller\:
         resource: '../../Controller/'

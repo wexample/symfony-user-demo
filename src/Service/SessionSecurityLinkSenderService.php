@@ -2,17 +2,18 @@
 
 namespace Wexample\SymfonyUserDemo\Service;
 
+use DateTimeImmutable;
 use Symfony\Component\HttpFoundation\RequestStack;
-use Symfony\Component\Security\Http\LoginLink\LoginLinkDetails;
 use Wexample\SymfonyUser\Entity\AbstractUser;
-use Wexample\SymfonyUser\Interface\MagicLinkSenderInterface;
+use Wexample\SymfonyUser\Enum\SecurityLinkType;
+use Wexample\SymfonyUser\Interface\SecurityLinkSenderInterface;
 
 /**
  * The demo sends no mail: the link lands in the session of whoever asked for
  * it, and the mailbox page shows it. A visitor only ever sees the links they
  * requested themselves.
  */
-class SessionMagicLinkSenderService implements MagicLinkSenderInterface
+class SessionSecurityLinkSenderService implements SecurityLinkSenderInterface
 {
     private const string SESSION_KEY = 'user_demo_mailbox';
 
@@ -21,17 +22,22 @@ class SessionMagicLinkSenderService implements MagicLinkSenderInterface
     ) {
     }
 
-    public function send(AbstractUser $user, LoginLinkDetails $link): void
-    {
+    public function send(
+        AbstractUser $user,
+        SecurityLinkType $type,
+        string $url,
+        DateTimeImmutable $expiresAt
+    ): void {
         $this->requestStack->getSession()->set(self::SESSION_KEY, [
+            'type' => $type->value,
             'to' => $user->getEmail(),
-            'url' => $link->getUrl(),
-            'expires_at' => $link->getExpiresAt(),
+            'url' => $url,
+            'expires_at' => $expiresAt,
         ]);
     }
 
     /**
-     * @return array{to: string, url: string, expires_at: \DateTimeImmutable}|null
+     * @return array{type: string, to: string, url: string, expires_at: DateTimeImmutable}|null
      */
     public function getLastMail(): ?array
     {
