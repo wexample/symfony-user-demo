@@ -5,15 +5,15 @@ namespace Wexample\SymfonyUserDemo\Service;
 use DateTimeImmutable;
 use Symfony\Component\HttpFoundation\RequestStack;
 use Wexample\SymfonyUser\Entity\AbstractUser;
-use Wexample\SymfonyUser\Enum\SecurityLinkType;
-use Wexample\SymfonyUser\Interface\SecurityLinkSenderInterface;
+use Wexample\SymfonyUser\Enum\SecurityMessageType;
+use Wexample\SymfonyUser\Interface\SecurityMessageSenderInterface;
 
 /**
- * The demo sends no mail: the link lands in the session of whoever asked for
- * it, and the mailbox page shows it. A visitor only ever sees the links they
- * requested themselves.
+ * The demo sends no mail: the message lands in the session of whoever asked
+ * for it, and the mailbox page shows it. A visitor only ever sees the links
+ * and codes they caused themselves.
  */
-class SessionSecurityLinkSenderService implements SecurityLinkSenderInterface
+class SessionSecurityMessageSenderService implements SecurityMessageSenderInterface
 {
     private const string SESSION_KEY = 'user_demo_mailbox';
 
@@ -24,20 +24,21 @@ class SessionSecurityLinkSenderService implements SecurityLinkSenderInterface
 
     public function send(
         AbstractUser $user,
-        SecurityLinkType $type,
-        string $url,
+        SecurityMessageType $type,
+        string $value,
         DateTimeImmutable $expiresAt
     ): void {
         $this->requestStack->getSession()->set(self::SESSION_KEY, [
             'type' => $type->value,
+            'is_link' => $type->carriesLink(),
             'to' => $user->getEmail(),
-            'url' => $url,
+            'value' => $value,
             'expires_at' => $expiresAt,
         ]);
     }
 
     /**
-     * @return array{type: string, to: string, url: string, expires_at: DateTimeImmutable}|null
+     * @return array{type: string, is_link: bool, to: string, value: string, expires_at: DateTimeImmutable}|null
      */
     public function getLastMail(): ?array
     {

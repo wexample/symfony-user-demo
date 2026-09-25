@@ -1,6 +1,10 @@
 page_title: Account
 page_icon: ph:bold/user-circle
 change_password: Change the password
+devices:
+  title: Trusted devices
+  intro: The devices trusted after their code sign in without one.
+  revoke: Forget them all
 field:
   email: Email
   username: Username

@@ -14,7 +14,11 @@
                 <dt>{{ '@page::field.expires_at' | trans }}</dt>
                 <dd>{{ mail.expires_at | date('Y-m-d H:i') }}</dd>
             </dl>
-            <p>{{ button_link('ph:bold/sign-in', '@page::action.follow' | trans, mail.url) }}</p>
+            {%- if mail.is_link -%}
+                <p>{{ button_link('ph:bold/sign-in', '@page::action.follow' | trans, mail.value) }}</p>
+            {%- else -%}
+                <p>{{ '@page::field.code' | trans }} <strong><code>{{ mail.value }}</code></strong></p>
+            {%- endif -%}
         {%- else -%}
             <p>{{ '@page::empty' | trans }}</p>
         {%- endif -%}

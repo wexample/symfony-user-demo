@@ -1,14 +1,16 @@
 page_title: Demo mailbox
 page_icon: ph:bold/envelope-simple
-intro: The last link requested from this browser, as the email would have delivered it.
+intro: The last link or code sent to this browser, as the email would have delivered it.
 empty: No link requested yet.
 field:
   type: Link
   to: To
   expires_at: Valid until
+  code: Code:
 type:
   magic_link: Magic link, signs you in
   password_reset: Password reset
+  two_factor_code: Sign-in code, second factor
 action:
   follow: Follow the link
   back: Back to the login forms

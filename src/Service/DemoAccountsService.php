@@ -41,7 +41,9 @@ class DemoAccountsService
                 ->setUsername($account->getUsername())
                 ->setRoles([])
                 ->setEnabled($account->isEnabled())
-                ->setLocked($account->isLocked());
+                ->setLocked($account->isLocked())
+                ->setEmailTwoFactorEnabled(true)
+                ->revokeTrustedDevices();
 
             $user->setPassword($this->passwordHasher->hashPassword($user, $account->getPassword()));
         }

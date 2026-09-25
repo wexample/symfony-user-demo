@@ -1,6 +1,6 @@
 page_title: User
 page_icon: ph:bold/user
-intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username.
+intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, delivered to the demo mailbox.
 signed_in: Signed in as %name%.
 accounts:
   email: Email
@@ -12,7 +12,7 @@ accounts:
   reset_intro: A visitor changed a password or locked themselves out?
   reset: Reset the test accounts
   result:
-    active: Signed in, then sent to the account page
+    active: Asks the code of the demo mailbox, then signs in
     locked: Refused, the account is locked
     inactive: Refused, the account is not activated
 magic_link:
