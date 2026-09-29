@@ -1,0 +1,20 @@
+page_title: 账户
+page_icon: 'ph:bold/user-circle'
+change_password: 更改密码
+authenticator:
+  title: 身份验证器应用
+  'on': 已设置。该代码在登录时替换电子邮件代码。
+  'off': 未设置。登录代码通过电子邮件发送。
+  open: 管理应用
+devices:
+  title: 可信设备
+  intro: 这些设备在输入代码后无需再次输入。
+  revoke: 忘记所有
+field:
+  email: 电子邮件
+  username: 用户名
+  roles: 角色
+  date_last_login: 最后登录时间
+  date_created: 创建时间
+action:
+  logout: 注销

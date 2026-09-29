@@ -1,0 +1,20 @@
+page_title: खाता
+page_icon: 'ph:bold/user-circle'
+change_password: 'पासवर्ड बदलें'
+authenticator:
+  title: 'प्रमाणनकर्ता ऐप'
+  'on': 'सेट करें। इसका कोड साइन-इन पर ईमेल कोड को प्रतिस्थापित करता है।'
+  'off': 'सेट नहीं किया गया। साइन-इन कोड ईमेल द्वारा आता है।'
+  open: 'ऐप प्रबंधित करें'
+devices:
+  title: 'विश्वसनीय उपकरण'
+  intro: 'वे उपकरण जिनका कोड साइन-इन के बाद बिना एक के भरोसेमंद हैं।'
+  revoke: 'सभी को भूल जाएं'
+field:
+  email: ईमेल
+  username: 'उपयोगकर्ता नाम'
+  roles: भूमिकाएँ
+  date_last_login: 'अंतिम साइन-इन'
+  date_created: 'बनाया गया'
+action:
+  logout: 'साइन आउट'
