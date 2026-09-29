@@ -1,0 +1,19 @@
+page_title: デモメールボックス
+page_icon: 'ph:bold/envelope-simple'
+intro: このブラウザに送信された最後のリンクまたはコードです。メールが配信されたものとして。
+empty: まだリクエストされたリンクはありません。
+field:
+  type: リンク
+  to: 宛先
+  expires_at: 有効期限
+  code: コード：
+type:
+  magic_link: マジックリンク、サインインします
+  password_reset: パスワードリセット
+  two_factor_code: サインインコード、二要素目
+totp:
+  title: 認証アプリ
+  intro: このアカウントに設定されたアプリが現在表示している内容です。30秒ごとに変わります。
+action:
+  follow: リンクに従う
+  back: ログインフォームに戻る

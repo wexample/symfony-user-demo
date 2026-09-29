@@ -1,0 +1,19 @@
+page_title: 'תיבת דואר דמו'
+page_icon: 'ph:bold/envelope-simple'
+intro: 'הקישור או הקוד האחרון שנשלחו לדפדפן הזה, כפי שהאימייל היה נמסר.'
+empty: 'עדיין לא נתבקשה שום קישור.'
+field:
+  type: קישור
+  to: אל
+  expires_at: 'בתוקף עד'
+  code: 'קוד:'
+type:
+  magic_link: 'קישור קסם, מחבר אותך'
+  password_reset: 'איפוס סיסמה'
+  two_factor_code: 'קוד כניסה, גורם שני'
+totp:
+  title: 'אפליקציית Authenticator'
+  intro: 'מה שהאפליקציה שהוגדרה על חשבון זה מראה כרגע. זה משתנה כל 30 שניות.'
+action:
+  follow: 'עקוב אחרי הקישור'
+  back: 'חזרה לטפסי הכניסה'

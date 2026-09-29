@@ -1,0 +1,19 @@
+page_title: 'Demonstruj skrzynkę pocztową'
+page_icon: 'ph:bold/envelope-simple'
+intro: 'Ostatni link lub kod wysłany do tej przeglądarki, tak jakby został dostarczony przez e-mail.'
+empty: 'Jeszcze nie żądano linku.'
+field:
+  type: Link
+  to: Do
+  expires_at: 'Ważny do'
+  code: 'Kod:'
+type:
+  magic_link: 'Link magiczny, loguje cię'
+  password_reset: 'Resetowanie hasła'
+  two_factor_code: 'Kod logowania, drugi czynnik'
+totp:
+  title: 'Aplikacja uwierzytelniająca'
+  intro: 'To, co aplikacja skonfigurowana na tym koncie pokazuje w tej chwili. Zmienia się co 30 sekund.'
+action:
+  follow: 'Śledź link'
+  back: 'Powrót do formularzy logowania'

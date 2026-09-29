@@ -1,0 +1,20 @@
+page_title: اکاؤنٹ
+page_icon: 'ph:bold/user-circle'
+change_password: 'پاسورڈ تبدیل کریں'
+authenticator:
+  title: 'توثیق کرنے والی ایپ'
+  'on': 'سیٹ اپ کریں۔ اس کا کوڈ سائن ان پر ای میل کوڈ کی جگہ لے لیتا ہے۔'
+  'off': 'سیٹ اپ نہیں ہوا۔ سائن ان کوڈ ای میل کے ذریعے آتا ہے۔'
+  open: 'ایپ کا انتظام کریں'
+devices:
+  title: 'قابل اعتماد آلات'
+  intro: 'وہ آلات جنہوں نے اپنے کوڈ کے ساتھ سائن ان کیا ہے بغیر کسی کوڈ کے۔'
+  revoke: 'ان سب کو بھول جائیں'
+field:
+  email: 'ای میل'
+  username: 'صارف نام'
+  roles: کردار
+  date_last_login: 'آخری سائن ان'
+  date_created: 'تخلیق کیا گیا'
+action:
+  logout: 'سائن آؤٹ کریں'

@@ -1,0 +1,35 @@
+page_title: Benutzer
+page_icon: 'ph:bold/user'
+intro: 'Das Anmeldeformular von symfony-user, über Ajax gesendet. Melden Sie sich mit einem der unten stehenden Testkonten an, entweder per E-Mail oder Benutzername. Auf einem noch nicht vertrauten Gerät folgt ein Code nach dem Passwort, der an das Demokonto gesendet wird.'
+signed_in: 'Angemeldet als %name%.'
+accounts:
+  title: Testkonten
+  email: E-Mail
+  username: Benutzername
+  password: Passwort
+  expected: Ergebnis
+  missing: 'Die Testkonten existieren noch nicht.'
+  create: 'Erstellen Sie sie'
+  reset_intro: 'Ein Besucher hat ein Passwort geändert oder sich ausgesperrt?'
+  reset: 'Setzen Sie die Testkonten zurück'
+  result:
+    active: 'Fragt den Code des Demokontos an und meldet sich dann an'
+    locked: 'Abgelehnt, das Konto ist gesperrt'
+    inactive: 'Abgelehnt, das Konto ist nicht aktiviert'
+magic_link:
+  title: 'Magischer Link'
+  intro: 'Die Demo sendet keine E-Mail. Der Link landet im Demokonto, sichtbar nur für Sie.'
+signup:
+  title: Anmeldetunnel
+  intro: 'Die E-Mail- und Anmeldeschritte von symfony-user, in einem Tunnel. Eine Adresse mit einem Konto bittet um Anmeldung; jede andere erstellt ein Konto, das nicht aktiviert ist.'
+  open: 'Gehen Sie durch den Tunnel'
+forgot:
+  title: 'Passwort vergessen'
+  intro: 'Der Rücksetzlink landet ebenfalls im Demokonto.'
+action:
+  forgot: 'Passwort vergessen?'
+  mailbox: 'Öffnen Sie das Demokonto'
+  account: Konto
+  logout: Abmelden
+login:
+  title: Anmelden

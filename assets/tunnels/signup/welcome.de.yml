@@ -1,0 +1,11 @@
+page_title: Registrieren
+title: Willkommen
+lead:
+  signed_in: 'Angemeldet, der Tunnel geht mit Ihrem Konto weiter.'
+  created: 'Ein neues Konto wurde für diese Adresse erstellt. Es ist nicht aktiviert, und niemand ist angemeldet.'
+field:
+  email: E-Mail
+  activated: Aktiviert
+'yes': Ja
+'no': Nein
+back: 'Zurück zur Benutzerdemo'

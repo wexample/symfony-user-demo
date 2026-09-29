@@ -1,0 +1,19 @@
+page_title: Demonstrationspostfach
+page_icon: 'ph:bold/envelope-simple'
+intro: 'Der letzte Link oder Code, der an diesen Browser gesendet wurde, als die E-Mail zugestellt wurde.'
+empty: 'Noch kein Link angefordert.'
+field:
+  type: Link
+  to: An
+  expires_at: 'Gültig bis'
+  code: 'Code:'
+type:
+  magic_link: 'Magic Link, meldet Sie an'
+  password_reset: 'Passwort zurücksetzen'
+  two_factor_code: 'Anmeldecode, zweiter Faktor'
+totp:
+  title: Authentifizierungs-App
+  intro: 'Was die App für dieses Konto gerade anzeigt. Es ändert sich alle 30 Sekunden.'
+action:
+  follow: 'Link folgen'
+  back: 'Zurück zu den Anmeldeformularen'

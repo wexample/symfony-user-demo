@@ -1,0 +1,35 @@
+page_title: Käyttäjä
+page_icon: 'ph:bold/user'
+intro: 'symfony-userin kirjautumislomake, lähetetty ajaxin kautta. Kirjaudu sisään alla olevilla testitileillä, sähköpostilla tai käyttäjänimellä. Luotettavaksi merkitsemättömällä laitteella salasanan jälkeen tulee koodi, joka toimitetaan demo-postilaatikkoon.'
+signed_in: 'Kirjautunut sisään käyttäjänä %name%.'
+accounts:
+  title: Testitilit
+  email: Sähköposti
+  username: Käyttäjänimi
+  password: Salasana
+  expected: Tulokset
+  missing: 'Testitilejä ei ole vielä olemassa.'
+  create: 'Luo ne'
+  reset_intro: 'Vierailija muutti salasanaa tai sulki itsensä ulos?'
+  reset: 'Nollaa testitilit'
+  result:
+    active: 'Kysyy demo-postilaatikon koodia, sitten kirjautuu sisään'
+    locked: 'Kielletty, tili on lukittu'
+    inactive: 'Kielletty, tili ei ole aktivoitu'
+magic_link:
+  title: Taikalinkki
+  intro: 'Demo ei lähetä sähköpostia. Linkki saapuu demo-postilaatikkoon, näkyvissä vain sinulle.'
+signup:
+  title: Rekisteröitymistunneli
+  intro: 'symfony-userin sähköposti- ja kirjautumisvaiheet tunnelissa. Osoite, jolla on tili, pyytää kirjautumaan sisään; muu osoite luo tilin, jota ei ole aktivoitu.'
+  open: 'Kävele tunnelissa'
+forgot:
+  title: 'Unohtunut salasana'
+  intro: 'Nollauslinkki saapuu myös demo-postilaatikkoon.'
+action:
+  forgot: 'Unohditko salasanasi?'
+  mailbox: 'Avaa demo-postilaatikko'
+  account: Tili
+  logout: 'Kirjaudu ulos'
+login:
+  title: 'Kirjaudu sisään'

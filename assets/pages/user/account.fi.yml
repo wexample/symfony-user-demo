@@ -1,0 +1,20 @@
+page_title: Tili
+page_icon: 'ph:bold/user-circle'
+change_password: 'Vaihda salasana'
+authenticator:
+  title: Authenticator-sovellus
+  'on': 'Aseta. Sen koodi korvataan sähköpostikoodilla kirjautumisessa.'
+  'off': 'Ei asetettu. Kirjautumiskoodi lähetetään sähköpostitse.'
+  open: 'Hallinnoi sovellusta'
+devices:
+  title: 'Luotetut laitteet'
+  intro: 'Laitteet, jotka on luotettu koodin kirjautumisen jälkeen ilman koodia.'
+  revoke: 'Unohda kaikki'
+field:
+  email: Sähköposti
+  username: Käyttäjänimi
+  roles: Roolit
+  date_last_login: 'Viimeisin kirjautuminen'
+  date_created: Luotu
+action:
+  logout: 'Kirjaudu ulos'

@@ -1,0 +1,20 @@
+page_title: Konto
+page_icon: 'ph:bold/user-circle'
+change_password: 'Zmień hasło'
+authenticator:
+  title: 'Aplikacja uwierzytelniająca'
+  'on': 'Skonfiguruj. Jego kod zastępuje kod e-mailowy podczas logowania.'
+  'off': 'Nie skonfigurowano. Kod logowania przychodzi e-mailem.'
+  open: 'Zarządzaj aplikacją'
+devices:
+  title: 'Zaufane urządzenia'
+  intro: 'Urządzenia zaufane po zalogowaniu za pomocą ich kodu bez konieczności podawania hasła.'
+  revoke: 'Zapomnij o nich wszystkich'
+field:
+  email: Email
+  username: 'Nazwa użytkownika'
+  roles: Role
+  date_last_login: 'Ostatnie logowanie'
+  date_created: Utworzono
+action:
+  logout: 'Wyloguj się'

@@ -1,0 +1,20 @@
+page_title: חשבון
+page_icon: 'ph:bold/user-circle'
+change_password: 'שנה סיסמה'
+authenticator:
+  title: 'אפליקציית מאמת'
+  'on': 'בהגדרה. הקוד שלה מחליף את קוד האימייל בעת הכניסה.'
+  'off': 'לא הוגדרה. קוד הכניסה מגיע באימייל.'
+  open: 'נהל את האפליקציה'
+devices:
+  title: 'מכשירים מהימנים'
+  intro: 'המכשירים מהימנים לאחר הכניסה עם הקוד שלהם ללא קוד נוסף.'
+  revoke: 'שכח את כולם'
+field:
+  email: אימייל
+  username: 'שם משתמש'
+  roles: תפקידים
+  date_last_login: 'כניסה אחרונה'
+  date_created: נוצר
+action:
+  logout: התנתק
