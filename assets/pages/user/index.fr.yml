@@ -1,0 +1,35 @@
+page_title: Utilisateur
+page_icon: 'ph:bold/user'
+intro: "Le formulaire de connexion de symfony-user, soumis par ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par e-mail ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, livré à la boîte aux lettres de démonstration."
+signed_in: 'Connecté en tant que %name%.'
+accounts:
+  title: 'Comptes de test'
+  email: E-mail
+  username: "Nom d'utilisateur"
+  password: 'Mot de passe'
+  expected: Résultat
+  missing: "Les comptes de test n'existent pas encore."
+  create: Créez-les
+  reset_intro: "Un visiteur a changé un mot de passe ou s'est verrouillé dehors ?"
+  reset: 'Réinitialiser les comptes de test'
+  result:
+    active: 'Demande le code de la boîte aux lettres de démonstration, puis se connecte'
+    locked: 'Refusé, le compte est verrouillé'
+    inactive: "Refusé, le compte n'est pas activé"
+magic_link:
+  title: 'Lien magique'
+  intro: "La démo n'envoie pas d'e-mail. Le lien atterrit dans la boîte aux lettres de démonstration, visible uniquement par vous."
+signup:
+  title: "Tunnel d'inscription"
+  intro: "Les étapes d'e-mail et de connexion de symfony-user, dans un tunnel. Une adresse avec un compte demande à se connecter ; toute autre crée un compte, non activé."
+  open: 'Parcourir le tunnel'
+forgot:
+  title: 'Mot de passe oublié'
+  intro: 'Le lien de réinitialisation atterrit également dans la boîte aux lettres de démonstration.'
+action:
+  forgot: 'Mot de passe oublié ?'
+  mailbox: 'Ouvrir la boîte aux lettres de démonstration'
+  account: Compte
+  logout: 'Se déconnecter'
+login:
+  title: 'Se connecter'
