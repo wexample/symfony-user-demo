@@ -1,0 +1,20 @@
+page_title: Akun
+page_icon: 'ph:bold/user-circle'
+change_password: 'Ganti kata sandi'
+authenticator:
+  title: 'Aplikasi autentikator'
+  'on': 'Siapkan. Kode ini menggantikan kode email saat masuk.'
+  'off': 'Belum disiapkan. Kode masuk dikirim melalui email.'
+  open: 'Kelola aplikasi'
+devices:
+  title: 'Perangkat tepercaya'
+  intro: 'Perangkat yang dipercaya setelah masuk dengan kode mereka tanpa satu.'
+  revoke: 'Lupakan semuanya'
+field:
+  email: Email
+  username: 'Nama pengguna'
+  roles: Peran
+  date_last_login: 'Masuk terakhir'
+  date_created: Dibuat
+action:
+  logout: Keluar

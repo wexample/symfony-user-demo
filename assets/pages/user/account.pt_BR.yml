@@ -1,0 +1,20 @@
+page_title: Conta
+page_icon: 'ph:bold/user-circle'
+change_password: 'Alterar a senha'
+authenticator:
+  title: 'Aplicativo autenticador'
+  'on': 'Configurar. O código substitui o código de email ao entrar.'
+  'off': 'Não configurado. O código de entrada é enviado por email.'
+  open: 'Gerenciar o aplicativo'
+devices:
+  title: 'Dispositivos confiáveis'
+  intro: 'Os dispositivos são confiáveis após o login com seu código.'
+  revoke: 'Esquecer todos'
+field:
+  email: Email
+  username: 'Nome de usuário'
+  roles: Funções
+  date_last_login: 'Último acesso'
+  date_created: Criado
+action:
+  logout: Sair

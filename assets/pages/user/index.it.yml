@@ -1,0 +1,35 @@
+page_title: Utente
+page_icon: 'ph:bold/user'
+intro: 'Il modulo di accesso di symfony-user, inviato tramite ajax. Accedi con uno dei test account qui sotto, tramite email o nome utente. Su un dispositivo non ancora fidato, un codice segue la password, inviato alla casella di posta demo.'
+signed_in: 'Accesso effettuato come %name%.'
+accounts:
+  title: 'Account di test'
+  email: Email
+  username: 'Nome utente'
+  password: Password
+  expected: Risultato
+  missing: 'Gli account di test non esistono ancora.'
+  create: Creali
+  reset_intro: 'Un visitatore ha cambiato una password o si è bloccato fuori?'
+  reset: 'Reimposta gli account di test'
+  result:
+    active: 'Richiede il codice della casella di posta demo, quindi accede'
+    locked: "Rifiutato, l'account è bloccato"
+    inactive: "Rifiutato, l'account non è attivato"
+magic_link:
+  title: 'Link magico'
+  intro: 'La demo non invia email. Il link arriva nella casella di posta demo, visibile solo a te.'
+signup:
+  title: 'Tunnel di registrazione'
+  intro: 'I passaggi email e login di symfony-user, in un tunnel. Un indirizzo con un account chiede di accedere; qualsiasi altro crea un account, non attivato.'
+  open: 'Attraversa il tunnel'
+forgot:
+  title: 'Password dimenticata'
+  intro: 'Il link di reimpostazione arriva anche nella casella di posta demo.'
+action:
+  forgot: 'Hai dimenticato la password?'
+  mailbox: 'Apri la casella di posta demo'
+  account: Account
+  logout: Disconnetti
+login:
+  title: Accedi

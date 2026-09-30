@@ -1,0 +1,11 @@
+page_title: Daftar
+title: 'Selamat datang'
+lead:
+  signed_in: 'Sudah masuk, terowongan berlanjut dengan akun Anda.'
+  created: 'Akun baru telah dibuat untuk alamat ini. Akun ini belum diaktifkan, dan tidak ada yang sedang masuk.'
+field:
+  email: Email
+  activated: Diaktifkan
+'yes': Ya
+'no': Tidak
+back: 'Kembali ke demo pengguna'

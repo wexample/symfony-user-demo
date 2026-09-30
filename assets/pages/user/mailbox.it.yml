@@ -1,0 +1,19 @@
+page_title: 'Casella di posta demo'
+page_icon: 'ph:bold/envelope-simple'
+intro: "L'ultimo link o codice inviato a questo browser, come sarebbe stato consegnato via email."
+empty: 'Nessun link richiesto ancora.'
+field:
+  type: Link
+  to: A
+  expires_at: 'Valido fino a'
+  code: 'Codice:'
+type:
+  magic_link: 'Link magico, ti accede'
+  password_reset: 'Reimpostazione password'
+  two_factor_code: 'Codice di accesso, secondo fattore'
+totp:
+  title: 'App Authenticator'
+  intro: "Cosa mostra l'app impostata su questo account in questo momento. Cambia ogni 30 secondi."
+action:
+  follow: 'Segui il link'
+  back: 'Torna ai moduli di accesso'

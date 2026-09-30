@@ -1,0 +1,19 @@
+page_title: 'Demo mailbox'
+page_icon: 'ph:bold/envelope-simple'
+intro: 'De laatste link of code die naar deze browser is gestuurd, zoals de e-mail zou zijn bezorgd.'
+empty: 'Nog geen link aangevraagd.'
+field:
+  type: Link
+  to: Aan
+  expires_at: 'Geldig tot'
+  code: 'Code:'
+type:
+  magic_link: 'Magische link, log je in'
+  password_reset: 'Wachtwoord opnieuw instellen'
+  two_factor_code: 'Inlogcode, tweede factor'
+totp:
+  title: Authenticator-app
+  intro: 'Wat de app op dit account momenteel weergeeft. Het verandert elke 30 seconden.'
+action:
+  follow: 'Volg de link'
+  back: 'Terug naar de inlogformulieren'

@@ -1,0 +1,19 @@
+page_title: 'Hộp thư thử nghiệm'
+page_icon: 'ph:bold/envelope-simple'
+intro: 'Liên kết hoặc mã cuối cùng đã được gửi đến trình duyệt này, như thể email đã được gửi.'
+empty: 'Chưa có liên kết nào được yêu cầu.'
+field:
+  type: 'Liên kết'
+  to: Đến
+  expires_at: 'Có hiệu lực đến'
+  code: 'Mã:'
+type:
+  magic_link: 'Liên kết ma thuật, đăng nhập cho bạn'
+  password_reset: 'Đặt lại mật khẩu'
+  two_factor_code: 'Mã đăng nhập, yếu tố thứ hai'
+totp:
+  title: 'Ứng dụng xác thực'
+  intro: 'Những gì ứng dụng thiết lập trên tài khoản này đang hiển thị ngay bây giờ. Nó thay đổi mỗi 30 giây.'
+action:
+  follow: 'Theo dõi liên kết'
+  back: 'Quay lại các mẫu đăng nhập'

@@ -1,0 +1,35 @@
+page_title: Pengguna
+page_icon: 'ph:bold/user'
+intro: 'Form login dari symfony-user, dikirim melalui ajax. Masuk dengan salah satu akun percobaan di bawah ini, melalui email atau nama pengguna. Pada perangkat yang belum dipercaya, kode mengikuti kata sandi, yang dikirim ke kotak surat demo.'
+signed_in: 'Masuk sebagai %name%.'
+accounts:
+  title: 'Akun percobaan'
+  email: Email
+  username: 'Nama pengguna'
+  password: 'Kata sandi'
+  expected: Hasil
+  missing: 'Akun percobaan belum ada.'
+  create: 'Buat akun tersebut'
+  reset_intro: 'Seorang pengunjung mengubah kata sandi atau mengunci diri sendiri?'
+  reset: 'Atur ulang akun percobaan'
+  result:
+    active: 'Meminta kode dari kotak surat demo, kemudian masuk'
+    locked: 'Ditolak, akun terkunci'
+    inactive: 'Ditolak, akun belum diaktifkan'
+magic_link:
+  title: 'Tautan ajaib'
+  intro: 'Demo tidak mengirim email. Tautan akan masuk ke kotak surat demo, hanya terlihat oleh Anda.'
+signup:
+  title: 'Terowongan pendaftaran'
+  intro: 'Langkah email dan login dari symfony-user, dalam sebuah terowongan. Alamat dengan akun meminta untuk masuk; yang lainnya membuat akun, tidak diaktifkan.'
+  open: 'Jelajahi terowongan'
+forgot:
+  title: 'Kata sandi yang terlupakan'
+  intro: 'Tautan reset juga masuk ke kotak surat demo.'
+action:
+  forgot: 'Lupa kata sandi?'
+  mailbox: 'Buka kotak surat demo'
+  account: Akun
+  logout: Keluar
+login:
+  title: Masuk

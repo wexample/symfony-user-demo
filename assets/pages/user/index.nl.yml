@@ -1,0 +1,35 @@
+page_title: Gebruiker
+page_icon: 'ph:bold/user'
+intro: 'Het inlogformulier van symfony-user, verzonden via ajax. Meld je aan met een van de testaccounts hieronder, per e-mail of gebruikersnaam. Op een apparaat dat nog niet vertrouwd is, volgt er een code na het wachtwoord, geleverd aan de demomailbox.'
+signed_in: 'Ingelogd als %name%.'
+accounts:
+  title: Testaccounts
+  email: E-mail
+  username: Gebruikersnaam
+  password: Wachtwoord
+  expected: Resultaat
+  missing: 'De testaccounts bestaan nog niet.'
+  create: 'Maak ze aan'
+  reset_intro: 'Een bezoeker heeft een wachtwoord gewijzigd of zichzelf buitengesloten?'
+  reset: 'Stel de testaccounts opnieuw in'
+  result:
+    active: 'Vraagt de code van de demomailbox, en logt dan in'
+    locked: 'Weigerd, het account is vergrendeld'
+    inactive: 'Weigerd, het account is niet geactiveerd'
+magic_link:
+  title: 'Magische link'
+  intro: 'De demo stuurt geen e-mail. De link komt in de demomailbox terecht, zichtbaar alleen voor jou.'
+signup:
+  title: Aanmeldtunnel
+  intro: 'De e-mail- en inlogstappen van symfony-user, in een tunnel. Een adres met een account vraagt om in te loggen; elk ander adres maakt een account aan, niet geactiveerd.'
+  open: 'Loop door de tunnel'
+forgot:
+  title: 'Vergeten wachtwoord'
+  intro: 'De resetlink komt ook in de demomailbox terecht.'
+action:
+  forgot: 'Vergeten je wachtwoord?'
+  mailbox: 'Open de demomailbox'
+  account: Account
+  logout: Uitloggen
+login:
+  title: Inloggen
