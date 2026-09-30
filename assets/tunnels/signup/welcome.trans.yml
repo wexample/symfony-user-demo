@@ -1,0 +1,298 @@
+en:
+  page_title: Sign up
+  title: Welcome
+  lead:
+    signed_in: Signed in, the tunnel goes on with your account.
+    created: A new account was created for this address. It is not activated, and nobody is signed in.
+  field:
+    email: Email
+    activated: Activated
+  "yes": "Yes"
+  "no": "No"
+  back: Back to the user demo
+
+ar:
+  page_title: 'إنشاء حساب'
+  title: مرحباً
+  lead:
+    signed_in: 'تم تسجيل الدخول، النفق يستمر مع حسابك.'
+    created: 'تم إنشاء حساب جديد لهذا العنوان. إنه غير مفعل، ولا يوجد أحد مسجل الدخول.'
+  field:
+    email: 'البريد الإلكتروني'
+    activated: مفعل
+  'yes': نعم
+  'no': لا
+  back: 'العودة إلى عرض المستخدم'
+
+bn:
+  page_title: 'নিবন্ধন করুন'
+  title: স্বাগতম
+  lead:
+    signed_in: 'আপনি সাইন ইন করেছেন, আপনার অ্যাকাউন্টের সাথে টানেল অব্যাহত আছে।'
+    created: 'এই ঠিকানার জন্য একটি নতুন অ্যাকাউন্ট তৈরি করা হয়েছে। এটি সক্রিয় নয়, এবং কেউ সাইন ইন করেনি।'
+  field:
+    email: ইমেইল
+    activated: সক্রিয়
+  'yes': হ্যাঁ
+  'no': না
+  back: 'ব্যবহারকারী ডেমোতে ফিরে যান'
+
+de:
+  page_title: Registrieren
+  title: Willkommen
+  lead:
+    signed_in: 'Angemeldet, der Tunnel geht mit Ihrem Konto weiter.'
+    created: 'Ein neues Konto wurde für diese Adresse erstellt. Es ist nicht aktiviert, und niemand ist angemeldet.'
+  field:
+    email: E-Mail
+    activated: Aktiviert
+  'yes': Ja
+  'no': Nein
+  back: 'Zurück zur Benutzerdemo'
+
+es:
+  page_title: Regístrate
+  title: Bienvenido
+  lead:
+    signed_in: 'Has iniciado sesión, el túnel continúa con tu cuenta.'
+    created: 'Se creó una nueva cuenta para esta dirección. No está activada y nadie ha iniciado sesión.'
+  field:
+    email: 'Correo electrónico'
+    activated: Activado
+  'yes': Sí
+  'no': 'No'
+  back: 'Volver a la demostración de usuario'
+
+fa:
+  page_title: 'ثبت نام'
+  title: 'خوش آمدید'
+  lead:
+    signed_in: 'وارد شده‌اید، تونل با حساب شما ادامه دارد.'
+    created: 'حساب جدیدی برای این آدرس ایجاد شده است. این حساب فعال نیست و هیچ‌کس وارد نشده است.'
+  field:
+    email: ایمیل
+    activated: 'فعال شده'
+  'yes': بله
+  'no': خیر
+  back: 'بازگشت به دمو کاربر'
+
+fi:
+  page_title: Rekisteröidy
+  title: Tervetuloa
+  lead:
+    signed_in: 'Olet kirjautunut sisään, tunnelma jatkuu tilisi kanssa.'
+    created: 'Uusi tili on luotu tälle osoitteelle. Se ei ole aktivoitu, eikä kukaan ole kirjautunut sisään.'
+  field:
+    email: Sähköposti
+    activated: Aktivoitu
+  'yes': Kyllä
+  'no': Ei
+  back: 'Takaisin käyttäjän esittelyyn'
+
+fr:
+  page_title: Inscription
+  title: Bienvenue
+  lead:
+    signed_in: 'Connecté, le tunnel continue avec votre compte.'
+    created: "Un nouveau compte a été créé pour cette adresse. Il n'est pas activé, et personne n'est connecté."
+  field:
+    email: Email
+    activated: Activé
+  'yes': Oui
+  'no': Non
+  back: 'Retour à la démo utilisateur'
+
+he:
+  page_title: הרשמה
+  title: 'ברוך הבא'
+  lead:
+    signed_in: 'נכנס, המנהרה ממשיכה עם החשבון שלך.'
+    created: 'נוצר חשבון חדש עבור כתובת זו. הוא לא מופעל, ואף אחד לא מחובר.'
+  field:
+    email: אימייל
+    activated: מופעל
+  'yes': כן
+  'no': לא
+  back: 'חזרה לדמו של המשתמש'
+
+hi:
+  page_title: 'साइन अप'
+  title: 'स्वागत है'
+  lead:
+    signed_in: 'साइन इन किया गया, सुरंग आपके खाते के साथ जारी है।'
+    created: 'इस पते के लिए एक नया खाता बनाया गया है। यह सक्रिय नहीं है, और कोई भी साइन इन नहीं है।'
+  field:
+    email: ईमेल
+    activated: सक्रिय
+  'yes': हाँ
+  'no': नहीं
+  back: 'उपयोगकर्ता डेमो पर वापस जाएं'
+
+id:
+  page_title: Daftar
+  title: 'Selamat datang'
+  lead:
+    signed_in: 'Sudah masuk, terowongan berlanjut dengan akun Anda.'
+    created: 'Akun baru telah dibuat untuk alamat ini. Akun ini belum diaktifkan, dan tidak ada yang sedang masuk.'
+  field:
+    email: Email
+    activated: Diaktifkan
+  'yes': Ya
+  'no': Tidak
+  back: 'Kembali ke demo pengguna'
+
+it:
+  page_title: Registrati
+  title: Benvenuto
+  lead:
+    signed_in: 'Accesso effettuato, il tunnel continua con il tuo account.'
+    created: 'È stato creato un nuovo account per questo indirizzo. Non è attivato e nessuno è connesso.'
+  field:
+    email: Email
+    activated: Attivato
+  'yes': Sì
+  'no': 'No'
+  back: 'Torna alla demo utente'
+
+ja:
+  page_title: サインアップ
+  title: ようこそ
+  lead:
+    signed_in: サインインしました。トンネルはあなたのアカウントで続きます。
+    created: このアドレスの新しいアカウントが作成されました。まだアクティブではなく、誰もサインインしていません。
+  field:
+    email: メールアドレス
+    activated: アクティブ化済み
+  'yes': はい
+  'no': いいえ
+  back: ユーザーデモに戻る
+
+ko:
+  page_title: 회원가입
+  title: 환영합니다
+  lead:
+    signed_in: '로그인되었습니다. 터널은 귀하의 계정으로 계속 진행됩니다.'
+    created: '이 주소에 대한 새 계정이 생성되었습니다. 활성화되지 않았으며, 아무도 로그인하지 않았습니다.'
+  field:
+    email: 이메일
+    activated: 활성화됨
+  'yes': 예
+  'no': 아니오
+  back: '사용자 데모로 돌아가기'
+
+nl:
+  page_title: Aanmelden
+  title: Welkom
+  lead:
+    signed_in: 'Ingelogd, de tunnel gaat verder met je account.'
+    created: 'Er is een nieuw account aangemaakt voor dit adres. Het is niet geactiveerd, en niemand is ingelogd.'
+  field:
+    email: E-mail
+    activated: Geactiveerd
+  'yes': Ja
+  'no': Nee
+  back: 'Terug naar de gebruikersdemo'
+
+pl:
+  page_title: 'Zarejestruj się'
+  title: Witaj
+  lead:
+    signed_in: 'Zalogowano, tunel kontynuuje z twoim kontem.'
+    created: 'Nowe konto zostało utworzone dla tego adresu. Nie jest aktywowane i nikt nie jest zalogowany.'
+  field:
+    email: Email
+    activated: Aktywowane
+  'yes': Tak
+  'no': Nie
+  back: 'Powrót do pokazu użytkownika'
+
+pt_BR:
+  page_title: Inscreva-se
+  title: Bem-vindo
+  lead:
+    signed_in: 'Conectado, o túnel continua com sua conta.'
+    created: 'Uma nova conta foi criada para este endereço. Ela não está ativada e ninguém está conectado.'
+  field:
+    email: Email
+    activated: Ativado
+  'yes': Sim
+  'no': Não
+  back: 'Voltar à demonstração do usuário'
+
+ru:
+  page_title: Регистрация
+  title: 'Добро пожаловать'
+  lead:
+    signed_in: 'Вы вошли в систему, туннель продолжается с вашей учетной записью.'
+    created: 'Для этого адреса была создана новая учетная запись. Она не активирована, и никто не вошел в систему.'
+  field:
+    email: 'Электронная почта'
+    activated: Активировано
+  'yes': Да
+  'no': Нет
+  back: 'Назад к демонстрации пользователя'
+
+th:
+  page_title: ลงทะเบียน
+  title: ยินดีต้อนรับ
+  lead:
+    signed_in: 'เข้าสู่ระบบแล้ว อุโมงค์ยังคงดำเนินต่อไปด้วยบัญชีของคุณ.'
+    created: 'บัญชีใหม่ถูกสร้างขึ้นสำหรับที่อยู่นี้ ยังไม่ได้เปิดใช้งาน และไม่มีใครเข้าสู่ระบบ.'
+  field:
+    email: อีเมล
+    activated: เปิดใช้งานแล้ว
+  'yes': ใช่
+  'no': ไม่
+  back: กลับไปยังการสาธิตผู้ใช้
+
+tr:
+  page_title: 'Kayıt Ol'
+  title: 'Hoş Geldiniz'
+  lead:
+    signed_in: 'Giriş yapıldı, tünel hesabınızla devam ediyor.'
+    created: 'Bu adres için yeni bir hesap oluşturuldu. Aktif değil ve kimse giriş yapmadı.'
+  field:
+    email: E-posta
+    activated: Aktif
+  'yes': Evet
+  'no': Hayır
+  back: "Kullanıcı demo'suna geri dön"
+
+ur:
+  page_title: 'سائن اپ'
+  title: 'خوش آمدید'
+  lead:
+    signed_in: 'سائن ان ہو چکے ہیں، سرنگ آپ کے اکاؤنٹ کے ساتھ جاری ہے۔'
+    created: 'اس پتے کے لیے ایک نیا اکاؤنٹ بنایا گیا ہے۔ یہ فعال نہیں ہے، اور کوئی سائن ان نہیں ہے۔'
+  field:
+    email: 'ای میل'
+    activated: فعال
+  'yes': ہاں
+  'no': نہیں
+  back: 'صارف کے ڈیمو پر واپس'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Chào mừng'
+  lead:
+    signed_in: 'Đã đăng nhập, đường hầm tiếp tục với tài khoản của bạn.'
+    created: 'Một tài khoản mới đã được tạo cho địa chỉ này. Nó chưa được kích hoạt, và không ai đang đăng nhập.'
+  field:
+    email: Email
+    activated: 'Đã kích hoạt'
+  'yes': Có
+  'no': Không
+  back: 'Quay lại bản demo người dùng'
+
+zh:
+  page_title: 注册
+  title: 欢迎
+  lead:
+    signed_in: 已登录，隧道将继续进行您的账户。
+    created: 此地址已创建新账户。尚未激活，且没有人登录。
+  field:
+    email: 电子邮件
+    activated: 已激活
+  'yes': 是
+  'no': 否
+  back: 返回用户演示

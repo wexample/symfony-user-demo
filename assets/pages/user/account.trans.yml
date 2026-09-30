@@ -1,0 +1,505 @@
+en:
+  page_title: Account
+  page_icon: ph:bold/user-circle
+  change_password: Change the password
+  authenticator:
+    title: Authenticator app
+    "on": Set up. Its code replaces the email code at sign-in.
+    "off": Not set up. The sign-in code comes by email.
+    open: Manage the app
+  devices:
+    title: Trusted devices
+    intro: The devices trusted after their code sign in without one.
+    revoke: Forget them all
+  field:
+    email: Email
+    username: Username
+    roles: Roles
+    date_last_login: Last sign-in
+    date_created: Created
+  action:
+    logout: Sign out
+
+ar:
+  page_title: الحساب
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'تغيير كلمة المرور'
+  authenticator:
+    title: 'تطبيق المصادقة'
+    'on': 'قم بالإعداد. كوده يحل محل كود البريد الإلكتروني عند تسجيل الدخول.'
+    'off': 'لم يتم الإعداد. يأتي كود تسجيل الدخول عبر البريد الإلكتروني.'
+    open: 'إدارة التطبيق'
+  devices:
+    title: 'الأجهزة الموثوقة'
+    intro: 'الأجهزة التي تم الوثوق بها بعد تسجيل الدخول بكودها دون الحاجة إلى واحد.'
+    revoke: 'نسيانها جميعًا'
+  field:
+    email: 'البريد الإلكتروني'
+    username: 'اسم المستخدم'
+    roles: الأدوار
+    date_last_login: 'آخر تسجيل دخول'
+    date_created: 'تاريخ الإنشاء'
+  action:
+    logout: 'تسجيل الخروج'
+
+bn:
+  page_title: অ্যাকাউন্ট
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'পাসওয়ার্ড পরিবর্তন করুন'
+  authenticator:
+    title: 'অথেন্টিকেটর অ্যাপ'
+    'on': 'সেট আপ করুন। এর কোড সাইন-ইনে ইমেল কোডের পরিবর্তে ব্যবহৃত হবে।'
+    'off': 'সেট আপ করা হয়নি। সাইন-ইন কোড ইমেইলের মাধ্যমে আসবে।'
+    open: 'অ্যাপটি পরিচালনা করুন'
+  devices:
+    title: 'বিশ্বাসযোগ্য ডিভাইস'
+    intro: 'যে ডিভাইসগুলি তাদের কোডের মাধ্যমে সাইন-ইন করে সেগুলি বিশ্বাসযোগ্য।'
+    revoke: 'সবগুলো ভুলে যান'
+  field:
+    email: ইমেইল
+    username: 'ব্যবহারকারীর নাম'
+    roles: ভূমিকা
+    date_last_login: 'শেষ সাইন-ইন'
+    date_created: 'তৈরি হয়েছে'
+  action:
+    logout: 'সাইন আউট করুন'
+
+de:
+  page_title: Konto
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Passwort ändern'
+  authenticator:
+    title: Authenticator-App
+    'on': 'Einrichten. Der Code ersetzt den E-Mail-Code beim Anmelden.'
+    'off': 'Nicht eingerichtet. Der Anmeldecode kommt per E-Mail.'
+    open: 'App verwalten'
+  devices:
+    title: 'Vertrauenswürdige Geräte'
+    intro: 'Die Geräte, die nach ihrem Code-Anmelden vertraut sind, benötigen keinen weiteren Code.'
+    revoke: 'Alle vergessen'
+  field:
+    email: E-Mail
+    username: Benutzername
+    roles: Rollen
+    date_last_login: 'Letzte Anmeldung'
+    date_created: Erstellt
+  action:
+    logout: Abmelden
+
+es:
+  page_title: Cuenta
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Cambiar la contraseña'
+  authenticator:
+    title: 'Aplicación de autenticador'
+    'on': 'Configurar. Su código reemplaza el código de correo electrónico al iniciar sesión.'
+    'off': 'No configurado. El código de inicio de sesión se envía por correo electrónico.'
+    open: 'Gestionar la aplicación'
+  devices:
+    title: 'Dispositivos de confianza'
+    intro: 'Los dispositivos de confianza inician sesión sin necesidad de código después de su código.'
+    revoke: 'Olvidarlos todos'
+  field:
+    email: 'Correo electrónico'
+    username: 'Nombre de usuario'
+    roles: Roles
+    date_last_login: 'Último inicio de sesión'
+    date_created: Creado
+  action:
+    logout: 'Cerrar sesión'
+
+fa:
+  page_title: 'حساب کاربری'
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'تغییر رمز عبور'
+  authenticator:
+    title: 'برنامه احراز هویت'
+    'on': 'راه‌اندازی شده است. کد آن به جای کد ایمیل در زمان ورود استفاده می‌شود.'
+    'off': 'راه‌اندازی نشده است. کد ورود از طریق ایمیل ارسال می‌شود.'
+    open: 'مدیریت برنامه'
+  devices:
+    title: 'دستگاه‌های مورد اعتماد'
+    intro: 'دستگاه‌هایی که بعد از ورود با کدشان به طور خودکار تأیید می‌شوند.'
+    revoke: 'همه را فراموش کن'
+  field:
+    email: ایمیل
+    username: 'نام کاربری'
+    roles: نقش‌ها
+    date_last_login: 'آخرین ورود'
+    date_created: 'تاریخ ایجاد'
+  action:
+    logout: خروج
+
+fi:
+  page_title: Tili
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Vaihda salasana'
+  authenticator:
+    title: Authenticator-sovellus
+    'on': 'Aseta. Sen koodi korvataan sähköpostikoodilla kirjautumisessa.'
+    'off': 'Ei asetettu. Kirjautumiskoodi lähetetään sähköpostitse.'
+    open: 'Hallinnoi sovellusta'
+  devices:
+    title: 'Luotetut laitteet'
+    intro: 'Laitteet, jotka on luotettu koodin kirjautumisen jälkeen ilman koodia.'
+    revoke: 'Unohda kaikki'
+  field:
+    email: Sähköposti
+    username: Käyttäjänimi
+    roles: Roolit
+    date_last_login: 'Viimeisin kirjautuminen'
+    date_created: Luotu
+  action:
+    logout: 'Kirjaudu ulos'
+
+fr:
+  page_title: Compte
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Changer le mot de passe'
+  authenticator:
+    title: "Application d'authentification"
+    'on': 'Configurer. Son code remplace le code par email à la connexion.'
+    'off': 'Non configuré. Le code de connexion est envoyé par email.'
+    open: "Gérer l'application"
+  devices:
+    title: 'Appareils de confiance'
+    intro: 'Les appareils de confiance se connectent sans code après leur authentification.'
+    revoke: 'Tout oublier'
+  field:
+    email: Email
+    username: "Nom d'utilisateur"
+    roles: Rôles
+    date_last_login: 'Dernière connexion'
+    date_created: Créé
+  action:
+    logout: 'Se déconnecter'
+
+he:
+  page_title: חשבון
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'שנה סיסמה'
+  authenticator:
+    title: 'אפליקציית מאמת'
+    'on': 'בהגדרה. הקוד שלה מחליף את קוד האימייל בעת הכניסה.'
+    'off': 'לא הוגדרה. קוד הכניסה מגיע באימייל.'
+    open: 'נהל את האפליקציה'
+  devices:
+    title: 'מכשירים מהימנים'
+    intro: 'המכשירים מהימנים לאחר הכניסה עם הקוד שלהם ללא קוד נוסף.'
+    revoke: 'שכח את כולם'
+  field:
+    email: אימייל
+    username: 'שם משתמש'
+    roles: תפקידים
+    date_last_login: 'כניסה אחרונה'
+    date_created: נוצר
+  action:
+    logout: התנתק
+
+hi:
+  page_title: खाता
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'पासवर्ड बदलें'
+  authenticator:
+    title: 'प्रमाणनकर्ता ऐप'
+    'on': 'सेट करें। इसका कोड साइन-इन पर ईमेल कोड को प्रतिस्थापित करता है।'
+    'off': 'सेट नहीं किया गया। साइन-इन कोड ईमेल द्वारा आता है।'
+    open: 'ऐप प्रबंधित करें'
+  devices:
+    title: 'विश्वसनीय उपकरण'
+    intro: 'वे उपकरण जिनका कोड साइन-इन के बाद बिना एक के भरोसेमंद हैं।'
+    revoke: 'सभी को भूल जाएं'
+  field:
+    email: ईमेल
+    username: 'उपयोगकर्ता नाम'
+    roles: भूमिकाएँ
+    date_last_login: 'अंतिम साइन-इन'
+    date_created: 'बनाया गया'
+  action:
+    logout: 'साइन आउट'
+
+id:
+  page_title: Akun
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Ganti kata sandi'
+  authenticator:
+    title: 'Aplikasi autentikator'
+    'on': 'Siapkan. Kode ini menggantikan kode email saat masuk.'
+    'off': 'Belum disiapkan. Kode masuk dikirim melalui email.'
+    open: 'Kelola aplikasi'
+  devices:
+    title: 'Perangkat tepercaya'
+    intro: 'Perangkat yang dipercaya setelah masuk dengan kode mereka tanpa satu.'
+    revoke: 'Lupakan semuanya'
+  field:
+    email: Email
+    username: 'Nama pengguna'
+    roles: Peran
+    date_last_login: 'Masuk terakhir'
+    date_created: Dibuat
+  action:
+    logout: Keluar
+
+it:
+  page_title: Account
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Cambia la password'
+  authenticator:
+    title: 'App Authenticator'
+    'on': "Configura. Il suo codice sostituisce il codice email all'accesso."
+    'off': 'Non configurato. Il codice per accedere arriva via email.'
+    open: "Gestisci l'app"
+  devices:
+    title: 'Dispositivi fidati'
+    intro: "I dispositivi fidati accedono senza codice dopo aver effettuato l'accesso con codice."
+    revoke: 'Dimentica tutti'
+  field:
+    email: Email
+    username: 'Nome utente'
+    roles: Ruoli
+    date_last_login: 'Ultimo accesso'
+    date_created: Creato
+  action:
+    logout: Esci
+
+ja:
+  page_title: アカウント
+  page_icon: 'ph:bold/user-circle'
+  change_password: パスワードを変更
+  authenticator:
+    title: 認証アプリ
+    'on': セットアップ済み。サインイン時のコードはメールのコードに置き換わります。
+    'off': 未設定。サインインコードはメールで届きます。
+    open: アプリを管理
+  devices:
+    title: 信頼できるデバイス
+    intro: コードでサインインした後に信頼されるデバイス。
+    revoke: すべて忘れる
+  field:
+    email: メールアドレス
+    username: ユーザー名
+    roles: ロール
+    date_last_login: 最終サインイン
+    date_created: 作成日
+  action:
+    logout: サインアウト
+
+ko:
+  page_title: 계정
+  page_icon: 'ph:bold/user-circle'
+  change_password: '비밀번호 변경'
+  authenticator:
+    title: '인증기 앱'
+    'on': '설정 완료. 이 코드는 로그인 시 이메일 코드를 대체합니다.'
+    'off': '설정되지 않음. 로그인 코드는 이메일로 전송됩니다.'
+    open: '앱 관리'
+  devices:
+    title: '신뢰할 수 있는 기기'
+    intro: '코드로 로그인한 후 신뢰할 수 있는 기기입니다.'
+    revoke: '모두 잊기'
+  field:
+    email: 이메일
+    username: '사용자 이름'
+    roles: 역할
+    date_last_login: '마지막 로그인'
+    date_created: 생성일
+  action:
+    logout: 로그아웃
+
+nl:
+  page_title: Account
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Wachtwoord wijzigen'
+  authenticator:
+    title: Authenticator-app
+    'on': 'Instellen. De code vervangt de e-mailcode bij inloggen.'
+    'off': 'Niet ingesteld. De inlogcode komt per e-mail.'
+    open: 'Beheer de app'
+  devices:
+    title: 'Betrouwbare apparaten'
+    intro: 'De apparaten die na hun code inloggen zonder één.'
+    revoke: 'Vergeet ze allemaal'
+  field:
+    email: E-mail
+    username: Gebruikersnaam
+    roles: Rollen
+    date_last_login: 'Laatste inlog'
+    date_created: Aangemaakt
+  action:
+    logout: Afmelden
+
+pl:
+  page_title: Konto
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Zmień hasło'
+  authenticator:
+    title: 'Aplikacja uwierzytelniająca'
+    'on': 'Skonfiguruj. Jego kod zastępuje kod e-mailowy podczas logowania.'
+    'off': 'Nie skonfigurowano. Kod logowania przychodzi e-mailem.'
+    open: 'Zarządzaj aplikacją'
+  devices:
+    title: 'Zaufane urządzenia'
+    intro: 'Urządzenia zaufane po zalogowaniu za pomocą ich kodu bez konieczności podawania hasła.'
+    revoke: 'Zapomnij o nich wszystkich'
+  field:
+    email: Email
+    username: 'Nazwa użytkownika'
+    roles: Role
+    date_last_login: 'Ostatnie logowanie'
+    date_created: Utworzono
+  action:
+    logout: 'Wyloguj się'
+
+pt_BR:
+  page_title: Conta
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Alterar a senha'
+  authenticator:
+    title: 'Aplicativo autenticador'
+    'on': 'Configurar. O código substitui o código de email ao entrar.'
+    'off': 'Não configurado. O código de entrada é enviado por email.'
+    open: 'Gerenciar o aplicativo'
+  devices:
+    title: 'Dispositivos confiáveis'
+    intro: 'Os dispositivos são confiáveis após o login com seu código.'
+    revoke: 'Esquecer todos'
+  field:
+    email: Email
+    username: 'Nome de usuário'
+    roles: Funções
+    date_last_login: 'Último acesso'
+    date_created: Criado
+  action:
+    logout: Sair
+
+ru:
+  page_title: 'Учетная запись'
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Сменить пароль'
+  authenticator:
+    title: 'Приложение аутентификатора'
+    'on': 'Настроено. Его код заменяет код по электронной почте при входе.'
+    'off': 'Не настроено. Код для входа приходит по электронной почте.'
+    open: 'Управлять приложением'
+  devices:
+    title: 'Доверенные устройства'
+    intro: 'Устройства, которым доверяют после входа с кодом без него.'
+    revoke: 'Забыть все'
+  field:
+    email: 'Электронная почта'
+    username: 'Имя пользователя'
+    roles: Роли
+    date_last_login: 'Последний вход'
+    date_created: Создано
+  action:
+    logout: Выйти
+
+th:
+  page_title: บัญชีผู้ใช้
+  page_icon: 'ph:bold/user-circle'
+  change_password: เปลี่ยนรหัสผ่าน
+  authenticator:
+    title: 'แอปพลิเคชัน Authenticator'
+    'on': 'ตั้งค่าแล้ว รหัสของมันจะใช้แทนรหัสอีเมลในการเข้าสู่ระบบ'
+    'off': 'ยังไม่ได้ตั้งค่า รหัสเข้าสู่ระบบจะส่งทางอีเมล'
+    open: จัดการแอป
+  devices:
+    title: อุปกรณ์ที่เชื่อถือได้
+    intro: อุปกรณ์ที่เชื่อถือได้หลังจากเข้าสู่ระบบด้วยรหัส
+    revoke: ลบทั้งหมด
+  field:
+    email: อีเมล
+    username: ชื่อผู้ใช้
+    roles: บทบาท
+    date_last_login: เข้าสู่ระบบล่าสุด
+    date_created: สร้างเมื่อ
+  action:
+    logout: ออกจากระบบ
+
+tr:
+  page_title: Hesap
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Şifreyi değiştir'
+  authenticator:
+    title: 'Kimlik Doğrulayıcı uygulaması'
+    'on': 'Kuruldu. Kodu, girişteki e-posta kodunun yerini alır.'
+    'off': 'Kurulmamış. Giriş kodu e-posta ile gelir.'
+    open: 'Uygulamayı yönet'
+  devices:
+    title: 'Güvenilir cihazlar'
+    intro: 'Kodlarıyla giriş yaptıklarında güvenilen cihazlar.'
+    revoke: 'Hepsini unut'
+  field:
+    email: E-posta
+    username: 'Kullanıcı adı'
+    roles: Roller
+    date_last_login: 'Son giriş tarihi'
+    date_created: Oluşturuldu
+  action:
+    logout: 'Çıkış yap'
+
+ur:
+  page_title: اکاؤنٹ
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'پاسورڈ تبدیل کریں'
+  authenticator:
+    title: 'توثیق کرنے والی ایپ'
+    'on': 'سیٹ اپ کریں۔ اس کا کوڈ سائن ان پر ای میل کوڈ کی جگہ لے لیتا ہے۔'
+    'off': 'سیٹ اپ نہیں ہوا۔ سائن ان کوڈ ای میل کے ذریعے آتا ہے۔'
+    open: 'ایپ کا انتظام کریں'
+  devices:
+    title: 'قابل اعتماد آلات'
+    intro: 'وہ آلات جنہوں نے اپنے کوڈ کے ساتھ سائن ان کیا ہے بغیر کسی کوڈ کے۔'
+    revoke: 'ان سب کو بھول جائیں'
+  field:
+    email: 'ای میل'
+    username: 'صارف نام'
+    roles: کردار
+    date_last_login: 'آخری سائن ان'
+    date_created: 'تخلیق کیا گیا'
+  action:
+    logout: 'سائن آؤٹ کریں'
+
+vi:
+  page_title: 'Tài khoản'
+  page_icon: 'ph:bold/user-circle'
+  change_password: 'Đổi mật khẩu'
+  authenticator:
+    title: 'Ứng dụng xác thực'
+    'on': 'Thiết lập. Mã của nó thay thế mã email khi đăng nhập.'
+    'off': 'Chưa thiết lập. Mã đăng nhập được gửi qua email.'
+    open: 'Quản lý ứng dụng'
+  devices:
+    title: 'Thiết bị tin cậy'
+    intro: 'Các thiết bị tin cậy sau khi đăng nhập bằng mã của chúng mà không cần mã khác.'
+    revoke: 'Quên tất cả'
+  field:
+    email: Email
+    username: 'Tên người dùng'
+    roles: 'Vai trò'
+    date_last_login: 'Lần đăng nhập cuối'
+    date_created: 'Ngày tạo'
+  action:
+    logout: 'Đăng xuất'
+
+zh:
+  page_title: 账户
+  page_icon: 'ph:bold/user-circle'
+  change_password: 更改密码
+  authenticator:
+    title: 身份验证器应用
+    'on': 已设置。该代码在登录时替换电子邮件代码。
+    'off': 未设置。登录代码通过电子邮件发送。
+    open: 管理应用
+  devices:
+    title: 可信设备
+    intro: 这些设备在输入代码后无需再次输入。
+    revoke: 忘记所有
+  field:
+    email: 电子邮件
+    username: 用户名
+    roles: 角色
+    date_last_login: 最后登录时间
+    date_created: 创建时间
+  action:
+    logout: 注销

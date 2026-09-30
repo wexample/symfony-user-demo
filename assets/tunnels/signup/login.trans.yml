@@ -1,0 +1,114 @@
+en:
+  page_title: Sign up
+  title: Sign in
+  lead: This address has an account. Sign in to go on with it — the password is on the user demo page.
+
+ar:
+  page_title: 'إنشاء حساب'
+  title: 'تسجيل الدخول'
+  lead: 'هذا العنوان لديه حساب. قم بتسجيل الدخول للاستمرار — كلمة المرور موجودة في صفحة العرض التوضيحي للمستخدم.'
+
+bn:
+  page_title: 'নিবন্ধন করুন'
+  title: 'সাইন ইন করুন'
+  lead: 'এই ঠিকানায় একটি অ্যাকাউন্ট রয়েছে। চালিয়ে যেতে সাইন ইন করুন — পাসওয়ার্ডটি ব্যবহারকারী ডেমো পৃষ্ঠায় রয়েছে।'
+
+de:
+  page_title: Registrieren
+  title: Anmelden
+  lead: 'Diese Adresse hat ein Konto. Melden Sie sich an, um fortzufahren – das Passwort finden Sie auf der Benutzerdemoseite.'
+
+es:
+  page_title: Regístrate
+  title: 'Iniciar sesión'
+  lead: 'Esta dirección tiene una cuenta. Inicia sesión para continuar — la contraseña está en la página de demostración del usuario.'
+
+fa:
+  page_title: 'ثبت نام'
+  title: ورود
+  lead: 'این آدرس دارای حساب کاربری است. برای ادامه وارد شوید — رمز عبور در صفحه نمایشی کاربر موجود است.'
+
+fi:
+  page_title: Rekisteröidy
+  title: 'Kirjaudu sisään'
+  lead: 'Tällä osoitteella on tili. Kirjaudu sisään jatkaaksesi — salasana löytyy käyttäjäesittelysivulta.'
+
+fr:
+  page_title: Inscription
+  title: Connexion
+  lead: "Cette adresse a un compte. Connectez-vous pour continuer — le mot de passe est sur la page de démonstration de l'utilisateur."
+
+he:
+  page_title: הרשמה
+  title: התחברות
+  lead: 'לכתובת זו יש חשבון. התחבר כדי להמשיך — הסיסמה נמצאת בדף הדמו של המשתמש.'
+
+hi:
+  page_title: 'साइन अप'
+  title: 'साइन इन'
+  lead: 'इस पते के पास एक खाता है। आगे बढ़ने के लिए साइन इन करें - पासवर्ड उपयोगकर्ता डेमो पृष्ठ पर है।'
+
+id:
+  page_title: Daftar
+  title: Masuk
+  lead: 'Alamat ini memiliki akun. Masuk untuk melanjutkan — kata sandinya ada di halaman demo pengguna.'
+
+it:
+  page_title: Registrati
+  title: Accedi
+  lead: 'Questo indirizzo ha un account. Accedi per continuare — la password è nella pagina demo utente.'
+
+ja:
+  page_title: サインアップ
+  title: サインイン
+  lead: 'このアドレスにはアカウントがあります。続行するにはサインインしてください — パスワードはユーザーデモページにあります。'
+
+ko:
+  page_title: 회원가입
+  title: 로그인
+  lead: '이 주소는 계정이 있습니다. 계속 진행하려면 로그인하세요 — 비밀번호는 사용자 데모 페이지에 있습니다.'
+
+nl:
+  page_title: Aanmelden
+  title: Inloggen
+  lead: 'Dit adres heeft een account. Log in om verder te gaan — het wachtwoord staat op de gebruikersdemopagina.'
+
+pl:
+  page_title: 'Zarejestruj się'
+  title: 'Zaloguj się'
+  lead: 'Ten adres ma konto. Zaloguj się, aby kontynuować — hasło znajduje się na stronie demonstracyjnej użytkownika.'
+
+pt_BR:
+  page_title: Cadastre-se
+  title: Entrar
+  lead: 'Este endereço possui uma conta. Faça login para continuar — a senha está na página de demonstração do usuário.'
+
+ru:
+  page_title: Зарегистрироваться
+  title: Войти
+  lead: 'У этого адреса есть аккаунт. Войдите, чтобы продолжить — пароль находится на странице демонстрации пользователя.'
+
+th:
+  page_title: ลงทะเบียน
+  title: เข้าสู่ระบบ
+  lead: 'ที่อยู่นี้มีบัญชีอยู่แล้ว เข้าสู่ระบบเพื่อดำเนินการต่อ — รหัสผ่านอยู่ในหน้าสาธิตผู้ใช้.'
+
+tr:
+  page_title: 'Kayıt Ol'
+  title: 'Giriş Yap'
+  lead: 'Bu adreste bir hesap var. Devam etmek için giriş yapın — şifre kullanıcı demo sayfasında.'
+
+ur:
+  page_title: 'سائن اپ'
+  title: 'سائن ان'
+  lead: 'اس ایڈریس کے پاس ایک اکاؤنٹ ہے۔ اس کے ساتھ جاری رکھنے کے لیے سائن ان کریں — پاس ورڈ صارف ڈیمو صفحے پر ہے۔'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Đăng nhập'
+  lead: 'Địa chỉ này đã có tài khoản. Đăng nhập để tiếp tục — mật khẩu có trên trang demo người dùng.'
+
+zh:
+  page_title: 注册
+  title: 登录
+  lead: '此地址已有账户。请登录以继续 — 密码在用户演示页面上。'

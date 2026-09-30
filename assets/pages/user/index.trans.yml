@@ -1,0 +1,850 @@
+en:
+  page_title: User
+  page_icon: ph:bold/user
+  intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, delivered to the demo mailbox.
+  signed_in: Signed in as %name%.
+  accounts:
+    title: Test accounts
+    email: Email
+    username: Username
+    password: Password
+    expected: Result
+    missing: The test accounts do not exist yet.
+    create: Create them
+    reset_intro: A visitor changed a password or locked themselves out?
+    reset: Reset the test accounts
+    result:
+      active: Asks the code of the demo mailbox, then signs in
+      locked: Refused, the account is locked
+      inactive: Refused, the account is not activated
+  magic_link:
+    title: Magic link
+    intro: The demo sends no email. The link lands in the demo mailbox, visible to you only.
+  signup:
+    title: Sign-up tunnel
+    intro: The email and login steps of symfony-user, in a tunnel. An address with an account asks to sign in; any other one creates an account, not activated.
+    open: Walk the tunnel
+  forgot:
+    title: Forgotten password
+    intro: The reset link lands in the demo mailbox too.
+  action:
+    forgot: Forgot your password?
+    mailbox: Open the demo mailbox
+    account: Account
+    logout: Sign out
+  login:
+    title: Sign in
+
+ar:
+  page_title: المستخدم
+  page_icon: 'ph:bold/user'
+  intro: 'نموذج تسجيل الدخول لـ symfony-user، مُقدم عبر ajax. قم بتسجيل الدخول باستخدام أحد حسابات الاختبار أدناه، باستخدام البريد الإلكتروني أو اسم المستخدم. على جهاز غير موثوق به بعد، يتبع كلمة المرور رمز يتم إرساله إلى صندوق البريد التجريبي.'
+  signed_in: 'تم تسجيل الدخول كـ %name%.'
+  accounts:
+    title: 'حسابات الاختبار'
+    email: 'البريد الإلكتروني'
+    username: 'اسم المستخدم'
+    password: 'كلمة المرور'
+    expected: النتيجة
+    missing: 'حسابات الاختبار غير موجودة بعد.'
+    create: إنشائها
+    reset_intro: 'قام زائر بتغيير كلمة المرور أو أغلق حسابه؟'
+    reset: 'إعادة تعيين حسابات الاختبار'
+    result:
+      active: 'يطلب رمز صندوق البريد التجريبي، ثم يسجل الدخول'
+      locked: 'مرفوض، الحساب مقفول'
+      inactive: 'مرفوض، الحساب غير مفعل'
+  magic_link:
+    title: 'رابط سحري'
+    intro: 'لا يرسل العرض أي بريد إلكتروني. الرابط يصل إلى صندوق البريد التجريبي، مرئي لك فقط.'
+  signup:
+    title: 'نفق التسجيل'
+    intro: 'خطوات البريد الإلكتروني وتسجيل الدخول لـ symfony-user، في نفق. عنوان به حساب يطلب تسجيل الدخول؛ أي عنوان آخر ينشئ حسابًا، غير مفعل.'
+    open: 'استكشاف النفق'
+  forgot:
+    title: 'كلمة المرور المنسية'
+    intro: 'يرسل رابط إعادة التعيين إلى صندوق البريد التجريبي أيضًا.'
+  action:
+    forgot: 'نسيت كلمة المرور؟'
+    mailbox: 'فتح صندوق البريد التجريبي'
+    account: الحساب
+    logout: 'تسجيل الخروج'
+  login:
+    title: 'تسجيل الدخول'
+
+bn:
+  page_title: ব্যবহারকারী
+  page_icon: 'ph:bold/user'
+  intro: 'সিম্ফনি-ইউজারের লগইন ফর্ম, AJAX এর মাধ্যমে জমা দেওয়া। নিচের পরীক্ষামূলক অ্যাকাউন্টগুলির মধ্যে একটি দিয়ে সাইন ইন করুন, ইমেল বা ব্যবহারকারীর নাম দ্বারা। একটি ডিভাইসে যে এখনও বিশ্বাসযোগ্য নয়, সেখানে একটি কোড পাসওয়ার্ডের পরে আসে, যা ডেমো মেইলবক্সে পাঠানো হয়।'
+  signed_in: 'সাইন ইন করা হয়েছে %name% হিসাবে।'
+  accounts:
+    title: 'পরীক্ষামূলক অ্যাকাউন্ট'
+    email: ইমেল
+    username: 'ব্যবহারকারীর নাম'
+    password: পাসওয়ার্ড
+    expected: ফলাফল
+    missing: 'পরীক্ষামূলক অ্যাকাউন্টগুলি এখনও বিদ্যমান নয়।'
+    create: 'এগুলি তৈরি করুন'
+    reset_intro: 'একজন দর্শক একটি পাসওয়ার্ড পরিবর্তন করেছে বা নিজেদের বাইরে বন্ধ করে দিয়েছে?'
+    reset: 'পরীক্ষামূলক অ্যাকাউন্টগুলি রিসেট করুন'
+    result:
+      active: 'ডেমো মেইলবক্সের কোড চাইছে, তারপর সাইন ইন করে'
+      locked: 'প্রত্যাখ্যান, অ্যাকাউন্টটি লক করা হয়েছে'
+      inactive: 'প্রত্যাখ্যান, অ্যাকাউন্টটি সক্রিয় করা হয়নি'
+  magic_link:
+    title: 'ম্যাজিক লিঙ্ক'
+    intro: 'ডেমো কোন ইমেল পাঠায় না। লিঙ্কটি ডেমো মেইলবক্সে নেমে আসে, যা শুধুমাত্র আপনার জন্য দৃশ্যমান।'
+  signup:
+    title: 'সাইন-আপ টানেল'
+    intro: 'সিম্ফনি-ইউজারের ইমেল এবং লগইন পদক্ষেপ, একটি টানেলে। একটি অ্যাকাউন্টের জন্য একটি ঠিকানা সাইন ইন করার অনুরোধ করে; অন্যটি একটি অ্যাকাউন্ট তৈরি করে, যা সক্রিয় হয় না।'
+    open: 'টানেলটি অতিক্রম করুন'
+  forgot:
+    title: 'পাসওয়ার্ড ভুলে গেছেন'
+    intro: 'রিসেট লিঙ্কটি ডেমো মেইলবক্সে নেমে আসে।'
+  action:
+    forgot: 'আপনার পাসওয়ার্ড ভুলে গেছেন?'
+    mailbox: 'ডেমো মেইলবক্স খুলুন'
+    account: অ্যাকাউন্ট
+    logout: 'সাইন আউট'
+  login:
+    title: 'সাইন ইন করুন'
+
+de:
+  page_title: Benutzer
+  page_icon: 'ph:bold/user'
+  intro: 'Das Anmeldeformular von symfony-user, über Ajax gesendet. Melden Sie sich mit einem der unten stehenden Testkonten an, entweder per E-Mail oder Benutzername. Auf einem noch nicht vertrauten Gerät folgt ein Code nach dem Passwort, der an das Demokonto gesendet wird.'
+  signed_in: 'Angemeldet als %name%.'
+  accounts:
+    title: Testkonten
+    email: E-Mail
+    username: Benutzername
+    password: Passwort
+    expected: Ergebnis
+    missing: 'Die Testkonten existieren noch nicht.'
+    create: 'Erstellen Sie sie'
+    reset_intro: 'Ein Besucher hat ein Passwort geändert oder sich ausgesperrt?'
+    reset: 'Setzen Sie die Testkonten zurück'
+    result:
+      active: 'Fragt den Code des Demokontos an und meldet sich dann an'
+      locked: 'Abgelehnt, das Konto ist gesperrt'
+      inactive: 'Abgelehnt, das Konto ist nicht aktiviert'
+  magic_link:
+    title: 'Magischer Link'
+    intro: 'Die Demo sendet keine E-Mail. Der Link landet im Demokonto, sichtbar nur für Sie.'
+  signup:
+    title: Anmeldetunnel
+    intro: 'Die E-Mail- und Anmeldeschritte von symfony-user, in einem Tunnel. Eine Adresse mit einem Konto bittet um Anmeldung; jede andere erstellt ein Konto, das nicht aktiviert ist.'
+    open: 'Gehen Sie durch den Tunnel'
+  forgot:
+    title: 'Passwort vergessen'
+    intro: 'Der Rücksetzlink landet ebenfalls im Demokonto.'
+  action:
+    forgot: 'Passwort vergessen?'
+    mailbox: 'Öffnen Sie das Demokonto'
+    account: Konto
+    logout: Abmelden
+  login:
+    title: Anmelden
+
+es:
+  page_title: Usuario
+  page_icon: 'ph:bold/user'
+  intro: 'El formulario de inicio de sesión de symfony-user, enviado a través de ajax. Inicia sesión con una de las cuentas de prueba a continuación, por correo electrónico o por nombre de usuario. En un dispositivo que aún no es de confianza, se requiere un código después de la contraseña, enviado a la bandeja de entrada de demostración.'
+  signed_in: 'Conectado como %name%.'
+  accounts:
+    title: 'Cuentas de prueba'
+    email: 'Correo electrónico'
+    username: 'Nombre de usuario'
+    password: Contraseña
+    expected: Resultado
+    missing: 'Las cuentas de prueba aún no existen.'
+    create: Créelas
+    reset_intro: '¿Un visitante cambió una contraseña o se bloqueó a sí mismo?'
+    reset: 'Restablecer las cuentas de prueba'
+    result:
+      active: 'Solicita el código de la bandeja de entrada de demostración, luego inicia sesión'
+      locked: 'Rechazado, la cuenta está bloqueada'
+      inactive: 'Rechazado, la cuenta no está activada'
+  magic_link:
+    title: 'Enlace mágico'
+    intro: 'La demostración no envía correos electrónicos. El enlace llega a la bandeja de entrada de demostración, visible solo para ti.'
+  signup:
+    title: 'Túnel de registro'
+    intro: 'Los pasos de correo electrónico e inicio de sesión de symfony-user, en un túnel. Una dirección con una cuenta pide iniciar sesión; cualquier otra crea una cuenta, no activada.'
+    open: 'Recorrer el túnel'
+  forgot:
+    title: 'Contraseña olvidada'
+    intro: 'El enlace de restablecimiento también llega a la bandeja de entrada de demostración.'
+  action:
+    forgot: '¿Olvidaste tu contraseña?'
+    mailbox: 'Abrir la bandeja de entrada de demostración'
+    account: Cuenta
+    logout: 'Cerrar sesión'
+  login:
+    title: 'Iniciar sesión'
+
+fa:
+  page_title: کاربر
+  page_icon: 'ph:bold/user'
+  intro: 'فرم ورود symfony-user که از طریق ajax ارسال می‌شود. با یکی از حساب‌های آزمایشی زیر، از طریق ایمیل یا نام کاربری وارد شوید. در دستگاهی که هنوز مورد اعتماد نیست، یک کد پس از رمز عبور ارسال می‌شود که به صندوق پستی دمو منتقل می‌شود.'
+  signed_in: 'وارد شده به عنوان %name%.'
+  accounts:
+    title: 'حساب‌های آزمایشی'
+    email: ایمیل
+    username: 'نام کاربری'
+    password: 'رمز عبور'
+    expected: نتیجه
+    missing: 'حساب‌های آزمایشی هنوز وجود ندارند.'
+    create: 'آن‌ها را ایجاد کنید'
+    reset_intro: 'یک بازدیدکننده رمز عبور را تغییر داده یا قفل شده است؟'
+    reset: 'حساب‌های آزمایشی را بازنشانی کنید'
+    result:
+      active: 'کد صندوق پستی دمو را درخواست می‌کند، سپس وارد می‌شود'
+      locked: 'رد شد، حساب قفل شده است'
+      inactive: 'رد شد، حساب فعال نشده است'
+  magic_link:
+    title: 'لینک جادویی'
+    intro: 'دمو هیچ ایمیلی ارسال نمی‌کند. لینک در صندوق پستی دمو قرار می‌گیرد، که فقط برای شما قابل مشاهده است.'
+  signup:
+    title: 'تونل ثبت‌نام'
+    intro: 'مراحل ایمیل و ورود symfony-user در یک تونل. یک آدرس با یک حساب درخواست ورود می‌کند؛ هر آدرس دیگری یک حساب ایجاد می‌کند که فعال نشده است.'
+    open: 'از تونل عبور کنید'
+  forgot:
+    title: 'رمز عبور فراموش شده'
+    intro: 'لینک بازنشانی نیز در صندوق پستی دمو قرار می‌گیرد.'
+  action:
+    forgot: 'رمز عبور خود را فراموش کرده‌اید؟'
+    mailbox: 'صندوق پستی دمو را باز کنید'
+    account: حساب
+    logout: خروج
+  login:
+    title: ورود
+
+fi:
+  page_title: Käyttäjä
+  page_icon: 'ph:bold/user'
+  intro: 'symfony-userin kirjautumislomake, lähetetty ajaxin kautta. Kirjaudu sisään alla olevilla testitileillä, sähköpostilla tai käyttäjänimellä. Luotettavaksi merkitsemättömällä laitteella salasanan jälkeen tulee koodi, joka toimitetaan demo-postilaatikkoon.'
+  signed_in: 'Kirjautunut sisään käyttäjänä %name%.'
+  accounts:
+    title: Testitilit
+    email: Sähköposti
+    username: Käyttäjänimi
+    password: Salasana
+    expected: Tulokset
+    missing: 'Testitilejä ei ole vielä olemassa.'
+    create: 'Luo ne'
+    reset_intro: 'Vierailija muutti salasanaa tai sulki itsensä ulos?'
+    reset: 'Nollaa testitilit'
+    result:
+      active: 'Kysyy demo-postilaatikon koodia, sitten kirjautuu sisään'
+      locked: 'Kielletty, tili on lukittu'
+      inactive: 'Kielletty, tili ei ole aktivoitu'
+  magic_link:
+    title: Taikalinkki
+    intro: 'Demo ei lähetä sähköpostia. Linkki saapuu demo-postilaatikkoon, näkyvissä vain sinulle.'
+  signup:
+    title: Rekisteröitymistunneli
+    intro: 'symfony-userin sähköposti- ja kirjautumisvaiheet tunnelissa. Osoite, jolla on tili, pyytää kirjautumaan sisään; muu osoite luo tilin, jota ei ole aktivoitu.'
+    open: 'Kävele tunnelissa'
+  forgot:
+    title: 'Unohtunut salasana'
+    intro: 'Nollauslinkki saapuu myös demo-postilaatikkoon.'
+  action:
+    forgot: 'Unohditko salasanasi?'
+    mailbox: 'Avaa demo-postilaatikko'
+    account: Tili
+    logout: 'Kirjaudu ulos'
+  login:
+    title: 'Kirjaudu sisään'
+
+fr:
+  page_title: Utilisateur
+  page_icon: 'ph:bold/user'
+  intro: "Le formulaire de connexion de symfony-user, soumis par ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par e-mail ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, livré à la boîte aux lettres de démonstration."
+  signed_in: 'Connecté en tant que %name%.'
+  accounts:
+    title: 'Comptes de test'
+    email: E-mail
+    username: "Nom d'utilisateur"
+    password: 'Mot de passe'
+    expected: Résultat
+    missing: "Les comptes de test n'existent pas encore."
+    create: Créez-les
+    reset_intro: "Un visiteur a changé un mot de passe ou s'est verrouillé dehors ?"
+    reset: 'Réinitialiser les comptes de test'
+    result:
+      active: 'Demande le code de la boîte aux lettres de démonstration, puis se connecte'
+      locked: 'Refusé, le compte est verrouillé'
+      inactive: "Refusé, le compte n'est pas activé"
+  magic_link:
+    title: 'Lien magique'
+    intro: "La démo n'envoie pas d'e-mail. Le lien atterrit dans la boîte aux lettres de démonstration, visible uniquement par vous."
+  signup:
+    title: "Tunnel d'inscription"
+    intro: "Les étapes d'e-mail et de connexion de symfony-user, dans un tunnel. Une adresse avec un compte demande à se connecter ; toute autre crée un compte, non activé."
+    open: 'Parcourir le tunnel'
+  forgot:
+    title: 'Mot de passe oublié'
+    intro: 'Le lien de réinitialisation atterrit également dans la boîte aux lettres de démonstration.'
+  action:
+    forgot: 'Mot de passe oublié ?'
+    mailbox: 'Ouvrir la boîte aux lettres de démonstration'
+    account: Compte
+    logout: 'Se déconnecter'
+  login:
+    title: 'Se connecter'
+
+he:
+  page_title: משתמש
+  page_icon: 'ph:bold/user'
+  intro: 'טופס הכניסה של symfony-user, נשלח דרך ajax. התחבר עם אחד מחשבונות הבדיקה למטה, באמצעות אימייל או שם משתמש. במכשיר שלא מהימן עדיין, יש להזין קוד אחרי הסיסמה, שנשלח לתיבת הדואר הדמוקרטית.'
+  signed_in: 'מחובר כ-%name%.'
+  accounts:
+    title: 'חשבונות בדיקה'
+    email: אימייל
+    username: 'שם משתמש'
+    password: סיסמה
+    expected: תוצאה
+    missing: 'חשבונות הבדיקה עדיין לא קיימים.'
+    create: 'צור אותם'
+    reset_intro: 'מבקר שינה סיסמה או ננעל מחוץ לחשבון?'
+    reset: 'אפס את חשבונות הבדיקה'
+    result:
+      active: 'מבקש את הקוד מתיבת הדואר הדמוקרטית, ואז מתחבר'
+      locked: 'סירוב, החשבון נעול'
+      inactive: 'סירוב, החשבון לא פעיל'
+  magic_link:
+    title: 'קישור קסם'
+    intro: 'הדמו לא שולח אימייל. הקישור נוחת בתיבת הדואר הדמוקרטית, גלוי רק לך.'
+  signup:
+    title: 'מנהרת הרשמה'
+    intro: 'שלבי האימייל והכניסה של symfony-user, במנהרה. כתובת עם חשבון מבקשת להתחבר; כל כתובת אחרת יוצרת חשבון, שלא יופעל.'
+    open: 'לך במנהרה'
+  forgot:
+    title: 'סיסמה שנשכחה'
+    intro: 'קישור האיפוס נוחת גם בתיבת הדואר הדמוקרטית.'
+  action:
+    forgot: 'שכחת את הסיסמה שלך?'
+    mailbox: 'פתח את תיבת הדואר הדמוקרטית'
+    account: חשבון
+    logout: התנתק
+  login:
+    title: התחבר
+
+hi:
+  page_title: उपयोगकर्ता
+  page_icon: 'ph:bold/user'
+  intro: 'symfony-user का लॉगिन फॉर्म, ajax के माध्यम से सबमिट किया गया। नीचे दिए गए परीक्षण खातों में से किसी एक से, ईमेल या उपयोगकर्ता नाम द्वारा साइन इन करें। एक ऐसे डिवाइस पर जो अभी तक विश्वसनीय नहीं है, पासवर्ड के बाद एक कोड आवश्यक है, जो डेमो मेलबॉक्स में भेजा गया है।'
+  signed_in: '%name% के रूप में साइन इन किया गया।'
+  accounts:
+    title: 'परीक्षण खाते'
+    email: ईमेल
+    username: 'उपयोगकर्ता नाम'
+    password: पासवर्ड
+    expected: परिणाम
+    missing: 'परीक्षण खाते अभी मौजूद नहीं हैं।'
+    create: 'इन्हें बनाएं'
+    reset_intro: 'क्या एक आगंतुक ने पासवर्ड बदल दिया या खुद को लॉक कर लिया?'
+    reset: 'परीक्षण खातों को रीसेट करें'
+    result:
+      active: 'डेमो मेलबॉक्स का कोड मांगा, फिर साइन इन किया'
+      locked: 'अस्वीकृत, खाता लॉक है'
+      inactive: 'अस्वीकृत, खाता सक्रिय नहीं है'
+  magic_link:
+    title: 'जादुई लिंक'
+    intro: 'डेमो कोई ईमेल नहीं भेजता। लिंक डेमो मेलबॉक्स में आता है, जो केवल आपके लिए दृश्य है।'
+  signup:
+    title: 'साइन-अप टनल'
+    intro: 'symfony-user के ईमेल और लॉगिन चरण, एक टनल में। एक खाता वाला पता साइन इन करने के लिए कहता है; कोई अन्य खाता बनाने के लिए, सक्रिय नहीं है।'
+    open: 'टनल में चलें'
+  forgot:
+    title: 'भूल गए पासवर्ड'
+    intro: 'रीसेट लिंक भी डेमो मेलबॉक्स में आता है।'
+  action:
+    forgot: 'क्या आपने अपना पासवर्ड भूल गए?'
+    mailbox: 'डेमो मेलबॉक्स खोलें'
+    account: खाता
+    logout: 'साइन आउट करें'
+  login:
+    title: 'साइन इन करें'
+
+id:
+  page_title: Pengguna
+  page_icon: 'ph:bold/user'
+  intro: 'Form login dari symfony-user, dikirim melalui ajax. Masuk dengan salah satu akun percobaan di bawah ini, melalui email atau nama pengguna. Pada perangkat yang belum dipercaya, kode mengikuti kata sandi, yang dikirim ke kotak surat demo.'
+  signed_in: 'Masuk sebagai %name%.'
+  accounts:
+    title: 'Akun percobaan'
+    email: Email
+    username: 'Nama pengguna'
+    password: 'Kata sandi'
+    expected: Hasil
+    missing: 'Akun percobaan belum ada.'
+    create: 'Buat akun tersebut'
+    reset_intro: 'Seorang pengunjung mengubah kata sandi atau mengunci diri sendiri?'
+    reset: 'Atur ulang akun percobaan'
+    result:
+      active: 'Meminta kode dari kotak surat demo, kemudian masuk'
+      locked: 'Ditolak, akun terkunci'
+      inactive: 'Ditolak, akun belum diaktifkan'
+  magic_link:
+    title: 'Tautan ajaib'
+    intro: 'Demo tidak mengirim email. Tautan akan masuk ke kotak surat demo, hanya terlihat oleh Anda.'
+  signup:
+    title: 'Terowongan pendaftaran'
+    intro: 'Langkah email dan login dari symfony-user, dalam sebuah terowongan. Alamat dengan akun meminta untuk masuk; yang lainnya membuat akun, tidak diaktifkan.'
+    open: 'Jelajahi terowongan'
+  forgot:
+    title: 'Kata sandi yang terlupakan'
+    intro: 'Tautan reset juga masuk ke kotak surat demo.'
+  action:
+    forgot: 'Lupa kata sandi?'
+    mailbox: 'Buka kotak surat demo'
+    account: Akun
+    logout: Keluar
+  login:
+    title: Masuk
+
+it:
+  page_title: Utente
+  page_icon: 'ph:bold/user'
+  intro: 'Il modulo di accesso di symfony-user, inviato tramite ajax. Accedi con uno dei test account qui sotto, tramite email o nome utente. Su un dispositivo non ancora fidato, un codice segue la password, inviato alla casella di posta demo.'
+  signed_in: 'Accesso effettuato come %name%.'
+  accounts:
+    title: 'Account di test'
+    email: Email
+    username: 'Nome utente'
+    password: Password
+    expected: Risultato
+    missing: 'Gli account di test non esistono ancora.'
+    create: Creali
+    reset_intro: 'Un visitatore ha cambiato una password o si è bloccato fuori?'
+    reset: 'Reimposta gli account di test'
+    result:
+      active: 'Richiede il codice della casella di posta demo, quindi accede'
+      locked: "Rifiutato, l'account è bloccato"
+      inactive: "Rifiutato, l'account non è attivato"
+  magic_link:
+    title: 'Link magico'
+    intro: 'La demo non invia email. Il link arriva nella casella di posta demo, visibile solo a te.'
+  signup:
+    title: 'Tunnel di registrazione'
+    intro: 'I passaggi email e login di symfony-user, in un tunnel. Un indirizzo con un account chiede di accedere; qualsiasi altro crea un account, non attivato.'
+    open: 'Attraversa il tunnel'
+  forgot:
+    title: 'Password dimenticata'
+    intro: 'Il link di reimpostazione arriva anche nella casella di posta demo.'
+  action:
+    forgot: 'Hai dimenticato la password?'
+    mailbox: 'Apri la casella di posta demo'
+    account: Account
+    logout: Disconnetti
+  login:
+    title: Accedi
+
+ja:
+  page_title: ユーザー
+  page_icon: 'ph:bold/user'
+  intro: symfony-userのログインフォームがajax経由で送信されます。以下のテストアカウントのいずれかを使用して、メールアドレスまたはユーザー名でサインインしてください。まだ信頼されていないデバイスでは、パスワードの後にデモ用メールボックスに届くコードが必要です。
+  signed_in: '%name% としてサインインしました。'
+  accounts:
+    title: テストアカウント
+    email: メールアドレス
+    username: ユーザー名
+    password: パスワード
+    expected: 結果
+    missing: テストアカウントはまだ存在しません。
+    create: アカウントを作成する
+    reset_intro: 訪問者がパスワードを変更するか、自分をロックアウトしましたか？
+    reset: テストアカウントをリセットする
+    result:
+      active: デモ用メールボックスのコードを要求し、サインインします
+      locked: 拒否されました。アカウントはロックされています
+      inactive: 拒否されました。アカウントはアクティベートされていません
+  magic_link:
+    title: マジックリンク
+    intro: デモはメールを送信しません。リンクはデモ用メールボックスに届き、あなたのみに表示されます。
+  signup:
+    title: サインアップトンネル
+    intro: symfony-userのメールとログインステップがトンネル内にあります。アカウントを持つアドレスがサインインを要求し、他のアドレスはアカウントを作成しますが、アクティベートされません。
+    open: トンネルを進む
+  forgot:
+    title: パスワードを忘れた
+    intro: リセットリンクもデモ用メールボックスに届きます。
+  action:
+    forgot: パスワードを忘れましたか？
+    mailbox: デモ用メールボックスを開く
+    account: アカウント
+    logout: サインアウト
+  login:
+    title: サインイン
+
+ko:
+  page_title: 사용자
+  page_icon: 'ph:bold/user'
+  intro: 'ajax를 통해 제출된 symfony-user의 로그인 양식입니다. 아래의 테스트 계정 중 하나로 이메일 또는 사용자 이름으로 로그인하세요. 아직 신뢰되지 않은 장치에서는 비밀번호 뒤에 데모 메일박스로 전송된 코드가 필요합니다.'
+  signed_in: '%name%으로 로그인했습니다.'
+  accounts:
+    title: '테스트 계정'
+    email: 이메일
+    username: '사용자 이름'
+    password: 비밀번호
+    expected: 결과
+    missing: '테스트 계정이 아직 존재하지 않습니다.'
+    create: '계정을 생성하세요'
+    reset_intro: '방문자가 비밀번호를 변경했거나 잠금이 해제되지 않았나요?'
+    reset: '테스트 계정을 초기화하세요'
+    result:
+      active: '데모 메일박스의 코드를 요청한 후 로그인합니다'
+      locked: '거부됨, 계정이 잠겼습니다'
+      inactive: '거부됨, 계정이 활성화되지 않았습니다'
+  magic_link:
+    title: '매직 링크'
+    intro: '데모는 이메일을 보내지 않습니다. 링크는 오직 당신에게만 보이는 데모 메일박스로 전달됩니다.'
+  signup:
+    title: '회원가입 터널'
+    intro: 'symfony-user의 이메일 및 로그인 단계가 포함된 터널입니다. 계정이 있는 주소로 로그인 요청을 하고, 다른 주소는 비활성화된 계정을 생성합니다.'
+    open: '터널을 통과하세요'
+  forgot:
+    title: '비밀번호 분실'
+    intro: '초기화 링크도 데모 메일박스로 전달됩니다.'
+  action:
+    forgot: '비밀번호를 잊으셨나요?'
+    mailbox: '데모 메일박스 열기'
+    account: 계정
+    logout: 로그아웃
+  login:
+    title: 로그인
+
+nl:
+  page_title: Gebruiker
+  page_icon: 'ph:bold/user'
+  intro: 'Het inlogformulier van symfony-user, verzonden via ajax. Meld je aan met een van de testaccounts hieronder, per e-mail of gebruikersnaam. Op een apparaat dat nog niet vertrouwd is, volgt er een code na het wachtwoord, geleverd aan de demomailbox.'
+  signed_in: 'Ingelogd als %name%.'
+  accounts:
+    title: Testaccounts
+    email: E-mail
+    username: Gebruikersnaam
+    password: Wachtwoord
+    expected: Resultaat
+    missing: 'De testaccounts bestaan nog niet.'
+    create: 'Maak ze aan'
+    reset_intro: 'Een bezoeker heeft een wachtwoord gewijzigd of zichzelf buitengesloten?'
+    reset: 'Stel de testaccounts opnieuw in'
+    result:
+      active: 'Vraagt de code van de demomailbox, en logt dan in'
+      locked: 'Weigerd, het account is vergrendeld'
+      inactive: 'Weigerd, het account is niet geactiveerd'
+  magic_link:
+    title: 'Magische link'
+    intro: 'De demo stuurt geen e-mail. De link komt in de demomailbox terecht, zichtbaar alleen voor jou.'
+  signup:
+    title: Aanmeldtunnel
+    intro: 'De e-mail- en inlogstappen van symfony-user, in een tunnel. Een adres met een account vraagt om in te loggen; elk ander adres maakt een account aan, niet geactiveerd.'
+    open: 'Loop door de tunnel'
+  forgot:
+    title: 'Vergeten wachtwoord'
+    intro: 'De resetlink komt ook in de demomailbox terecht.'
+  action:
+    forgot: 'Vergeten je wachtwoord?'
+    mailbox: 'Open de demomailbox'
+    account: Account
+    logout: Uitloggen
+  login:
+    title: Inloggen
+
+pl:
+  page_title: Użytkownik
+  page_icon: 'ph:bold/user'
+  intro: 'Formularz logowania symfony-user, przesyłany przez ajax. Zaloguj się za pomocą jednego z poniższych kont testowych, używając adresu email lub nazwy użytkownika. Na urządzeniu, które jeszcze nie jest zaufane, kod pojawi się po haśle, dostarczony do skrzynki demo.'
+  signed_in: 'Zalogowano jako %name%.'
+  accounts:
+    title: 'Konta testowe'
+    email: Email
+    username: 'Nazwa użytkownika'
+    password: Hasło
+    expected: Wynik
+    missing: 'Konta testowe jeszcze nie istnieją.'
+    create: 'Utwórz je'
+    reset_intro: 'Odwiedzający zmienił hasło lub zablokował dostęp?'
+    reset: 'Zresetuj konta testowe'
+    result:
+      active: 'Prosi o kod ze skrzynki demo, a następnie loguje się'
+      locked: 'Odmowa, konto jest zablokowane'
+      inactive: 'Odmowa, konto nie jest aktywowane'
+  magic_link:
+    title: 'Magiczny link'
+    intro: 'Demo nie wysyła żadnych emaili. Link trafia do skrzynki demo, widocznej tylko dla Ciebie.'
+  signup:
+    title: 'Tunel rejestracji'
+    intro: 'Kroki emailowe i logowania symfony-user, w tunelu. Adres z kontem prosi o zalogowanie; każdy inny zakłada konto, które nie jest aktywowane.'
+    open: 'Przejdź przez tunel'
+  forgot:
+    title: 'Zapomniane hasło'
+    intro: 'Link resetujący również trafia do skrzynki demo.'
+  action:
+    forgot: 'Zapomniałeś hasła?'
+    mailbox: 'Otwórz skrzynkę demo'
+    account: Konto
+    logout: 'Wyloguj się'
+  login:
+    title: 'Zaloguj się'
+
+pt_BR:
+  page_title: Usuário
+  page_icon: 'ph:bold/user'
+  intro: 'O formulário de login do symfony-user, enviado via ajax. Faça login com uma das contas de teste abaixo, usando e-mail ou nome de usuário. Em um dispositivo ainda não confiável, um código segue a senha, enviado para a caixa de entrada da demonstração.'
+  signed_in: 'Conectado como %name%.'
+  accounts:
+    title: 'Contas de teste'
+    email: E-mail
+    username: 'Nome de usuário'
+    password: Senha
+    expected: Resultado
+    missing: 'As contas de teste ainda não existem.'
+    create: Criá-las
+    reset_intro: 'Um visitante mudou uma senha ou ficou bloqueado?'
+    reset: 'Redefinir as contas de teste'
+    result:
+      active: 'Solicita o código da caixa de entrada da demonstração e, em seguida, faz login'
+      locked: 'Recusado, a conta está bloqueada'
+      inactive: 'Recusado, a conta não está ativada'
+  magic_link:
+    title: 'Link mágico'
+    intro: 'A demonstração não envia e-mails. O link vai para a caixa de entrada da demonstração, visível apenas para você.'
+  signup:
+    title: 'Túnel de cadastro'
+    intro: 'As etapas de e-mail e login do symfony-user, em um túnel. Um endereço com uma conta pede para fazer login; qualquer outro cria uma conta, não ativada.'
+    open: 'Percorra o túnel'
+  forgot:
+    title: 'Senha esquecida'
+    intro: 'O link de redefinição também vai para a caixa de entrada da demonstração.'
+  action:
+    forgot: 'Esqueceu sua senha?'
+    mailbox: 'Abrir a caixa de entrada da demonstração'
+    account: Conta
+    logout: Sair
+  login:
+    title: 'Fazer login'
+
+ru:
+  page_title: Пользователь
+  page_icon: 'ph:bold/user'
+  intro: 'Форма входа symfony-user, отправленная через ajax. Войдите с одним из тестовых аккаунтов ниже, по электронной почте или имени пользователя. На устройстве, которому еще не доверяют, после пароля вводится код, отправленный на демо почту.'
+  signed_in: 'Вошли как %name%.'
+  accounts:
+    title: 'Тестовые аккаунты'
+    email: 'Электронная почта'
+    username: 'Имя пользователя'
+    password: Пароль
+    expected: Результат
+    missing: 'Тестовые аккаунты пока не существуют.'
+    create: 'Создать их'
+    reset_intro: 'Посетитель сменил пароль или заблокировал себя?'
+    reset: 'Сбросить тестовые аккаунты'
+    result:
+      active: 'Запрашивает код из демо почты, затем выполняет вход'
+      locked: 'Отказано, аккаунт заблокирован'
+      inactive: 'Отказано, аккаунт не активирован'
+  magic_link:
+    title: 'Волшебная ссылка'
+    intro: 'Демо не отправляет электронную почту. Ссылка попадает в демо почту, видна только вам.'
+  signup:
+    title: 'Туннель регистрации'
+    intro: 'Этапы электронной почты и входа symfony-user в туннеле. Адрес с аккаунтом запрашивает вход; любой другой создает аккаунт, не активированный.'
+    open: 'Пройти туннель'
+  forgot:
+    title: 'Забытый пароль'
+    intro: 'Ссылка для сброса также попадает в демо почту.'
+  action:
+    forgot: 'Забыли пароль?'
+    mailbox: 'Открыть демо почту'
+    account: Аккаунт
+    logout: Выйти
+  login:
+    title: Войти
+
+th:
+  page_title: ผู้ใช้
+  page_icon: 'ph:bold/user'
+  intro: 'แบบฟอร์มเข้าสู่ระบบของ symfony-user ที่ส่งผ่าน ajax เข้าสู่ระบบด้วยหนึ่งในบัญชีทดสอบด้านล่าง โดยใช้ที่อยู่อีเมลหรือชื่อผู้ใช้ บนอุปกรณ์ที่ยังไม่เชื่อถือ จะมีรหัสตามหลังรหัสผ่านซึ่งส่งไปยังกล่องจดหมายเดโม'
+  signed_in: 'ลงชื่อเข้าใช้เป็น %name%.'
+  accounts:
+    title: บัญชีทดสอบ
+    email: อีเมล
+    username: ชื่อผู้ใช้
+    password: รหัสผ่าน
+    expected: ผลลัพธ์
+    missing: บัญชีทดสอบยังไม่มีอยู่ในระบบ
+    create: สร้างบัญชีเหล่านี้
+    reset_intro: 'ผู้ใช้เปลี่ยนรหัสผ่านหรือล็อกตัวเองออก?'
+    reset: รีเซ็ตบัญชีทดสอบ
+    result:
+      active: ขอรหัสจากกล่องจดหมายเดโมแล้วจึงลงชื่อเข้าใช้
+      locked: 'ปฏิเสธ บัญชีถูกล็อก'
+      inactive: 'ปฏิเสธ บัญชียังไม่ได้เปิดใช้งาน'
+  magic_link:
+    title: ลิงก์มหัศจรรย์
+    intro: 'เดโมไม่ส่งอีเมล ลิงก์จะไปยังกล่องจดหมายเดโม ซึ่งจะมองเห็นได้เฉพาะคุณเท่านั้น'
+  signup:
+    title: อุโมงค์การสมัครสมาชิก
+    intro: 'ขั้นตอนอีเมลและการเข้าสู่ระบบของ symfony-user ในอุโมงค์ ที่อยู่ที่มีบัญชีจะขอลงชื่อเข้าใช้; ที่อยู่อื่นจะสร้างบัญชีซึ่งยังไม่ได้เปิดใช้งาน'
+    open: เดินผ่านอุโมงค์
+  forgot:
+    title: ลืมรหัสผ่าน
+    intro: ลิงก์รีเซ็ตจะไปยังกล่องจดหมายเดโมด้วยเช่นกัน
+  action:
+    forgot: 'ลืมรหัสผ่านใช่ไหม?'
+    mailbox: เปิดกล่องจดหมายเดโม
+    account: บัญชี
+    logout: ลงชื่อออก
+  login:
+    title: เข้าสู่ระบบ
+
+tr:
+  page_title: Kullanıcı
+  page_icon: 'ph:bold/user'
+  intro: "symfony-user'ın ajax üzerinden gönderilen giriş formu. Aşağıdaki test hesaplarından biriyle, e-posta veya kullanıcı adı ile giriş yapın. Henüz güvenilir bir cihazda, şifrenin ardından demo posta kutusuna gönderilen bir kod gereklidir."
+  signed_in: 'Oturum açıldı: %name%.'
+  accounts:
+    title: 'Test hesapları'
+    email: E-posta
+    username: 'Kullanıcı adı'
+    password: Şifre
+    expected: Sonuç
+    missing: 'Test hesapları henüz mevcut değil.'
+    create: 'Onları oluştur'
+    reset_intro: 'Bir ziyaretçi şifreyi değiştirdi veya kendisini kilitledi mi?'
+    reset: 'Test hesaplarını sıfırla'
+    result:
+      active: 'Demo posta kutusunun kodunu ister, ardından giriş yapar'
+      locked: 'Reddedildi, hesap kilitli'
+      inactive: 'Reddedildi, hesap etkinleştirilmemiş'
+  magic_link:
+    title: 'Sihirli bağlantı'
+    intro: 'Demo e-posta göndermiyor. Bağlantı, yalnızca sizin görebileceğiniz demo posta kutusuna düşer.'
+  signup:
+    title: 'Kaydolma tüneli'
+    intro: "symfony-user'ın e-posta ve giriş adımları, bir tünelde. Hesabı olan bir adres giriş yapmayı ister; diğer herhangi bir adres bir hesap oluşturur, etkinleştirilmez."
+    open: 'Tüneli geç'
+  forgot:
+    title: 'Şifremi unuttum'
+    intro: 'Sıfırlama bağlantısı da demo posta kutusuna düşer.'
+  action:
+    forgot: 'Şifrenizi mi unuttunuz?'
+    mailbox: 'Demo posta kutusunu aç'
+    account: Hesap
+    logout: 'Çıkış yap'
+  login:
+    title: 'Giriş yap'
+
+ur:
+  page_title: صارف
+  page_icon: 'ph:bold/user'
+  intro: 'symfony-user کا لاگ ان فارم، جو ajax کے ذریعے جمع کرایا گیا۔ نیچے دیے گئے ٹیسٹ اکاؤنٹس میں سے کسی ایک کے ذریعے لاگ ان کریں، ای میل یا صارف نام کے ذریعے۔ کسی غیر معتبر ڈیوائس پر، پاس ورڈ کے بعد ایک کوڈ آتا ہے، جو ڈیمو میل باکس میں فراہم کیا جاتا ہے۔'
+  signed_in: 'کے طور پر لاگ ان ہوا %name%۔'
+  accounts:
+    title: 'ٹیسٹ اکاؤنٹس'
+    email: 'ای میل'
+    username: 'صارف نام'
+    password: 'پاس ورڈ'
+    expected: نتیجہ
+    missing: 'ٹیسٹ اکاؤنٹس ابھی تک موجود نہیں ہیں۔'
+    create: 'ان کو بنائیں'
+    reset_intro: 'کیا کسی وزیٹر نے پاس ورڈ تبدیل کیا یا خود کو لاک کر لیا؟'
+    reset: 'ٹیسٹ اکاؤنٹس کو ری سیٹ کریں'
+    result:
+      active: 'ڈیمو میل باکس کا کوڈ طلب کرتا ہے، پھر لاگ ان ہوتا ہے'
+      locked: 'انکار، اکاؤنٹ لاک ہو چکا ہے'
+      inactive: 'انکار، اکاؤنٹ فعال نہیں ہے'
+  magic_link:
+    title: 'جادوئی لنک'
+    intro: 'ڈیمو کوئی ای میل نہیں بھیجتا۔ لنک ڈیمو میل باکس میں آتا ہے، جو صرف آپ کے لیے نظر آتا ہے۔'
+  signup:
+    title: 'سائن اپ سرنگ'
+    intro: 'symfony-user کے ای میل اور لاگ ان مراحل، ایک سرنگ میں۔ ایک اکاؤنٹ کے ساتھ ایڈریس سائن ان کرنے کی درخواست کرتا ہے؛ کوئی اور اکاؤنٹ بناتا ہے، جو فعال نہیں ہوتا۔'
+    open: 'سرنگ میں جائیں'
+  forgot:
+    title: 'پاس ورڈ بھول گئے'
+    intro: 'ری سیٹ لنک بھی ڈیمو میل باکس میں آتا ہے۔'
+  action:
+    forgot: 'کیا آپ کا پاس ورڈ بھول گیا؟'
+    mailbox: 'ڈیمو میل باکس کھولیں'
+    account: اکاؤنٹ
+    logout: 'لاگ آؤٹ'
+  login:
+    title: 'لاگ ان کریں'
+
+vi:
+  page_title: 'Người dùng'
+  page_icon: 'ph:bold/user'
+  intro: 'Biểu mẫu đăng nhập của symfony-user, gửi qua ajax. Đăng nhập bằng một trong các tài khoản thử nghiệm bên dưới, qua email hoặc tên người dùng. Trên một thiết bị chưa được tin cậy, một mã sẽ theo sau mật khẩu, được gửi đến hộp thư demo.'
+  signed_in: 'Đăng nhập với tư cách %name%.'
+  accounts:
+    title: 'Tài khoản thử nghiệm'
+    email: Email
+    username: 'Tên người dùng'
+    password: 'Mật khẩu'
+    expected: 'Kết quả'
+    missing: 'Các tài khoản thử nghiệm chưa tồn tại.'
+    create: 'Tạo chúng'
+    reset_intro: 'Một khách truy cập đã thay đổi mật khẩu hoặc bị khóa tài khoản?'
+    reset: 'Đặt lại các tài khoản thử nghiệm'
+    result:
+      active: 'Yêu cầu mã từ hộp thư demo, sau đó đăng nhập'
+      locked: 'Từ chối, tài khoản đã bị khóa'
+      inactive: 'Từ chối, tài khoản chưa được kích hoạt'
+  magic_link:
+    title: 'Liên kết ma thuật'
+    intro: 'Demo không gửi email. Liên kết sẽ đến hộp thư demo, chỉ bạn mới thấy được.'
+  signup:
+    title: 'Kênh đăng ký'
+    intro: 'Các bước email và đăng nhập của symfony-user, trong một kênh. Một địa chỉ có tài khoản yêu cầu đăng nhập; bất kỳ địa chỉ nào khác sẽ tạo một tài khoản, nhưng chưa được kích hoạt.'
+    open: 'Đi qua kênh'
+  forgot:
+    title: 'Quên mật khẩu'
+    intro: 'Liên kết đặt lại cũng đến hộp thư demo.'
+  action:
+    forgot: 'Quên mật khẩu?'
+    mailbox: 'Mở hộp thư demo'
+    account: 'Tài khoản'
+    logout: 'Đăng xuất'
+  login:
+    title: 'Đăng nhập'
+
+zh:
+  page_title: 用户
+  page_icon: 'ph:bold/user'
+  intro: 'symfony-user 的登录表单，通过 ajax 提交。使用下面的测试账户之一，通过电子邮件或用户名登录。在尚未信任的设备上，密码后会跟随一个代码，发送到演示邮箱。'
+  signed_in: '以 %name% 身份登录。'
+  accounts:
+    title: 测试账户
+    email: 电子邮件
+    username: 用户名
+    password: 密码
+    expected: 结果
+    missing: 测试账户尚不存在。
+    create: 创建它们
+    reset_intro: 访客更改了密码或锁定了自己？
+    reset: 重置测试账户
+    result:
+      active: 请求演示邮箱的代码，然后登录
+      locked: 拒绝，账户已锁定
+      inactive: 拒绝，账户未激活
+  magic_link:
+    title: 魔法链接
+    intro: 演示不发送电子邮件。链接进入演示邮箱，仅对你可见。
+  signup:
+    title: 注册隧道
+    intro: 'symfony-user 的电子邮件和登录步骤，位于隧道中。带有账户的地址请求登录；其他任何地址则创建一个未激活的账户。'
+    open: 走过隧道
+  forgot:
+    title: 忘记密码
+    intro: 重置链接也进入演示邮箱。
+  action:
+    forgot: 忘记密码？
+    mailbox: 打开演示邮箱
+    account: 账户
+    logout: 登出
+  login:
+    title: 登录

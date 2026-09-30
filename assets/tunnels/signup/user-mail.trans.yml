@@ -1,0 +1,114 @@
+en:
+  page_title: Sign up
+  title: Your email
+  lead: An address with an account signs in next; any other one gets a new account, not activated. Try demo@example.com, or an address of your own.
+
+ar:
+  page_title: التسجيل
+  title: 'بريدك الإلكتروني'
+  lead: 'عنوان مرتبط بحساب يقوم بتسجيل الدخول بعد ذلك؛ أي عنوان آخر يحصل على حساب جديد، غير مفعل. جرب demo@example.com، أو عنوان خاص بك.'
+
+bn:
+  page_title: 'নিবন্ধন করুন'
+  title: 'আপনার ইমেইল'
+  lead: 'একটি অ্যাকাউন্টের সাথে একটি ঠিকানা সাইন ইন করে; অন্য কোনো ঠিকানা নতুন অ্যাকাউন্ট তৈরি করে, যা সক্রিয় হয়নি। demo@example.com ব্যবহার করে দেখুন, বা আপনার নিজস্ব কোনো ঠিকানা ব্যবহার করুন।'
+
+de:
+  page_title: Registrieren
+  title: 'Ihre E-Mail'
+  lead: 'Eine Adresse mit einem Konto meldet sich an; jede andere erhält ein neues Konto, das nicht aktiviert ist. Versuchen Sie demo@example.com oder eine eigene Adresse.'
+
+es:
+  page_title: Regístrate
+  title: 'Tu correo electrónico'
+  lead: 'Una dirección con una cuenta inicia sesión a continuación; cualquier otra obtiene una nueva cuenta, no activada. Prueba demo@example.com, o una dirección propia.'
+
+fa:
+  page_title: 'ثبت نام'
+  title: 'ایمیل شما'
+  lead: 'یک آدرس با یک حساب کاربری وارد می‌شود؛ هر آدرس دیگری یک حساب جدید ایجاد می‌کند که فعال نشده است. لطفاً demo@example.com یا آدرسی از خودتان را امتحان کنید.'
+
+fi:
+  page_title: Rekisteröidy
+  title: Sähköpostisi
+  lead: 'Osoite, jolla on tili, kirjautuu sisään; mikä tahansa muu osoite saa uuden tilin, joka ei ole aktivoitu. Kokeile demo@example.com-osoitetta tai omaa osoitettasi.'
+
+fr:
+  page_title: Inscription
+  title: 'Votre email'
+  lead: 'Une adresse avec un compte se connecte ensuite ; toute autre adresse obtient un nouveau compte, non activé. Essayez demo@example.com ou une adresse de votre choix.'
+
+he:
+  page_title: הרשמה
+  title: 'המייל שלך'
+  lead: 'כתובת עם חשבון מתחברת מיד; כל כתובת אחרת יוצרת חשבון חדש, שאינו פעיל. נסה demo@example.com, או כתובת משלך.'
+
+hi:
+  page_title: 'साइन अप करें'
+  title: 'आपका ईमेल'
+  lead: 'एक खाता वाले पते से साइन इन करें; कोई अन्य नया खाता बनाता है, सक्रिय नहीं है। demo@example.com आजमाएं, या अपना कोई पता।'
+
+id:
+  page_title: Daftar
+  title: 'Email Anda'
+  lead: 'Alamat dengan akun akan masuk berikutnya; alamat lainnya akan mendapatkan akun baru, belum diaktifkan. Coba demo@example.com, atau alamat Anda sendiri.'
+
+it:
+  page_title: Registrati
+  title: 'La tua email'
+  lead: 'Un indirizzo con un account accede successivamente; qualsiasi altro riceve un nuovo account, non attivato. Prova demo@example.com, o un tuo indirizzo.'
+
+ja:
+  page_title: サインアップ
+  title: あなたのメールアドレス
+  lead: アカウントのあるアドレスでサインインできます。それ以外の場合は新しいアカウントが作成されますが、まだアクティベートされていません。demo@example.comやご自身のアドレスをお試しください。
+
+ko:
+  page_title: 회원가입
+  title: '이메일 주소'
+  lead: '계정이 있는 주소는 다음에 로그인합니다; 그 외의 주소는 새 계정을 생성하지만 활성화되지 않습니다. demo@example.com 또는 본인의 주소를 사용해 보세요.'
+
+nl:
+  page_title: Aanmelden
+  title: 'Je e-mailadres'
+  lead: 'Een adres met een account logt in; elk ander adres krijgt een nieuw account, niet geactiveerd. Probeer demo@example.com, of een adres van jezelf.'
+
+pl:
+  page_title: 'Zarejestruj się'
+  title: 'Twój adres e-mail'
+  lead: 'Adres z kontem loguje się, inny zakłada nowe konto, które nie jest aktywowane. Spróbuj demo@example.com lub użyj własnego adresu.'
+
+pt_BR:
+  page_title: Inscreva-se
+  title: 'Seu e-mail'
+  lead: 'Um endereço com uma conta faz login a seguir; qualquer outro cria uma nova conta, não ativada. Tente demo@example.com ou um endereço seu.'
+
+ru:
+  page_title: Зарегистрироваться
+  title: 'Ваш email'
+  lead: 'Адрес с учетной записью войдет в систему; любой другой получит новую учетную запись, не активированную. Попробуйте demo@example.com или используйте свой собственный адрес.'
+
+th:
+  page_title: ลงทะเบียน
+  title: อีเมลของคุณ
+  lead: 'ที่อยู่ที่มีบัญชีจะเข้าสู่ระบบ; ที่อยู่อื่นจะได้รับบัญชีใหม่ที่ยังไม่ได้เปิดใช้งาน ลองที่ demo@example.com หรือที่อยู่ของคุณเอง.'
+
+tr:
+  page_title: 'Kayıt Ol'
+  title: 'E-posta adresiniz'
+  lead: "Bir hesapla ilişkili bir adres oturum açar; diğerleri yeni bir hesap oluşturur, aktif değildir. demo@example.com'u deneyin veya kendi adresinizi kullanın."
+
+ur:
+  page_title: 'سائن اپ کریں'
+  title: 'آپ کا ای میل'
+  lead: 'ایک اکاؤنٹ کے ساتھ ایڈریس سائن ان ہوتا ہے؛ کوئی اور ایڈریس نیا اکاؤنٹ بناتا ہے، جو فعال نہیں ہوتا۔ demo@example.com آزما کر دیکھیں، یا اپنی مرضی کا ایڈریس استعمال کریں۔'
+
+vi:
+  page_title: 'Đăng ký'
+  title: 'Email của bạn'
+  lead: 'Một địa chỉ đã có tài khoản sẽ đăng nhập ngay; bất kỳ địa chỉ nào khác sẽ tạo một tài khoản mới, chưa được kích hoạt. Hãy thử demo@example.com, hoặc một địa chỉ của riêng bạn.'
+
+zh:
+  page_title: 注册
+  title: 您的电子邮件
+  lead: '一个有账户的地址可以直接登录；其他地址将创建一个未激活的新账户。请尝试 demo@example.com，或使用您自己的地址。'
