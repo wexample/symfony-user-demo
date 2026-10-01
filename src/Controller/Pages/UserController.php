@@ -15,6 +15,7 @@ use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyUser\Entity\AbstractUser;
 use Wexample\SymfonyUser\Service\FormProcessor\ChangePasswordFormProcessor;
+use Wexample\SymfonyUser\Repository\TermsAcceptanceRepository;
 use Wexample\SymfonyUser\Service\TrustedDeviceService;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\MagicLinkRequestFormProcessor;
@@ -106,10 +107,25 @@ final class UserController extends AbstractPagesController
 
     #[Route(name: 'account', path: 'account')]
     #[IsGranted(RoleHelper::ROLE_USER)]
-    public function account(ChangePasswordFormProcessor $changePasswordFormProcessor): Response
-    {
+    public function account(
+        ChangePasswordFormProcessor $changePasswordFormProcessor,
+        TermsAcceptanceRepository $termsAcceptanceRepository
+    ): Response {
+        $user = $this->getUser();
+
         return $this->renderPage('account', [
             'change_password_form' => $changePasswordFormProcessor->createForm()->createView(),
+            'terms_history' => $user instanceof AbstractUser ? $termsAcceptanceRepository->findHistory($user) : [],
         ]);
+    }
+
+    /**
+     * The text of the demo terms, the `terms.text_route` of the design-system
+     * app: readable while the terms gate holds a visitor.
+     */
+    #[Route(name: 'terms_text', path: 'terms')]
+    public function termsText(): Response
+    {
+        return $this->renderPage('terms');
     }
 }

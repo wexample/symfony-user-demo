@@ -1,0 +1,5 @@
+en:
+  page_title: Demo terms of use
+  page_icon: ph:bold/file-text
+  intro: The terms an application declares in `wexample_symfony_user.terms`. Every signed-in user accepts their version before reaching anything else.
+  body: This demo keeps nothing about you but the accounts and links you create on it, which resetting the demo accounts removes.

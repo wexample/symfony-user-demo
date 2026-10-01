@@ -18,6 +18,22 @@
         ], { columns: true }) }}
     </section>
 
+    {%- if terms_history -%}
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/file-text') }}</span>
+            <span class="block--title-label">{{ '@page::terms.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {{ properties(terms_history | map(acceptance => {
+                key: acceptance.version,
+                value: date_display(acceptance.acceptedAt, 'date_time_short'),
+                html: true,
+            })) }}
+        </div>
+    </section>
+    {%- endif -%}
+
     <section class="block block--card">
         <div class="block--title">
             <span class="block--title-leading">{{ icon('ph:bold/device-mobile') }}</span>

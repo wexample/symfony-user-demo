@@ -7,6 +7,8 @@ en:
     "on": Set up. Its code replaces the email code at sign-in.
     "off": Not set up. The sign-in code comes by email.
     open: Manage the app
+  terms:
+    title: Terms of use accepted
   devices:
     title: Trusted devices
     intro: The devices trusted after their code sign in without one.
