@@ -21,7 +21,6 @@ use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\MagicLinkRequestFormProcessor;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Service\DemoAccountsService;
-use Wexample\SymfonyUserDemo\Service\SessionSecurityMessageSenderService;
 use Wexample\SymfonyUserDemo\Traits\SymfonyUserDemoBundleClassTrait;
 
 #[Route(path: 'user/', name: 'user_')]
@@ -59,21 +58,19 @@ final class UserController extends AbstractPagesController
     }
 
     /**
-     * Where the demo delivers its links and codes, in place of a real inbox.
+     * The demo has no phone at hand: it shows the code the authenticator app
+     * of the account would, whether signed in or waiting for the code. Links
+     * and codes sent by mail land in the development mailbox (symfony-mail-ds).
      */
-    #[Route(name: 'mailbox', path: 'mailbox')]
-    public function mailbox(
-        SessionSecurityMessageSenderService $sender,
+    #[Route(name: 'authenticator', path: 'authenticator')]
+    public function authenticator(
         TokenStorageInterface $tokenStorage,
         #[Autowire(service: 'scheb_two_factor.security.totp_factory')]
         TotpFactory $totpFactory
     ): Response {
-        // The demo has no phone at hand: it shows the code the authenticator
-        // app of the account would, whether signed in or waiting for the code.
         $user = $tokenStorage->getToken()?->getUser();
 
-        return $this->renderPage('mailbox', [
-            'mail' => $sender->getLastMail(),
+        return $this->renderPage('authenticator', [
             'totp_code' => $user instanceof AbstractUser && $user->isTotpAuthenticationEnabled()
                 ? $totpFactory->createTotpForUser($user)->now()
                 : null,
@@ -126,6 +123,6 @@ final class UserController extends AbstractPagesController
     #[Route(name: 'terms_text', path: 'terms')]
     public function termsText(): Response
     {
-        return $this->renderPage('terms');
+        return $this->renderPage('terms_text');
     }
 }

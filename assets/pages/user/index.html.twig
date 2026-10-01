@@ -47,8 +47,8 @@
             </div>
         </section>
 
-        {#- The two ways in without the password, side by side: both land in
-            the demo mailbox rather than in an inbox. -#}
+        {#- The two ways in without the password, side by side: both send a
+            real mail, which lands in the development mailbox of symfony-mail. -#}
         <div class="grid grid--2">
             <section class="block block--card">
                 <div class="block--title">
@@ -71,7 +71,11 @@
                 </div>
                 <div class="block--footer">
                     {{ button_link('ph:bold/key', '@page::action.forgot' | trans, path('user_password_forgot')) }}
-                    {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('user_mailbox'), { class: 'button--flat' }) }}
+                    {#- The mailbox is routed in dev and test only. -#}
+                    {%- if app.environment in ['dev', 'test'] -%}
+                        {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('mailbox_index'), { class: 'button--flat' }) }}
+                    {%- endif -%}
+                    {{ button_link('ph:bold/device-mobile', '@page::action.authenticator' | trans, path('user_authenticator'), { class: 'button--flat' }) }}
                 </div>
             </section>
         </div>

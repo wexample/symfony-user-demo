@@ -1,0 +1,208 @@
+en:
+  page_title: Authenticator app
+  page_icon: ph:bold/device-mobile
+  intro: What the app set up on this account shows right now. It changes every 30 seconds.
+  empty: 'No authenticator app is set up on the account at hand. Set one up from the account page, then sign in again: the second step asks for the code shown here.'
+  field:
+    code: 'Code:'
+  action:
+    back: Back to the login forms
+
+ar:
+  page_title: تطبيق المصادقة
+  page_icon: ph:bold/device-mobile
+  intro: ما يظهره التطبيق على هذا الحساب الآن. يتغير كل 30 ثانية.
+  field:
+    code: 'الكود:'
+  action:
+    back: ارجع إلى نماذج تسجيل الدخول
+
+bn:
+  page_title: অথেনটিকেটর অ্যাপ
+  page_icon: ph:bold/device-mobile
+  intro: এই অ্যাকাউন্টে অ্যাপের সেটআপ বর্তমানে কী দেখাচ্ছে। এটি প্রতি 30 সেকেন্ডে পরিবর্তিত হয়।
+  field:
+    code: 'কোড:'
+  action:
+    back: লগইন ফর্মে ফিরে যান
+
+de:
+  page_title: Authentifizierungs-App
+  page_icon: ph:bold/device-mobile
+  intro: Was die App für dieses Konto gerade anzeigt. Es ändert sich alle 30 Sekunden.
+  field:
+    code: 'Code:'
+  action:
+    back: Zurück zu den Anmeldeformularen
+
+es:
+  page_title: Aplicación de autenticador
+  page_icon: ph:bold/device-mobile
+  intro: Lo que la aplicación configurada en esta cuenta muestra en este momento. Cambia cada 30 segundos.
+  field:
+    code: 'Código:'
+  action:
+    back: Volver a los formularios de inicio de sesión
+
+fa:
+  page_title: برنامه احراز هویت
+  page_icon: ph:bold/device-mobile
+  intro: آنچه که برنامه در این حساب نشان می‌دهد. هر 30 ثانیه تغییر می‌کند.
+  field:
+    code: 'کد:'
+  action:
+    back: بازگشت به فرم‌های ورود
+
+fi:
+  page_title: Todennusapp
+  page_icon: ph:bold/device-mobile
+  intro: Mitä sovellus näyttää tällä tilillä juuri nyt. Se vaihtuu 30 sekunnin välein.
+  field:
+    code: 'Koodi:'
+  action:
+    back: Takaisin kirjautumislomakkeisiin
+
+fr:
+  page_title: Application d'authentification
+  page_icon: ph:bold/device-mobile
+  intro: Ce que l'application configurée sur ce compte montre actuellement. Il change toutes les 30 secondes.
+  empty: 'Aucune application d''authentification n''est configurée sur ce compte. Configurez-en une depuis la page du compte, puis reconnectez-vous : la seconde étape demande le code affiché ici.'
+  field:
+    code: 'Code :'
+  action:
+    back: Retour aux formulaires de connexion
+
+he:
+  page_title: אפליקציית Authenticator
+  page_icon: ph:bold/device-mobile
+  intro: מה שהאפליקציה שהוגדרה על חשבון זה מראה כרגע. זה משתנה כל 30 שניות.
+  field:
+    code: 'קוד:'
+  action:
+    back: חזרה לטפסי הכניסה
+
+hi:
+  page_title: ऑथेंटिकेटर ऐप
+  page_icon: ph:bold/device-mobile
+  intro: जो ऐप इस खाते पर सेटअप किया गया है, वह अभी क्या दिखा रहा है। यह हर 30 सेकंड में बदलता है।
+  field:
+    code: 'कोड:'
+  action:
+    back: लॉगिन फॉर्म पर वापस
+
+id:
+  page_title: Aplikasi autentikator
+  page_icon: ph:bold/device-mobile
+  intro: Apa yang ditampilkan aplikasi yang diatur pada akun ini saat ini. Ini berubah setiap 30 detik.
+  field:
+    code: 'Kode:'
+  action:
+    back: Kembali ke formulir masuk
+
+it:
+  page_title: App Authenticator
+  page_icon: ph:bold/device-mobile
+  intro: Cosa mostra l'app impostata su questo account in questo momento. Cambia ogni 30 secondi.
+  field:
+    code: 'Codice:'
+  action:
+    back: Torna ai moduli di accesso
+
+ja:
+  page_title: 認証アプリ
+  page_icon: ph:bold/device-mobile
+  intro: このアカウントに設定されたアプリが現在表示している内容です。30秒ごとに変わります。
+  field:
+    code: コード：
+  action:
+    back: ログインフォームに戻る
+
+ko:
+  page_title: 인증 앱
+  page_icon: ph:bold/device-mobile
+  intro: 이 계정에서 앱이 현재 보여주는 내용입니다. 30초마다 변경됩니다.
+  field:
+    code: '코드:'
+  action:
+    back: 로그인 양식으로 돌아가기
+
+nl:
+  page_title: Authenticator-app
+  page_icon: ph:bold/device-mobile
+  intro: Wat de app op dit account momenteel weergeeft. Het verandert elke 30 seconden.
+  field:
+    code: 'Code:'
+  action:
+    back: Terug naar de inlogformulieren
+
+pl:
+  page_title: Aplikacja uwierzytelniająca
+  page_icon: ph:bold/device-mobile
+  intro: To, co aplikacja skonfigurowana na tym koncie pokazuje w tej chwili. Zmienia się co 30 sekund.
+  field:
+    code: 'Kod:'
+  action:
+    back: Powrót do formularzy logowania
+
+pt_BR:
+  page_title: Aplicativo autenticador
+  page_icon: ph:bold/device-mobile
+  intro: O que o aplicativo configurado nesta conta mostra agora. Muda a cada 30 segundos.
+  field:
+    code: 'Código:'
+  action:
+    back: Voltar para os formulários de login
+
+ru:
+  page_title: Приложение аутентификатора
+  page_icon: ph:bold/device-mobile
+  intro: То, что приложение показывает в данный момент для этой учетной записи. Меняется каждые 30 секунд.
+  field:
+    code: 'Код:'
+  action:
+    back: Назад к формам входа
+
+th:
+  page_title: แอปตรวจสอบตัวตน
+  page_icon: ph:bold/device-mobile
+  intro: สิ่งที่แอปตั้งค่าในบัญชีนี้แสดงอยู่ตอนนี้ เปลี่ยนทุก 30 วินาที
+  field:
+    code: 'รหัส:'
+  action:
+    back: กลับไปที่แบบฟอร์มเข้าสู่ระบบ
+
+tr:
+  page_title: Kimlik doğrulayıcı uygulama
+  page_icon: ph:bold/device-mobile
+  intro: Bu hesapta uygulamanın şu anda gösterdiği şey. Her 30 saniyede bir değişir.
+  field:
+    code: 'Kod:'
+  action:
+    back: Giriş formlarına geri dön
+
+ur:
+  page_title: توثیق کرنے والا ایپ
+  page_icon: ph:bold/device-mobile
+  intro: اس اکاؤنٹ پر ایپ نے جو سیٹ کیا ہے، وہ ابھی کیا دکھاتا ہے۔ یہ ہر 30 سیکنڈ میں تبدیل ہوتا ہے۔
+  field:
+    code: 'کوڈ:'
+  action:
+    back: لاگ ان کے فارم میں واپس
+
+vi:
+  page_title: Ứng dụng xác thực
+  page_icon: ph:bold/device-mobile
+  intro: Những gì ứng dụng thiết lập trên tài khoản này đang hiển thị ngay bây giờ. Nó thay đổi mỗi 30 giây.
+  field:
+    code: 'Mã:'
+  action:
+    back: Quay lại các mẫu đăng nhập
+
+zh:
+  page_title: 身份验证器应用
+  page_icon: ph:bold/device-mobile
+  intro: 该应用在此账户上当前显示的内容。每30秒更换一次。
+  field:
+    code: 代码：
+  action:
+    back: 返回登录表单

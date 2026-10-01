@@ -1,7 +1,7 @@
 en:
   page_title: User
   page_icon: ph:bold/user
-  intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, delivered to the demo mailbox.
+  intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, sent by email.
   signed_in: Signed in as %name%.
   accounts:
     title: Test accounts
@@ -14,22 +14,23 @@ en:
     reset_intro: A visitor changed a password or locked themselves out?
     reset: Reset the test accounts
     result:
-      active: Asks the code of the demo mailbox, then signs in
+      active: Asks the code sent by email, then signs in
       locked: Refused, the account is locked
       inactive: Refused, the account is not activated
   magic_link:
     title: Magic link
-    intro: The demo sends no email. The link lands in the demo mailbox, visible to you only.
+    intro: The link is sent by email. In development, it lands in the mailbox instead of leaving the machine.
   signup:
     title: Sign-up tunnel
     intro: The email and login steps of symfony-user, in a tunnel. An address with an account asks to sign in; any other one creates an account, not activated.
     open: Walk the tunnel
   forgot:
     title: Forgotten password
-    intro: The reset link lands in the demo mailbox too.
+    intro: The reset link is sent by email too.
   action:
     forgot: Forgot your password?
-    mailbox: Open the demo mailbox
+    mailbox: Open the mailbox
+    authenticator: Authenticator app code
     account: Account
     logout: Sign out
   login:
@@ -260,7 +261,7 @@ fi:
 fr:
   page_title: Utilisateur
   page_icon: 'ph:bold/user'
-  intro: "Le formulaire de connexion de symfony-user, soumis par ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par e-mail ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, livré à la boîte aux lettres de démonstration."
+  intro: "Le formulaire de connexion de symfony-user, soumis par ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par e-mail ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par e-mail."
   signed_in: 'Connecté en tant que %name%.'
   accounts:
     title: 'Comptes de test'
@@ -273,22 +274,23 @@ fr:
     reset_intro: "Un visiteur a changé un mot de passe ou s'est verrouillé dehors ?"
     reset: 'Réinitialiser les comptes de test'
     result:
-      active: 'Demande le code de la boîte aux lettres de démonstration, puis se connecte'
+      active: 'Demande le code envoyé par e-mail, puis se connecte'
       locked: 'Refusé, le compte est verrouillé'
       inactive: "Refusé, le compte n'est pas activé"
   magic_link:
     title: 'Lien magique'
-    intro: "La démo n'envoie pas d'e-mail. Le lien atterrit dans la boîte aux lettres de démonstration, visible uniquement par vous."
+    intro: "Le lien est envoyé par e-mail. En développement, il arrive dans la boîte mail au lieu de quitter la machine."
   signup:
     title: "Tunnel d'inscription"
     intro: "Les étapes d'e-mail et de connexion de symfony-user, dans un tunnel. Une adresse avec un compte demande à se connecter ; toute autre crée un compte, non activé."
     open: 'Parcourir le tunnel'
   forgot:
     title: 'Mot de passe oublié'
-    intro: 'Le lien de réinitialisation atterrit également dans la boîte aux lettres de démonstration.'
+    intro: 'Le lien de réinitialisation est lui aussi envoyé par e-mail.'
   action:
     forgot: 'Mot de passe oublié ?'
-    mailbox: 'Ouvrir la boîte aux lettres de démonstration'
+    mailbox: 'Ouvrir la boîte mail'
+    authenticator: "Code de l'application d'authentification"
     account: Compte
     logout: 'Se déconnecter'
   login:

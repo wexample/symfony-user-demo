@@ -1,0 +1,21 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {%- if totp_code -%}
+        <section class="block block--card">
+            <div class="block--body">
+                <p class="lead">{{ '@page::field.code' | trans }} <code>{{ totp_code }}</code></p>
+            </div>
+        </section>
+    {%- else -%}
+        <div class="block block--padded empty">{{ '@page::empty' | trans }}</div>
+    {%- endif -%}
+
+    <div class="cluster">
+        {{ button_link('ph:bold/arrow-left', '@page::action.back' | trans, path('user_index'), { class: 'button--flat' }) }}
+    </div>
+{%- endblock -%}
