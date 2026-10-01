@@ -2,7 +2,6 @@
 
 namespace Wexample\SymfonyUserDemo\Controller\Pages;
 
-use Doctrine\ORM\EntityManagerInterface;
 use Scheb\TwoFactorBundle\Security\TwoFactor\Provider\Totp\TotpFactory;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\HttpFoundation\RedirectResponse;
@@ -16,6 +15,7 @@ use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyUser\Entity\AbstractUser;
 use Wexample\SymfonyUser\Service\FormProcessor\ChangePasswordFormProcessor;
+use Wexample\SymfonyUser\Service\TrustedDeviceService;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\MagicLinkRequestFormProcessor;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
@@ -93,13 +93,12 @@ final class UserController extends AbstractPagesController
 
     #[Route(name: 'revoke_devices', path: 'account/revoke-devices', methods: [Request::METHOD_POST])]
     #[IsGranted(RoleHelper::ROLE_USER)]
-    public function revokeDevices(EntityManagerInterface $entityManager): RedirectResponse
+    public function revokeDevices(TrustedDeviceService $trustedDevices): RedirectResponse
     {
         $user = $this->getUser();
 
         if ($user instanceof AbstractUser) {
-            $user->revokeTrustedDevices();
-            $entityManager->flush();
+            $trustedDevices->revokeAll($user);
         }
 
         return $this->redirectToRoute('user_account');
