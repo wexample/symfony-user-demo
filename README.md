@@ -1,6 +1,6 @@
 # symfony-user-demo
 
-Version: 5.0.0
+Version: 5.0.1
 
 User accounts showcase pages for Symfony
 
@@ -27,8 +27,8 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 
 - php: >=8.5
 - wexample/symfony-helpers: >=12.0.0
-- wexample/symfony-loader: >=16.0.0
-- wexample/symfony-design-system: >=25.0.0
+- wexample/symfony-loader: >=17.0.0
+- wexample/symfony-design-system: >=26.0.0
 - wexample/symfony-design-system-demo: >=7.0.0
 - wexample/symfony-routing: >=2.0.0
 - wexample/symfony-user: >=8.0.0
