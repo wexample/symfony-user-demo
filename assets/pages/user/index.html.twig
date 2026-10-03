@@ -43,7 +43,7 @@
         <h2>{{ '@page::login.title' | trans }}</h2>
         <section class="block block--card">
             <div class="block--body">
-                {{ form_load(render_pass, login_form, '@WexampleSymfonyUserBundle/forms/login_form.html.twig') }}
+                {{ form_load(render_pass, login_form, '@WexampleSymfonyUserDsBundle/forms/login_form.html.twig') }}
             </div>
         </section>
 
@@ -57,7 +57,7 @@
                 </div>
                 <div class="block--body stack--vertical">
                     <p class="text-secondary">{{ '@page::magic_link.intro' | trans }}</p>
-                    {{ form_load(render_pass, magic_link_request_form, '@WexampleSymfonyUserBundle/forms/magic_link_request_form.html.twig') }}
+                    {{ form_load(render_pass, magic_link_request_form, '@WexampleSymfonyUserDsBundle/forms/magic_link_request_form.html.twig') }}
                 </div>
             </section>
 
