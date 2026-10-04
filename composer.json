@@ -22,8 +22,8 @@
     "wexample/symfony-design-system": ">=26.0.0",
     "wexample/symfony-design-system-demo": ">=7.0.0",
     "wexample/symfony-routing": ">=2.0.0",
-    "wexample/symfony-user": ">=8.0.0",
-    "wexample/symfony-user-ds": ">=1.0.0",
+    "wexample/symfony-user": ">=9.0.0",
+    "wexample/symfony-user-ds": ">=2.0.0",
     "wexample/symfony-mail-ds": ">=2.0.0"
   },
   "repositories": [
