@@ -1,0 +1,41 @@
+{%- extends '@WexampleSymfonyDesignSystemDemoBundle/layouts/design_system/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{#- The demo teams: what the signed-in account holds in each, and the members
+    page of symfony-user-ds where it may open it — a member reads it, an
+    administrator changes it. -#}
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans }}</p>
+
+    {%- set rows = [] -%}
+    {%- for row in teams -%}
+        {%- set grants_cell -%}
+            {%- for grant in row.grants -%}{{ marker('neutral', grant | capitalize, { compact: true }) }} {% endfor -%}
+            {%- if not row.grants -%}<span class="text-secondary">—</span>{%- endif -%}
+        {%- endset -%}
+        {%- set members_cell -%}
+            {%- set url = memberships_url(row.team) -%}
+            {%- if url -%}
+                {{ button_link('ph:bold/users-three', '@page::members' | trans({ '%count%': row.count }), url, { class: 'button--flat' }) }}
+            {%- else -%}
+                <span class="text-secondary">{{ '@page::closed' | trans }}</span>
+            {%- endif -%}
+        {%- endset -%}
+        {%- set rows = rows | merge([{ team: row.team.name, grants: grants_cell, members: members_cell }]) -%}
+    {%- endfor -%}
+
+    <section class="block block--card">
+        <div class="block--body">
+            {%- if rows -%}
+                {{ data_table([
+                    { key: 'team', label: '@page::column.team' | trans },
+                    { key: 'grants', label: '@page::column.grants' | trans, cell: 'html' },
+                    { key: 'members', label: '', cell: 'html', class: 'table--cell--nowrap' },
+                ], rows) }}
+            {%- else -%}
+                <p>{{ '@page::empty' | trans }}</p>
+            {%- endif -%}
+        </div>
+    </section>
+{%- endblock -%}

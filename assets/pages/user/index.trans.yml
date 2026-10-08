@@ -34,6 +34,7 @@ en:
     authenticator: Authenticator app code
     account: Account
     profile: My account
+    teams: Teams
     accounts: Accounts
     logout: Sign out
   login:
@@ -297,6 +298,7 @@ fr:
     authenticator: "Code de l'application d'authentification"
     account: Compte
     profile: 'Mon compte'
+    teams: Équipes
     accounts: Comptes
     logout: 'Se déconnecter'
   login:

@@ -1,0 +1,21 @@
+en:
+  page_title: Teams
+  page_icon: ph:bold/users-three
+  intro: Groups of the application, with members and access that include one another — administrator, contributor, watcher, client. The demo account administers Rédaction and watches Studio; the admin account administers both through its platform role.
+  column:
+    team: Team
+    grants: Your access
+  members: Members (%count%)
+  closed: Not yours to see
+  empty: No team yet. Reset the test accounts to create them.
+
+fr:
+  page_title: Équipes
+  page_icon: ph:bold/users-three
+  intro: Des groupes de l'application, avec des membres et des accès qui s'incluent — administrateur, contributeur, observateur, client. Le compte demo administre Rédaction et observe Studio ; le compte admin administre les deux par son rôle de plateforme.
+  column:
+    team: Équipe
+    grants: Vos accès
+  members: Membres (%count%)
+  closed: Pas à vous de voir
+  empty: Aucune équipe pour l'instant. Réinitialisez les comptes de test pour les créer.

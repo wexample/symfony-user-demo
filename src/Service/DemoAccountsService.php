@@ -4,16 +4,25 @@ namespace Wexample\SymfonyUserDemo\Service;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
+use Wexample\SymfonyUserDemo\Entity\DemoTeam;
+use Wexample\SymfonyUserDemo\Entity\DemoTeamMembership;
 use Wexample\SymfonyUserDemo\Entity\DemoUser;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
 
 /**
- * Creates the demo accounts, or puts them back as DemoAccount describes them
- * once visitors have changed them: their credentials are public.
+ * Creates the demo accounts and their teams, or puts them back as DemoAccount
+ * describes them once visitors have changed them: their credentials are
+ * public.
  */
 class DemoAccountsService
 {
+    /** Each demo team, with the grants the demo account holds there. */
+    private const array TEAMS = [
+        'Rédaction' => ['administrator'],
+        'Studio' => ['watcher'],
+    ];
+
     public function __construct(
         private readonly EntityManagerInterface $entityManager,
         private readonly DemoUserRepository $demoUserRepository,
@@ -56,6 +65,29 @@ class DemoAccountsService
                 ->revokeTrustedDevices();
 
             $user->setPassword($this->passwordHasher->hashPassword($user, $account->getPassword()));
+        }
+
+        $this->entityManager->flush();
+
+        $this->resetTeams();
+    }
+
+    /**
+     * Two teams: demo administers the first and watches the second, which
+     * demo-admin reaches through its platform role only.
+     */
+    private function resetTeams(): void
+    {
+        $this->entityManager->createQuery('DELETE FROM ' . DemoTeamMembership::class)->execute();
+        $this->entityManager->createQuery('DELETE FROM ' . DemoTeam::class)->execute();
+        $this->entityManager->clear();
+
+        $demo = $this->demoUserRepository->findOneByUserIdentifier(DemoAccount::ACTIVE->getEmail());
+
+        foreach (self::TEAMS as $name => $grants) {
+            $team = new DemoTeam($name);
+            $this->entityManager->persist($team);
+            $this->entityManager->persist(new DemoTeamMembership($team, $demo, $grants));
         }
 
         $this->entityManager->flush();

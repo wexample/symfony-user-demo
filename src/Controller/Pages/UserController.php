@@ -2,6 +2,7 @@
 
 namespace Wexample\SymfonyUserDemo\Controller\Pages;
 
+use Doctrine\ORM\EntityManagerInterface;
 use Scheb\TwoFactorBundle\Security\TwoFactor\Provider\Totp\TotpFactory;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\HttpFoundation\RedirectResponse;
@@ -14,12 +15,15 @@ use Symfony\Component\Security\Http\Util\TargetPathTrait;
 use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyUser\Entity\AbstractUser;
+use Wexample\SymfonyUser\Interface\MemberInterface;
 use Wexample\SymfonyUser\Repository\TermsAcceptanceRepository;
 use Wexample\SymfonyUser\Service\AccountAdministrationService;
 use Wexample\SymfonyUser\Service\FormProcessor\ChangePasswordFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\MagicLinkRequestFormProcessor;
+use Wexample\SymfonyUser\Service\MembershipService;
 use Wexample\SymfonyUser\Service\TrustedDeviceService;
+use Wexample\SymfonyUserDemo\Entity\DemoTeam;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Service\DemoAccountsService;
 use Wexample\SymfonyUserDemo\Traits\SymfonyUserDemoBundleClassTrait;
@@ -120,6 +124,28 @@ final class UserController extends AbstractPagesController
             'may_administer' => $administration->canAdminister(),
             'change_password_form' => $changePasswordFormProcessor->createForm()->createView(),
             'terms_history' => $user instanceof AbstractUser ? $termsAcceptanceRepository->findHistory($user) : [],
+        ]);
+    }
+
+    /**
+     * The demo teams, with what the signed-in account holds in each and the
+     * members page of symfony-user-ds where it may open it.
+     */
+    #[Route(name: 'teams', path: 'teams')]
+    #[IsGranted(RoleHelper::ROLE_USER)]
+    public function teams(
+        EntityManagerInterface $entityManager,
+        MembershipService $membershipService
+    ): Response {
+        $user = $this->getUser();
+
+        return $this->renderPage('teams', [
+            'teams' => array_map(static fn (DemoTeam $team) => [
+                'team' => $team,
+                // The grants given, not every one they include.
+                'grants' => $user instanceof MemberInterface ? ($membershipService->getMembership($user, $team)?->getGrants() ?? []) : [],
+                'count' => count($team->getMemberships()),
+            ], $entityManager->getRepository(DemoTeam::class)->findBy([], ['name' => 'ASC'])),
         ]);
     }
 

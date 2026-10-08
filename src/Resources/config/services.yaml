@@ -5,7 +5,7 @@ services:
         public: false
 
     Wexample\SymfonyUserDemo\:
-        resource: '../../{Command,Repository,Service}'
+        resource: '../../{Command,Membership,Repository,Service}'
         exclude: '../../Service/**/Abstract*.php'
 
     Wexample\SymfonyUserDemo\Controller\:

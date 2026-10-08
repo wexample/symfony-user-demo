@@ -24,7 +24,8 @@
     "wexample/symfony-routing": ">=2.0.0",
     "wexample/symfony-user": ">=11.0.0",
     "wexample/symfony-user-ds": ">=4.0.0",
-    "wexample/symfony-mail-ds": ">=2.1.0"
+    "wexample/symfony-mail-ds": ">=2.1.0",
+    "wexample/symfony-search": ">=4.0.0"
   },
   "repositories": [
     {
