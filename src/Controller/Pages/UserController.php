@@ -12,6 +12,7 @@ use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
+use Wexample\SymfonyDesignSystem\Attribute\MenuItem;
 use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyUser\Entity\AbstractUser;
@@ -35,6 +36,12 @@ final class UserController extends AbstractPagesController
     use TargetPathTrait;
 
     private const string FIREWALL = 'main';
+
+    /**
+     * The menu entry the user pages stand under — and what other demos about
+     * a user, its notifications, join with #[MenuItem].
+     */
+    final public const string MENU_GROUP = 'user';
 
     /**
      * Public, like the credentials of the demo accounts it prints.
@@ -72,6 +79,7 @@ final class UserController extends AbstractPagesController
      * and codes sent by mail land in the development mailbox (symfony-mail-ds).
      */
     #[Route(name: 'authenticator', path: 'authenticator')]
+    #[MenuItem(self::MENU_GROUP, 1)]
     public function authenticator(
         TokenStorageInterface $tokenStorage,
         #[Autowire(service: 'scheb_two_factor.security.totp_factory')]
@@ -154,6 +162,7 @@ final class UserController extends AbstractPagesController
      * app: readable while the terms gate holds a visitor.
      */
     #[Route(name: 'terms_text', path: 'terms')]
+    #[MenuItem(self::MENU_GROUP, 2)]
     public function termsText(): Response
     {
         return $this->renderPage('terms_text');
