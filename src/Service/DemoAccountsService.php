@@ -19,7 +19,7 @@ class DemoAccountsService
 {
     /** Each demo team, with the grants the demo account holds there. */
     private const array TEAMS = [
-        'Rédaction' => ['administrator'],
+        'Editorial' => ['administrator'],
         'Studio' => ['watcher'],
     ];
 

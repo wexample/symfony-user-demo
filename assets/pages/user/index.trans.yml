@@ -298,7 +298,6 @@ fr:
     authenticator: "Code de l'application d'authentification"
     account: Compte
     profile: 'Mon compte'
-    teams: Équipes
     accounts: Comptes
     logout: 'Se déconnecter'
   login:
