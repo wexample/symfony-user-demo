@@ -17,6 +17,7 @@ en:
       active: Asks the code sent by email, then signs in
       locked: Refused, the account is locked
       inactive: Refused, the account is not activated
+      admin: Signs in, and administers the other accounts
   magic_link:
     title: Magic link
     intro: The link is sent by email. In development, it lands in the mailbox instead of leaving the machine.
@@ -32,6 +33,8 @@ en:
     mailbox: Open the mailbox
     authenticator: Authenticator app code
     account: Account
+    profile: My account
+    accounts: Accounts
     logout: Sign out
   login:
     title: Sign in
@@ -277,6 +280,7 @@ fr:
       active: 'Demande le code envoyé par e-mail, puis se connecte'
       locked: 'Refusé, le compte est verrouillé'
       inactive: "Refusé, le compte n'est pas activé"
+      admin: 'Se connecte, et administre les autres comptes'
   magic_link:
     title: 'Lien magique'
     intro: "Le lien est envoyé par e-mail. En développement, il arrive dans la boîte mail au lieu de quitter la machine."
@@ -292,6 +296,8 @@ fr:
     mailbox: 'Ouvrir la boîte mail'
     authenticator: "Code de l'application d'authentification"
     account: Compte
+    profile: 'Mon compte'
+    accounts: Comptes
     logout: 'Se déconnecter'
   login:
     title: 'Se connecter'

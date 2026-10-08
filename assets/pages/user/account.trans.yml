@@ -20,6 +20,10 @@ en:
     date_last_login: Last sign-in
     date_created: Created
   action:
+    profile: My account
+
+    accounts: Accounts
+
     logout: Sign out
 
 ar:
@@ -174,6 +178,8 @@ fr:
     date_last_login: 'Dernière connexion'
     date_created: Créé
   action:
+    profile: 'Mon compte'
+    accounts: Comptes
     logout: 'Se déconnecter'
 
 he:

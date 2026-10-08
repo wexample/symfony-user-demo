@@ -15,6 +15,7 @@ use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyUser\Entity\AbstractUser;
 use Wexample\SymfonyUser\Repository\TermsAcceptanceRepository;
+use Wexample\SymfonyUser\Service\AccountAdministrationService;
 use Wexample\SymfonyUser\Service\FormProcessor\ChangePasswordFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\MagicLinkRequestFormProcessor;
@@ -39,7 +40,8 @@ final class UserController extends AbstractPagesController
         Request $request,
         LoginFormProcessor $loginFormProcessor,
         MagicLinkRequestFormProcessor $magicLinkRequestFormProcessor,
-        DemoAccountsService $demoAccounts
+        DemoAccountsService $demoAccounts,
+        AccountAdministrationService $administration
     ): Response {
         // The page decides where a successful login lands, the way a tunnel
         // step embedding the form would.
@@ -54,6 +56,9 @@ final class UserController extends AbstractPagesController
             'magic_link_request_form' => $magicLinkRequestFormProcessor->createForm()->createView(),
             'accounts' => DemoAccount::cases(),
             'accounts_created' => $demoAccounts->exist(),
+            // The administration screens are symfony-user-ds's, and there
+            // only where the application declared administration.page_role.
+            'may_administer' => $administration->canAdminister(),
         ]);
     }
 
@@ -106,11 +111,13 @@ final class UserController extends AbstractPagesController
     #[IsGranted(RoleHelper::ROLE_USER)]
     public function account(
         ChangePasswordFormProcessor $changePasswordFormProcessor,
-        TermsAcceptanceRepository $termsAcceptanceRepository
+        TermsAcceptanceRepository $termsAcceptanceRepository,
+        AccountAdministrationService $administration
     ): Response {
         $user = $this->getUser();
 
         return $this->renderPage('account', [
+            'may_administer' => $administration->canAdminister(),
             'change_password_form' => $changePasswordFormProcessor->createForm()->createView(),
             'terms_history' => $user instanceof AbstractUser ? $termsAcceptanceRepository->findHistory($user) : [],
         ]);

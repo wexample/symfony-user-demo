@@ -47,7 +47,7 @@ class DemoAccountsService
             $user
                 ->setEmail($account->getEmail())
                 ->setUsername($account->getUsername())
-                ->setRoles([])
+                ->setRoles($account->getRoles())
                 ->setEnabled($account->isEnabled())
                 ->setLocked($account->isLocked())
                 ->setEmailTwoFactorEnabled(true)

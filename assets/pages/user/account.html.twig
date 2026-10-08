@@ -75,6 +75,12 @@
     </section>
 
     <div class="cluster">
+        {{ button_link('ph:bold/user', '@page::action.profile' | trans, path('user_profile_index'), { class: 'button--invert' }) }}
+        {#- Only where the application declared administration.page_role,
+            and only for an account holding it. -#}
+        {%- if may_administer -%}
+            {{ button_link('ph:bold/users', '@page::action.accounts' | trans, path('user_accounts_index'), { class: 'button--flat' }) }}
+        {%- endif -%}
         {{ button_link('ph:bold/sign-out', '@page::action.logout' | trans, path('user_security_logout'), { class: 'button--flat' }) }}
     </div>
 {%- endblock -%}
