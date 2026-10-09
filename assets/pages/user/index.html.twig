@@ -9,8 +9,7 @@
                 <p class="lead">{{ '@page::signed_in' | trans({'%name%': app.user.displayName}) }}</p>
             </div>
             <div class="block--footer">
-                {{ button_link('ph:bold/user-circle', '@page::action.account' | trans, path('user_account'), { class: 'button--invert' }) }}
-                {{ button_link('ph:bold/user', '@page::action.profile' | trans, path('user_profile_index'), { class: 'button--flat' }) }}
+                {{ button_link('ph:bold/user-circle', '@page::action.profile' | trans, path('user_profile_index'), { class: 'button--invert' }) }}
                 {{ button_link('ph:bold/users-three', '@page::action.teams' | trans, path('user_teams'), { class: 'button--flat' }) }}
                 {#- Only where the application declared administration.page_role,
                     and only for an account holding it. -#}

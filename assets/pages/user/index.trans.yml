@@ -32,7 +32,6 @@ en:
     forgot: Forgot your password?
     mailbox: Open the mailbox
     authenticator: Authenticator app code
-    account: Account
     profile: My account
     teams: Teams
     accounts: Accounts
@@ -72,7 +71,6 @@ ar:
   action:
     forgot: 'نسيت كلمة المرور؟'
     mailbox: 'فتح صندوق البريد التجريبي'
-    account: الحساب
     logout: 'تسجيل الخروج'
   login:
     title: 'تسجيل الدخول'
@@ -109,7 +107,6 @@ bn:
   action:
     forgot: 'আপনার পাসওয়ার্ড ভুলে গেছেন?'
     mailbox: 'ডেমো মেইলবক্স খুলুন'
-    account: অ্যাকাউন্ট
     logout: 'সাইন আউট'
   login:
     title: 'সাইন ইন করুন'
@@ -146,7 +143,6 @@ de:
   action:
     forgot: 'Passwort vergessen?'
     mailbox: 'Öffnen Sie das Demokonto'
-    account: Konto
     logout: Abmelden
   login:
     title: Anmelden
@@ -183,7 +179,6 @@ es:
   action:
     forgot: '¿Olvidaste tu contraseña?'
     mailbox: 'Abrir la bandeja de entrada de demostración'
-    account: Cuenta
     logout: 'Cerrar sesión'
   login:
     title: 'Iniciar sesión'
@@ -220,7 +215,6 @@ fa:
   action:
     forgot: 'رمز عبور خود را فراموش کرده‌اید؟'
     mailbox: 'صندوق پستی دمو را باز کنید'
-    account: حساب
     logout: خروج
   login:
     title: ورود
@@ -257,7 +251,6 @@ fi:
   action:
     forgot: 'Unohditko salasanasi?'
     mailbox: 'Avaa demo-postilaatikko'
-    account: Tili
     logout: 'Kirjaudu ulos'
   login:
     title: 'Kirjaudu sisään'
@@ -296,7 +289,6 @@ fr:
     forgot: 'Mot de passe oublié ?'
     mailbox: 'Ouvrir la boîte mail'
     authenticator: "Code de l'application d'authentification"
-    account: Compte
     profile: 'Mon compte'
     accounts: Comptes
     logout: 'Se déconnecter'
@@ -335,7 +327,6 @@ he:
   action:
     forgot: 'שכחת את הסיסמה שלך?'
     mailbox: 'פתח את תיבת הדואר הדמוקרטית'
-    account: חשבון
     logout: התנתק
   login:
     title: התחבר
@@ -372,7 +363,6 @@ hi:
   action:
     forgot: 'क्या आपने अपना पासवर्ड भूल गए?'
     mailbox: 'डेमो मेलबॉक्स खोलें'
-    account: खाता
     logout: 'साइन आउट करें'
   login:
     title: 'साइन इन करें'
@@ -409,7 +399,6 @@ id:
   action:
     forgot: 'Lupa kata sandi?'
     mailbox: 'Buka kotak surat demo'
-    account: Akun
     logout: Keluar
   login:
     title: Masuk
@@ -446,7 +435,6 @@ it:
   action:
     forgot: 'Hai dimenticato la password?'
     mailbox: 'Apri la casella di posta demo'
-    account: Account
     logout: Disconnetti
   login:
     title: Accedi
@@ -483,7 +471,6 @@ ja:
   action:
     forgot: パスワードを忘れましたか？
     mailbox: デモ用メールボックスを開く
-    account: アカウント
     logout: サインアウト
   login:
     title: サインイン
@@ -520,7 +507,6 @@ ko:
   action:
     forgot: '비밀번호를 잊으셨나요?'
     mailbox: '데모 메일박스 열기'
-    account: 계정
     logout: 로그아웃
   login:
     title: 로그인
@@ -557,7 +543,6 @@ nl:
   action:
     forgot: 'Vergeten je wachtwoord?'
     mailbox: 'Open de demomailbox'
-    account: Account
     logout: Uitloggen
   login:
     title: Inloggen
@@ -594,7 +579,6 @@ pl:
   action:
     forgot: 'Zapomniałeś hasła?'
     mailbox: 'Otwórz skrzynkę demo'
-    account: Konto
     logout: 'Wyloguj się'
   login:
     title: 'Zaloguj się'
@@ -631,7 +615,6 @@ pt_BR:
   action:
     forgot: 'Esqueceu sua senha?'
     mailbox: 'Abrir a caixa de entrada da demonstração'
-    account: Conta
     logout: Sair
   login:
     title: 'Fazer login'
@@ -668,7 +651,6 @@ ru:
   action:
     forgot: 'Забыли пароль?'
     mailbox: 'Открыть демо почту'
-    account: Аккаунт
     logout: Выйти
   login:
     title: Войти
@@ -705,7 +687,6 @@ th:
   action:
     forgot: 'ลืมรหัสผ่านใช่ไหม?'
     mailbox: เปิดกล่องจดหมายเดโม
-    account: บัญชี
     logout: ลงชื่อออก
   login:
     title: เข้าสู่ระบบ
@@ -742,7 +723,6 @@ tr:
   action:
     forgot: 'Şifrenizi mi unuttunuz?'
     mailbox: 'Demo posta kutusunu aç'
-    account: Hesap
     logout: 'Çıkış yap'
   login:
     title: 'Giriş yap'
@@ -779,7 +759,6 @@ ur:
   action:
     forgot: 'کیا آپ کا پاس ورڈ بھول گیا؟'
     mailbox: 'ڈیمو میل باکس کھولیں'
-    account: اکاؤنٹ
     logout: 'لاگ آؤٹ'
   login:
     title: 'لاگ ان کریں'
@@ -816,7 +795,6 @@ vi:
   action:
     forgot: 'Quên mật khẩu?'
     mailbox: 'Mở hộp thư demo'
-    account: 'Tài khoản'
     logout: 'Đăng xuất'
   login:
     title: 'Đăng nhập'
@@ -853,7 +831,6 @@ zh:
   action:
     forgot: 忘记密码？
     mailbox: 打开演示邮箱
-    account: 账户
     logout: 登出
   login:
     title: 登录

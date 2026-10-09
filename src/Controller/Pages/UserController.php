@@ -17,13 +17,11 @@ use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
 use Wexample\SymfonyUser\Entity\AbstractUser;
 use Wexample\SymfonyUser\Interface\MemberInterface;
-use Wexample\SymfonyUser\Repository\TermsAcceptanceRepository;
+use Wexample\SymfonyUser\Routing\UserRoute;
 use Wexample\SymfonyUser\Service\AccountAdministrationService;
-use Wexample\SymfonyUser\Service\FormProcessor\ChangePasswordFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\LoginFormProcessor;
 use Wexample\SymfonyUser\Service\FormProcessor\MagicLinkRequestFormProcessor;
 use Wexample\SymfonyUser\Service\MembershipService;
-use Wexample\SymfonyUser\Service\TrustedDeviceService;
 use Wexample\SymfonyUserDemo\Entity\DemoTeam;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Service\DemoAccountsService;
@@ -59,7 +57,7 @@ final class UserController extends AbstractPagesController
         $this->saveTargetPath(
             $request->getSession(),
             self::FIREWALL,
-            $this->generateUrl('user_account')
+            $this->generateUrl(UserRoute::PROFILE)
         );
 
         return $this->renderPage('index', [
@@ -104,35 +102,6 @@ final class UserController extends AbstractPagesController
         $demoAccounts->reset();
 
         return $this->redirectToRoute('user_index');
-    }
-
-    #[Route(name: 'revoke_devices', path: 'account/revoke-devices', methods: [Request::METHOD_POST])]
-    #[IsGranted(RoleHelper::ROLE_USER)]
-    public function revokeDevices(TrustedDeviceService $trustedDevices): RedirectResponse
-    {
-        $user = $this->getUser();
-
-        if ($user instanceof AbstractUser) {
-            $trustedDevices->revokeAll($user);
-        }
-
-        return $this->redirectToRoute('user_account');
-    }
-
-    #[Route(name: 'account', path: 'account')]
-    #[IsGranted(RoleHelper::ROLE_USER)]
-    public function account(
-        ChangePasswordFormProcessor $changePasswordFormProcessor,
-        TermsAcceptanceRepository $termsAcceptanceRepository,
-        AccountAdministrationService $administration
-    ): Response {
-        $user = $this->getUser();
-
-        return $this->renderPage('account', [
-            'may_administer' => $administration->canAdminister(),
-            'change_password_form' => $changePasswordFormProcessor->createForm()->createView(),
-            'terms_history' => $user instanceof AbstractUser ? $termsAcceptanceRepository->findHistory($user) : [],
-        ]);
     }
 
     /**
