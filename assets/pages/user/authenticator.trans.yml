@@ -1,5 +1,5 @@
 en:
-  page_title: Authenticator app
+  page_title: Authenticator
   page_icon: ph:bold/device-mobile
   intro: What the app set up on this account shows right now. It changes every 30 seconds.
   empty: 'No authenticator app is set up on the account at hand. Set one up from the account page, then sign in again: the second step asks for the code shown here.'
@@ -63,7 +63,7 @@ fi:
     back: Takaisin kirjautumislomakkeisiin
 
 fr:
-  page_title: Application d'authentification
+  page_title: Authentificateur
   page_icon: ph:bold/device-mobile
   intro: Ce que l'application configurée sur ce compte montre actuellement. Il change toutes les 30 secondes.
   empty: 'Aucune application d''authentification n''est configurée sur ce compte. Configurez-en une depuis la page du compte, puis reconnectez-vous : la seconde étape demande le code affiché ici.'
