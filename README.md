@@ -1,6 +1,6 @@
 # symfony-user-demo
 
-Version: 6.0.1
+Version: 6.0.2
 
 User accounts showcase pages for Symfony
 
