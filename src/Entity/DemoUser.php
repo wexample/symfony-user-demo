@@ -5,6 +5,7 @@ namespace Wexample\SymfonyUserDemo\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Wexample\SymfonyOrganization\Entity\Traits\HasOrganizationMembershipsTrait;
 use Wexample\SymfonySearch\Attribute\Searchable;
 use Wexample\SymfonySearch\Attribute\SearchEmail;
 use Wexample\SymfonySearch\Attribute\SearchText;
@@ -26,6 +27,7 @@ use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
 class DemoUser extends AbstractUser implements MemberInterface
 {
     use UserWithNameTrait;
+    use HasOrganizationMembershipsTrait;
 
     /**
      * @var Collection<int, DemoTeamMembership>
@@ -45,9 +47,13 @@ class DemoUser extends AbstractUser implements MemberInterface
         return (string) $this->getEmail();
     }
 
+    /**
+     * Its teams, and the organizations of the directory it belongs to.
+     */
     public function getMemberships(): iterable
     {
-        return $this->memberships;
+        yield from $this->memberships;
+        yield from $this->getOrganizationMemberships();
     }
 
     public function addMembership(DemoTeamMembership $membership): void

@@ -25,6 +25,7 @@
     "wexample/symfony-user": ">=12.0.0",
     "wexample/symfony-user-ds": ">=5.0.0",
     "wexample/symfony-mail-ds": ">=2.1.0",
+    "wexample/symfony-organization": ">=1.0.1",
     "wexample/symfony-search": ">=4.1.0"
   },
   "repositories": [
