@@ -19,49 +19,54 @@ ar:
     back: 'ارجع إلى نماذج تسجيل الدخول'
 
 bn:
-  page_title: অথেনটিকেটর অ্যাপ
-  page_icon: ph:bold/device-mobile
-  intro: এই অ্যাকাউন্টে অ্যাপের সেটআপ বর্তমানে কী দেখাচ্ছে। এটি প্রতি 30 সেকেন্ডে পরিবর্তিত হয়।
+  page_title: 'অথেনটিকেটর অ্যাপ'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'এই অ্যাকাউন্টে অ্যাপের সেটআপ বর্তমানে কী দেখাচ্ছে। এটি প্রতি 30 সেকেন্ডে পরিবর্তিত হয়।'
+  empty: 'অ্যাকাউন্টে কোন অটেনটিকেটর অ্যাপ সেট আপ করা হয়নি। অ্যাকাউন্ট পৃষ্ঠা থেকে একটি সেট আপ করুন, তারপর আবার সাইন ইন করুন: দ্বিতীয় ধাপে এখানে প্রদর্শিত কোডটি চাইবে।'
   field:
     code: 'কোড:'
   action:
-    back: লগইন ফর্মে ফিরে যান
+    back: 'লগইন ফর্মে ফিরে যান'
 
 de:
   page_title: Authentifizierungs-App
-  page_icon: ph:bold/device-mobile
-  intro: Was die App für dieses Konto gerade anzeigt. Es ändert sich alle 30 Sekunden.
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'Was die App für dieses Konto gerade anzeigt. Es ändert sich alle 30 Sekunden.'
+  empty: 'Es ist keine Authenticator-App für das aktuelle Konto eingerichtet. Richten Sie eine auf der Kontoseite ein und melden Sie sich dann erneut an: Der zweite Schritt fragt nach dem hier angezeigten Code.'
   field:
     code: 'Code:'
   action:
-    back: Zurück zu den Anmeldeformularen
+    back: 'Zurück zu den Anmeldeformularen'
 
 es:
-  page_title: Aplicación de autenticador
-  page_icon: ph:bold/device-mobile
-  intro: Lo que la aplicación configurada en esta cuenta muestra en este momento. Cambia cada 30 segundos.
+  page_title: 'Aplicación de autenticador'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'Lo que la aplicación configurada en esta cuenta muestra en este momento. Cambia cada 30 segundos.'
+  empty: 'No se ha configurado ninguna aplicación de autenticación en la cuenta actual. Configura una desde la página de la cuenta y luego inicia sesión de nuevo: el segundo paso solicita el código que se muestra aquí.'
   field:
     code: 'Código:'
   action:
-    back: Volver a los formularios de inicio de sesión
+    back: 'Volver a los formularios de inicio de sesión'
 
 fa:
-  page_title: برنامه احراز هویت
-  page_icon: ph:bold/device-mobile
-  intro: آنچه که برنامه در این حساب نشان می‌دهد. هر 30 ثانیه تغییر می‌کند.
+  page_title: 'برنامه احراز هویت'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'آنچه که برنامه در این حساب نشان می‌دهد. هر 30 ثانیه تغییر می‌کند.'
+  empty: 'هیچ برنامه احراز هویت روی حساب کاربری فعلی تنظیم نشده است. یکی را از صفحه حساب تنظیم کنید، سپس دوباره وارد شوید: مرحله دوم از شما کدی را می‌خواهد که در اینجا نمایش داده شده است.'
   field:
     code: 'کد:'
   action:
-    back: بازگشت به فرم‌های ورود
+    back: 'بازگشت به فرم‌های ورود'
 
 fi:
   page_title: Todennusapp
-  page_icon: ph:bold/device-mobile
-  intro: Mitä sovellus näyttää tällä tilillä juuri nyt. Se vaihtuu 30 sekunnin välein.
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'Mitä sovellus näyttää tällä tilillä juuri nyt. Se vaihtuu 30 sekunnin välein.'
+  empty: 'Tilillä ei ole asetettu todennusohjelmaa. Aseta sellainen tilisivulta ja kirjaudu sitten uudelleen: toinen vaihe kysyy täällä näkyvää koodia.'
   field:
     code: 'Koodi:'
   action:
-    back: Takaisin kirjautumislomakkeisiin
+    back: 'Takaisin kirjautumislomakkeisiin'
 
 fr:
   page_title: Authentificateur
@@ -74,130 +79,144 @@ fr:
     back: Retour aux formulaires de connexion
 
 he:
-  page_title: אפליקציית Authenticator
-  page_icon: ph:bold/device-mobile
-  intro: מה שהאפליקציה שהוגדרה על חשבון זה מראה כרגע. זה משתנה כל 30 שניות.
+  page_title: 'אפליקציית Authenticator'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'מה שהאפליקציה שהוגדרה על חשבון זה מראה כרגע. זה משתנה כל 30 שניות.'
+  empty: 'לא הוגדרה אפליקציית אימות על החשבון הנוכחי. הגדר אחת מעמוד החשבון, ואז התחבר שוב: השלב השני מבקש את הקוד המוצג כאן.'
   field:
     code: 'קוד:'
   action:
-    back: חזרה לטפסי הכניסה
+    back: 'חזרה לטפסי הכניסה'
 
 hi:
-  page_title: ऑथेंटिकेटर ऐप
-  page_icon: ph:bold/device-mobile
-  intro: जो ऐप इस खाते पर सेटअप किया गया है, वह अभी क्या दिखा रहा है। यह हर 30 सेकंड में बदलता है।
+  page_title: 'ऑथेंटिकेटर ऐप'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'जो ऐप इस खाते पर सेटअप किया गया है, वह अभी क्या दिखा रहा है। यह हर 30 सेकंड में बदलता है।'
+  empty: 'इस खाते पर कोई ऑथेंटिकेटर ऐप सेट नहीं किया गया है। इसे खाता पृष्ठ से सेट करें, फिर फिर से साइन इन करें: दूसरा चरण यहां दिखाए गए कोड के लिए पूछता है।'
   field:
     code: 'कोड:'
   action:
-    back: लॉगिन फॉर्म पर वापस
+    back: 'लॉगिन फॉर्म पर वापस'
 
 id:
-  page_title: Aplikasi autentikator
-  page_icon: ph:bold/device-mobile
-  intro: Apa yang ditampilkan aplikasi yang diatur pada akun ini saat ini. Ini berubah setiap 30 detik.
+  page_title: 'Aplikasi autentikator'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'Apa yang ditampilkan aplikasi yang diatur pada akun ini saat ini. Ini berubah setiap 30 detik.'
+  empty: 'Tidak ada aplikasi autentikator yang disetel di akun ini. Atur satu dari halaman akun, lalu masuk lagi: langkah kedua meminta kode yang ditampilkan di sini.'
   field:
     code: 'Kode:'
   action:
-    back: Kembali ke formulir masuk
+    back: 'Kembali ke formulir masuk'
 
 it:
-  page_title: App Authenticator
-  page_icon: ph:bold/device-mobile
-  intro: Cosa mostra l'app impostata su questo account in questo momento. Cambia ogni 30 secondi.
+  page_title: 'App Authenticator'
+  page_icon: 'ph:bold/device-mobile'
+  intro: "Cosa mostra l'app impostata su questo account in questo momento. Cambia ogni 30 secondi."
+  empty: "Non è stata configurata alcuna app di autenticazione per l'account in questione. Configurane una dalla pagina dell'account, poi accedi di nuovo: il secondo passaggio richiede il codice mostrato qui."
   field:
     code: 'Codice:'
   action:
-    back: Torna ai moduli di accesso
+    back: 'Torna ai moduli di accesso'
 
 ja:
   page_title: 認証アプリ
-  page_icon: ph:bold/device-mobile
+  page_icon: 'ph:bold/device-mobile'
   intro: このアカウントに設定されたアプリが現在表示している内容です。30秒ごとに変わります。
+  empty: このアカウントには認証アプリが設定されていません。アカウントページから設定し、再度サインインしてください。2段階目でここに表示されたコードの入力が求められます。
   field:
     code: コード：
   action:
     back: ログインフォームに戻る
 
 ko:
-  page_title: 인증 앱
-  page_icon: ph:bold/device-mobile
-  intro: 이 계정에서 앱이 현재 보여주는 내용입니다. 30초마다 변경됩니다.
+  page_title: '인증 앱'
+  page_icon: 'ph:bold/device-mobile'
+  intro: '이 계정에서 앱이 현재 보여주는 내용입니다. 30초마다 변경됩니다.'
+  empty: '현재 계정에 인증기 앱이 설정되어 있지 않습니다. 계정 페이지에서 앱을 설정한 후 다시 로그인하세요: 두 번째 단계에서 여기 표시된 코드를 입력하라는 요청이 있습니다.'
   field:
     code: '코드:'
   action:
-    back: 로그인 양식으로 돌아가기
+    back: '로그인 양식으로 돌아가기'
 
 nl:
   page_title: Authenticator-app
-  page_icon: ph:bold/device-mobile
-  intro: Wat de app op dit account momenteel weergeeft. Het verandert elke 30 seconden.
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'Wat de app op dit account momenteel weergeeft. Het verandert elke 30 seconden.'
+  empty: 'Er is geen authenticator-app ingesteld voor het desbetreffende account. Stel er een in op de accountpagina en log daarna opnieuw in: de tweede stap vraagt om de code die hier wordt weergegeven.'
   field:
     code: 'Code:'
   action:
-    back: Terug naar de inlogformulieren
+    back: 'Terug naar de inlogformulieren'
 
 pl:
-  page_title: Aplikacja uwierzytelniająca
-  page_icon: ph:bold/device-mobile
-  intro: To, co aplikacja skonfigurowana na tym koncie pokazuje w tej chwili. Zmienia się co 30 sekund.
+  page_title: 'Aplikacja uwierzytelniająca'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'To, co aplikacja skonfigurowana na tym koncie pokazuje w tej chwili. Zmienia się co 30 sekund.'
+  empty: 'Nie skonfigurowano aplikacji uwierzytelniającej na tym koncie. Skonfiguruj ją na stronie konta, a następnie zaloguj się ponownie: drugi krok poprosi o kod wyświetlony tutaj.'
   field:
     code: 'Kod:'
   action:
-    back: Powrót do formularzy logowania
+    back: 'Powrót do formularzy logowania'
 
 pt_BR:
-  page_title: Aplicativo autenticador
-  page_icon: ph:bold/device-mobile
-  intro: O que o aplicativo configurado nesta conta mostra agora. Muda a cada 30 segundos.
+  page_title: 'Aplicativo autenticador'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'O que o aplicativo configurado nesta conta mostra agora. Muda a cada 30 segundos.'
+  empty: 'Nenhum aplicativo autenticador está configurado na conta em questão. Configure um na página da conta e, em seguida, faça o login novamente: o segundo passo solicita o código exibido aqui.'
   field:
     code: 'Código:'
   action:
-    back: Voltar para os formulários de login
+    back: 'Voltar para os formulários de login'
 
 ru:
-  page_title: Приложение аутентификатора
-  page_icon: ph:bold/device-mobile
-  intro: То, что приложение показывает в данный момент для этой учетной записи. Меняется каждые 30 секунд.
+  page_title: 'Приложение аутентификатора'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'То, что приложение показывает в данный момент для этой учетной записи. Меняется каждые 30 секунд.'
+  empty: 'В учетной записи не настроено приложение аутентификации. Настройте его на странице учетной записи, затем войдите снова: на втором этапе потребуется ввести код, показанный здесь.'
   field:
     code: 'Код:'
   action:
-    back: Назад к формам входа
+    back: 'Назад к формам входа'
 
 th:
   page_title: แอปตรวจสอบตัวตน
-  page_icon: ph:bold/device-mobile
-  intro: สิ่งที่แอปตั้งค่าในบัญชีนี้แสดงอยู่ตอนนี้ เปลี่ยนทุก 30 วินาที
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'สิ่งที่แอปตั้งค่าในบัญชีนี้แสดงอยู่ตอนนี้ เปลี่ยนทุก 30 วินาที'
+  empty: 'ไม่มีแอปตรวจสอบตัวตนที่ตั้งค่าไว้ในบัญชีนี้ กรุณาตั้งค่าแอปจากหน้าบัญชี แล้วลงชื่อเข้าใช้ใหม่: ขั้นตอนที่สองจะขอรหัสที่แสดงในที่นี้.'
   field:
     code: 'รหัส:'
   action:
     back: กลับไปที่แบบฟอร์มเข้าสู่ระบบ
 
 tr:
-  page_title: Kimlik doğrulayıcı uygulama
-  page_icon: ph:bold/device-mobile
-  intro: Bu hesapta uygulamanın şu anda gösterdiği şey. Her 30 saniyede bir değişir.
+  page_title: 'Kimlik doğrulayıcı uygulama'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'Bu hesapta uygulamanın şu anda gösterdiği şey. Her 30 saniyede bir değişir.'
+  empty: 'Bu hesapta herhangi bir kimlik doğrulayıcı uygulama ayarlanmamış. Hesap sayfasından bir tane ayarlayın, ardından tekrar oturum açın: ikinci adım burada gösterilen kodu isteyecek.'
   field:
     code: 'Kod:'
   action:
-    back: Giriş formlarına geri dön
+    back: 'Giriş formlarına geri dön'
 
 ur:
-  page_title: توثیق کرنے والا ایپ
-  page_icon: ph:bold/device-mobile
-  intro: اس اکاؤنٹ پر ایپ نے جو سیٹ کیا ہے، وہ ابھی کیا دکھاتا ہے۔ یہ ہر 30 سیکنڈ میں تبدیل ہوتا ہے۔
+  page_title: 'توثیق کرنے والا ایپ'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'اس اکاؤنٹ پر ایپ نے جو سیٹ کیا ہے، وہ ابھی کیا دکھاتا ہے۔ یہ ہر 30 سیکنڈ میں تبدیل ہوتا ہے۔'
+  empty: 'اکاؤنٹ پر کوئی تصدیق کرنے والی ایپ سیٹ اپ نہیں کی گئی ہے۔ اکاؤنٹ کے صفحے سے ایک سیٹ اپ کریں، پھر دوبارہ سائن ان کریں: دوسرا مرحلہ یہاں دکھائے گئے کوڈ کی درخواست کرتا ہے۔'
   field:
     code: 'کوڈ:'
   action:
-    back: لاگ ان کے فارم میں واپس
+    back: 'لاگ ان کے فارم میں واپس'
 
 vi:
-  page_title: Ứng dụng xác thực
-  page_icon: ph:bold/device-mobile
-  intro: Những gì ứng dụng thiết lập trên tài khoản này đang hiển thị ngay bây giờ. Nó thay đổi mỗi 30 giây.
+  page_title: 'Ứng dụng xác thực'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'Những gì ứng dụng thiết lập trên tài khoản này đang hiển thị ngay bây giờ. Nó thay đổi mỗi 30 giây.'
+  empty: 'Không có ứng dụng xác thực nào được thiết lập cho tài khoản này. Hãy thiết lập một ứng dụng từ trang tài khoản, sau đó đăng nhập lại: bước thứ hai yêu cầu mã được hiển thị ở đây.'
   field:
     code: 'Mã:'
   action:
-    back: Quay lại các mẫu đăng nhập
+    back: 'Quay lại các mẫu đăng nhập'
 
 zh:
   page_title: 身份验证器应用

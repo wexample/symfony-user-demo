@@ -41,3 +41,212 @@ ar:
   members: 'الأعضاء (%count%)'
   closed: 'ليس لك أن تراه'
   empty: 'لا يوجد فريق حتى الآن. أعد تعيين الحسابات التجريبية لإنشائها.'
+
+hi:
+  page_title: टीम
+  page_icon: 'ph:bold/users-three'
+  intro: 'ऐप्लिकेशन के समूह, जिनमें एक-दूसरे के साथ सदस्य और एक्सेस शामिल हैं - व्यवस्थापक, योगदानकर्ता, पर्यवेक्षक, ग्राहक। डेमो खाता संपादकीय का प्रबंधन करता है और स्टूडियो को देखता है; व्यवस्थापक खाता अपने प्लेटफॉर्म भूमिका के माध्यम से दोनों का प्रबंधन करता है।'
+  column:
+    team: टीम
+    grants: 'आपकी पहुंच'
+  members: 'सदस्य (%count%)'
+  closed: 'आपके देखने के लिए नहीं'
+  empty: 'अभी तक कोई टीम नहीं। उन्हें बनाने के लिए परीक्षण खातों को रीसेट करें।'
+
+he:
+  page_title: צוותים
+  page_icon: 'ph:bold/users-three'
+  intro: 'קבוצות של האפליקציה, עם חברים וגישה שכוללים זה את זה — מנהל, תורם, צופה, לקוח. חשבון הדמו מנהל את המערכת ועוקב אחרי הסטודיו; חשבון המנהל מנהל את שניהם דרך תפקיד הפלטפורמה שלו.'
+  column:
+    team: צוות
+    grants: 'הגישה שלך'
+  members: 'חברים (%count%)'
+  closed: 'לא שלך לראות'
+  empty: 'אין צוות עדיין. אפס את חשבונות הניסוי כדי ליצור אותם.'
+
+fa:
+  page_title: تیم‌ها
+  page_icon: 'ph:bold/users-three'
+  intro: 'گروه‌های برنامه که شامل اعضا و دسترسی‌هایی هستند که شامل یکدیگر می‌شوند — مدیر، مشارکت‌کننده، ناظر، مشتری. حساب نمایشی مدیریت Editorial را بر عهده دارد و Studio را نظارت می‌کند؛ حساب مدیر هر دو را از طریق نقش پلتفرم خود مدیریت می‌کند.'
+  column:
+    team: تیم
+    grants: 'دسترسی شما'
+  members: 'اعضا (%count%)'
+  closed: 'قابل مشاهده برای شما نیست'
+  empty: 'هنوز تیمی وجود ندارد. حساب‌های آزمایشی را ریست کنید تا آنها را ایجاد کنید.'
+
+ur:
+  page_title: ٹیمیں
+  page_icon: 'ph:bold/users-three'
+  intro: 'ایپلیکیشن کے گروپ، جن میں اراکین اور رسائی شامل ہیں جو ایک دوسرے کو شامل کرتی ہیں — منتظم، شراکت دار، نگران، صارف۔ ڈیمو اکاؤنٹ ایڈیٹوریل کا انتظام کرتا ہے اور اسٹوڈیو کو دیکھتا ہے؛ ایڈمن اکاؤنٹ دونوں کا انتظام اپنے پلیٹ فارم کے کردار کے ذریعے کرتا ہے۔'
+  column:
+    team: ٹیم
+    grants: 'آپ کی رسائی'
+  members: 'ارکان (%count%)'
+  closed: 'یہ آپ کے دیکھنے کے لیے نہیں'
+  empty: 'ابھی تک کوئی ٹیم نہیں۔ انہیں بنانے کے لیے ٹیسٹ اکاؤنٹس کو دوبارہ ترتیب دیں۔'
+
+ja:
+  page_title: チーム
+  page_icon: 'ph:bold/users-three'
+  intro: 'アプリケーションのグループで、管理者、寄稿者、ウォッチャー、クライアントなど、お互いにメンバーとアクセスを含みます。デモアカウントはEditorialを管理し、Studioをウォッチしています; 管理者アカウントはそのプラットフォームの役割を通じて両方を管理します。'
+  column:
+    team: チーム
+    grants: あなたのアクセス
+  members: 'メンバー (%count%)'
+  closed: 見ることはできません
+  empty: まだチームはありません。テストアカウントをリセットして作成してください。
+
+ko:
+  page_title: 팀
+  page_icon: 'ph:bold/users-three'
+  intro: '애플리케이션의 그룹으로, 서로 포함된 멤버와 접근 권한 — 관리자, 기여자, 관찰자, 클라이언트. 데모 계정은 편집을 관리하고 스튜디오를 관찰합니다; 관리자 계정은 플랫폼 역할을 통해 둘 다 관리합니다.'
+  column:
+    team: 팀
+    grants: '내 접근 권한'
+  members: '멤버 (%count%)'
+  closed: '볼 수 있는 권한이 없습니다'
+  empty: '아직 팀이 없습니다. 테스트 계정을 초기화하여 팀을 생성하세요.'
+
+bn:
+  page_title: টিমগুলি
+  page_icon: 'ph:bold/users-three'
+  intro: 'অ্যাপ্লিকেশনের গোষ্ঠী, যার সদস্য এবং একে অপরকে অন্তর্ভুক্ত করে এমন অ্যাক্সেস — প্রশাসক, অবদানকারী, পর্যবেক্ষক, ক্লায়েন্ট। ডেমো অ্যাকাউন্ট এডিটোরিয়াল পরিচালনা করে এবং স্টুডিও পর্যবেক্ষণ করে; প্রশাসক অ্যাকাউন্ট উভয়ই তার প্ল্যাটফর্ম ভূমিকা দ্বারা পরিচালনা করে।'
+  column:
+    team: টিম
+    grants: 'আপনার অ্যাক্সেস'
+  members: 'সদস্য (%count%)'
+  closed: 'আপনার দেখার জন্য নয়'
+  empty: 'এখনও কোনো টিম নেই। সেগুলি তৈরি করতে টেস্ট অ্যাকাউন্টগুলি রিসেট করুন।'
+
+th:
+  page_title: ทีม
+  page_icon: 'ph:bold/users-three'
+  intro: 'กลุ่มของแอปพลิเคชัน ซึ่งมีสมาชิกและการเข้าถึงที่รวมกัน — ผู้ดูแลระบบ, ผู้มีส่วนร่วม, ผู้ติดตาม, ลูกค้า บัญชีสาธิตจะดูแล Editorial และติดตาม Studio; บัญชีผู้ดูแลระบบจะดูแลทั้งสองอย่างผ่านบทบาทในแพลตฟอร์มของมัน.'
+  column:
+    team: ทีม
+    grants: การเข้าถึงของคุณ
+  members: 'สมาชิก (%count%)'
+  closed: ไม่ใช่ของคุณที่จะดู
+  empty: 'ยังไม่มีทีม รีเซ็ตบัญชีทดสอบเพื่อสร้างทีม.'
+
+de:
+  page_title: Teams
+  page_icon: 'ph:bold/users-three'
+  intro: 'Gruppen der Anwendung, mit Mitgliedern und Zugängen, die einander umfassen — Administrator, Mitwirkender, Beobachter, Kunde. Das Demokonto verwaltet Editorial und beobachtet Studio; das Admin-Konto verwaltet beide über seine Plattformrolle.'
+  column:
+    team: Team
+    grants: 'Ihr Zugang'
+  members: 'Mitglieder (%count%)'
+  closed: 'Nicht für Sie sichtbar'
+  empty: 'Noch kein Team. Setzen Sie die Testkonten zurück, um sie zu erstellen.'
+
+fi:
+  page_title: Tiimit
+  page_icon: 'ph:bold/users-three'
+  intro: 'Sovelluksen ryhmät, joilla on jäseniä ja pääsy, jotka sisältävät toisiaan — ylläpitäjä, osallistuja, tarkkailija, asiakas. Demo-tili hallinnoi Editorialia ja tarkkailee Studioa; ylläpitäjätili hallinnoi molempia sen alustan roolin kautta.'
+  column:
+    team: Tiimi
+    grants: Pääsysi
+  members: 'Jäsenet (%count%)'
+  closed: 'Ei sinun nähtäväksesi'
+  empty: 'Ei tiimiä vielä. Nollaa testitilit niiden luomiseksi.'
+
+ru:
+  page_title: Команды
+  page_icon: 'ph:bold/users-three'
+  intro: 'Группы приложения, состоящие из участников и прав доступа, которые включают друг друга — администратор, участник, наблюдатель, клиент. Демо-аккаунт управляет редакцией и наблюдает за студией; аккаунт администратора управляет обоими через свою роль в платформе.'
+  column:
+    team: Команда
+    grants: 'Ваши права доступа'
+  members: 'Участники (%count%)'
+  closed: 'Не ваше'
+  empty: 'Нет команды. Сбросьте тестовые аккаунты, чтобы создать их.'
+
+pl:
+  page_title: Zespoły
+  page_icon: 'ph:bold/users-three'
+  intro: 'Grupy aplikacji, z członkami i dostępem, które obejmują siebie nawzajem — administrator, współpracownik, obserwator, klient. Konto demonstracyjne administruje Editorial i obserwuje Studio; konto administratora zarządza oboma poprzez swoją rolę na platformie.'
+  column:
+    team: Zespół
+    grants: 'Twój dostęp'
+  members: 'Członkowie (%count%)'
+  closed: 'Nie masz do tego dostępu'
+  empty: 'Brak zespołu. Zresetuj konta testowe, aby je utworzyć.'
+
+es:
+  page_title: Equipos
+  page_icon: 'ph:bold/users-three'
+  intro: 'Grupos de la aplicación, con miembros y accesos que se incluyen mutuamente: administrador, colaborador, observador, cliente. La cuenta de demostración administra Editorial y observa Studio; la cuenta de administrador administra ambos a través de su rol en la plataforma.'
+  column:
+    team: Equipo
+    grants: 'Tu acceso'
+  members: 'Miembros (%count%)'
+  closed: 'No es tuyo para ver'
+  empty: 'Aún no hay equipo. Restablece las cuentas de prueba para crearlos.'
+
+it:
+  page_title: Team
+  page_icon: 'ph:bold/users-three'
+  intro: "Gruppi dell'applicazione, con membri e accessi che si includono a vicenda — amministratore, collaboratore, osservatore, cliente. L'account demo amministra Editoriale e osserva Studio; l'account admin amministra entrambi tramite il suo ruolo nella piattaforma."
+  column:
+    team: Team
+    grants: 'Il tuo accesso'
+  members: 'Membri (%count%)'
+  closed: 'Non è tuo da vedere'
+  empty: 'Nessun team ancora. Ripristina gli account di prova per crearli.'
+
+pt_BR:
+  page_title: Equipes
+  page_icon: 'ph:bold/users-three'
+  intro: 'Grupos do aplicativo, com membros e acessos que incluem uns aos outros — administrador, colaborador, observador, cliente. A conta de demonstração administra Editorial e observa Studio; a conta de administrador administra ambos através de seu papel na plataforma.'
+  column:
+    team: Equipe
+    grants: 'Seu acesso'
+  members: 'Membros (%count%)'
+  closed: 'Não é seu para ver'
+  empty: 'Nenhuma equipe ainda. Redefina as contas de teste para criá-las.'
+
+tr:
+  page_title: Takımlar
+  page_icon: 'ph:bold/users-three'
+  intro: "Uygulamanın grupları, birbirlerini içeren üyeler ve erişim — yönetici, katkıda bulunan, izleyici, müşteri. Demo hesabı Editorial'ı yönetir ve Studio'yu izler; admin hesabı her ikisini de platform rolü aracılığıyla yönetir."
+  column:
+    team: Takım
+    grants: Erişiminiz
+  members: 'Üyeler (%count%)'
+  closed: 'Görmeniz mümkün değil'
+  empty: 'Henüz takım yok. Onları oluşturmak için test hesaplarını sıfırlayın.'
+
+vi:
+  page_title: Nhóm
+  page_icon: 'ph:bold/users-three'
+  intro: 'Các nhóm trong ứng dụng, với các thành viên và quyền truy cập bao gồm lẫn nhau — quản trị viên, người đóng góp, người theo dõi, khách hàng. Tài khoản demo quản lý Editorial và theo dõi Studio; tài khoản quản trị viên quản lý cả hai thông qua vai trò nền tảng của nó.'
+  column:
+    team: Nhóm
+    grants: 'Quyền truy cập của bạn'
+  members: 'Thành viên (%count%)'
+  closed: 'Không phải của bạn để xem'
+  empty: 'Chưa có nhóm nào. Đặt lại các tài khoản thử nghiệm để tạo chúng.'
+
+id:
+  page_title: Tim
+  page_icon: 'ph:bold/users-three'
+  intro: 'Grup aplikasi, dengan anggota dan akses yang mencakup satu sama lain — administrator, kontributor, pengamat, klien. Akun demo mengelola Editorial dan mengawasi Studio; akun admin mengelola keduanya melalui perannya di platform.'
+  column:
+    team: Tim
+    grants: 'Akses Anda'
+  members: 'Anggota (%count%)'
+  closed: 'Bukan untuk Anda lihat'
+  empty: 'Belum ada tim. Reset akun uji untuk membuatnya.'
+
+nl:
+  page_title: Teams
+  page_icon: 'ph:bold/users-three'
+  intro: 'Groepen van de applicatie, met leden en toegang die elkaar omvatten — administrator, bijdrager, kijker, klant. Het demo-account beheert Editorial en kijkt naar Studio; het admin-account beheert beide via zijn platformrol.'
+  column:
+    team: Team
+    grants: 'Jouw toegang'
+  members: 'Leden (%count%)'
+  closed: 'Niet voor jou om te zien'
+  empty: 'Nog geen team. Reset de testaccounts om ze aan te maken.'
