@@ -60,17 +60,10 @@ final class UserController extends AbstractPagesController
             $this->generateUrl(UserRoute::PROFILE)
         );
 
-        // The passwords the page may print, by account; a secret one is not.
-        $publicPasswords = [];
-        foreach (DemoAccount::cases() as $account) {
-            $publicPasswords[$account->name] = $demoAccounts->isPasswordPublic($account);
-        }
-
         return $this->renderPage('index', [
             'login_form' => $loginFormProcessor->createForm()->createView(),
             'magic_link_request_form' => $magicLinkRequestFormProcessor->createForm()->createView(),
             'accounts' => DemoAccount::cases(),
-            'public_passwords' => $publicPasswords,
             'accounts_created' => $demoAccounts->exist(),
             // The administration screens are symfony-user-ds's, and there
             // only where the application declared administration.page_role.

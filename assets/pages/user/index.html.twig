@@ -30,7 +30,7 @@
                 {%- set account_rows = account_rows|merge([{
                     email: account.email,
                     username: account.username,
-                    password: public_passwords[account.name] ? '<code>' ~ account.password|e ~ '</code>' : '<code>••••••••</code>',
+                    password: '<code>' ~ account.password|e ~ '</code>',
                     expected: ('@page::accounts.result.' ~ account.name|lower) | trans,
                 }]) -%}
             {%- endfor -%}

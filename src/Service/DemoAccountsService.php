@@ -3,7 +3,6 @@
 namespace Wexample\SymfonyUserDemo\Service;
 
 use Doctrine\ORM\EntityManagerInterface;
-use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Wexample\SymfonyUserDemo\Entity\DemoTeam;
 use Wexample\SymfonyUserDemo\Entity\DemoTeamMembership;
@@ -28,41 +27,7 @@ class DemoAccountsService
         private readonly EntityManagerInterface $entityManager,
         private readonly DemoUserRepository $demoUserRepository,
         private readonly UserPasswordHasherInterface $passwordHasher,
-        // The administrator's password, when the application keeps it secret:
-        // the administration screens then belong to whoever runs the demo.
-        #[Autowire('%env(default::DEMO_ADMIN_PASSWORD)%')]
-        private readonly ?string $adminPassword = null,
-        #[Autowire('%kernel.debug%')]
-        private readonly bool $debug = false,
     ) {
-    }
-
-    /**
-     * The password an account is given. The administrator's is the secret one
-     * when there is one; without it, it stays the printed one where the demo is
-     * being developed, and nobody's in production, so that a forgotten secret
-     * closes the administration rather than opening it to every visitor.
-     */
-    public function passwordOf(DemoAccount $account): string
-    {
-        if (DemoAccount::ADMIN !== $account) {
-            return $account->getPassword();
-        }
-
-        if (null !== $this->adminPassword && '' !== $this->adminPassword) {
-            return $this->adminPassword;
-        }
-
-        return $this->debug ? $account->getPassword() : bin2hex(random_bytes(24));
-    }
-
-    /**
-     * Whether the page may print the account's password.
-     */
-    public function isPasswordPublic(DemoAccount $account): bool
-    {
-        return DemoAccount::ADMIN !== $account
-            || ((null === $this->adminPassword || '' === $this->adminPassword) && $this->debug);
     }
 
     public function exist(): bool
@@ -99,7 +64,7 @@ class DemoAccountsService
                 ->setBackupCodes([])
                 ->revokeTrustedDevices();
 
-            $user->setPassword($this->passwordHasher->hashPassword($user, $this->passwordOf($account)));
+            $user->setPassword($this->passwordHasher->hashPassword($user, $account->getPassword()));
         }
 
         $this->entityManager->flush();
