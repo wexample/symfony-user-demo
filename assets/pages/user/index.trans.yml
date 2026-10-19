@@ -17,7 +17,6 @@ en:
       active: Asks the code sent by email, then signs in
       locked: Refused, the account is locked
       inactive: Refused, the account is not activated
-      admin: Signs in, and administers the other accounts
   magic_link:
     title: Magic link
     intro: The link is sent by email. In development, it lands in the mailbox instead of leaving the machine.
@@ -58,7 +57,6 @@ ar:
       active: 'يطلب الرمز المرسل عبر البريد الإلكتروني، ثم يسجل الدخول'
       locked: 'مرفوض، الحساب مقفول'
       inactive: 'مرفوض، الحساب غير مفعل'
-      admin: 'يسجل الدخول، ويدير الحسابات الأخرى'
   magic_link:
     title: 'رابط سحري'
     intro: 'الرابط يُرسل عبر البريد الإلكتروني. في مرحلة التطوير، يصل إلى صندوق البريد بدلاً من مغادرة الجهاز.'
@@ -99,7 +97,6 @@ bn:
       active: 'ইমেইলে পাঠানো কোডের জন্য অনুরোধ করে, তারপর সাইন ইন করে'
       locked: 'প্রত্যাখ্যান, অ্যাকাউন্টটি লক করা হয়েছে'
       inactive: 'প্রত্যাখ্যান, অ্যাকাউন্টটি সক্রিয় করা হয়নি'
-      admin: 'সাইন ইন করে এবং অন্যান্য অ্যাকাউন্টগুলি পরিচালনা করে'
   magic_link:
     title: 'ম্যাজিক লিঙ্ক'
     intro: 'লিঙ্কটি ইমেইলে পাঠানো হয়। ডেভেলপমেন্টে, এটি মেইলবক্সে পড়ে যায় যন্ত্রটি ছেড়ে না।'
@@ -140,7 +137,6 @@ de:
       active: 'Fragt den per E-Mail gesendeten Code an und meldet sich dann an'
       locked: 'Abgelehnt, das Konto ist gesperrt'
       inactive: 'Abgelehnt, das Konto ist nicht aktiviert'
-      admin: 'Meldet sich an und verwaltet die anderen Konten'
   magic_link:
     title: 'Magischer Link'
     intro: 'Der Link wird per E-Mail gesendet. In der Entwicklung landet er im Postfach, anstatt den Computer zu verlassen.'
@@ -181,7 +177,6 @@ es:
       active: 'Pide el código enviado por correo electrónico, luego inicia sesión'
       locked: 'Rechazado, la cuenta está bloqueada'
       inactive: 'Rechazado, la cuenta no está activada'
-      admin: 'Inicia sesión y administra las otras cuentas'
   magic_link:
     title: 'Enlace mágico'
     intro: 'El enlace se envía por correo electrónico. En desarrollo, llega a la bandeja de entrada en lugar de salir de la máquina.'
@@ -222,7 +217,6 @@ fa:
       active: 'کد ارسال شده به ایمیل را می‌خواهد، سپس وارد می‌شود'
       locked: 'رد شد، حساب قفل شده است'
       inactive: 'رد شد، حساب فعال نشده است'
-      admin: 'وارد می‌شود و حساب‌های دیگر را مدیریت می‌کند'
   magic_link:
     title: 'لینک جادویی'
     intro: 'لینک به ایمیل ارسال می‌شود. در حالت توسعه، به جای خروج از دستگاه در صندوق ورودی قرار می‌گیرد.'
@@ -263,7 +257,6 @@ fi:
       active: 'Kysyy sähköpostilla lähetettyä koodia, sitten kirjautuu sisään'
       locked: 'Kielletty, tili on lukittu'
       inactive: 'Kielletty, tili ei ole aktivoitu'
-      admin: 'Kirjautuu sisään ja hallitsee muita tilejä'
   magic_link:
     title: Taikalinkki
     intro: 'Linkki lähetetään sähköpostilla. Kehityksessä se menee postilaatikkoon sen sijaan, että lähtisi koneelta.'
@@ -304,7 +297,6 @@ fr:
       active: 'Demande le code envoyé par email, puis se connecte'
       locked: 'Refusé, le compte est verrouillé'
       inactive: "Refusé, le compte n'est pas activé"
-      admin: 'Se connecte, et administre les autres comptes'
   magic_link:
     title: 'Lien magique'
     intro: 'Le lien est envoyé par email. En développement, il atterrit dans la boîte aux lettres au lieu de quitter la machine.'
@@ -345,7 +337,6 @@ he:
       active: 'מבקש את הקוד שנשלח באימייל, ואז מתחבר'
       locked: 'סירוב, החשבון נעול'
       inactive: 'סירוב, החשבון לא פעיל'
-      admin: 'מתחבר, ומנהל את שאר החשבונות'
   magic_link:
     title: 'קישור קסם'
     intro: 'הלינק נשלח באימייל. בפיתוח, הוא נוחת בתיבת הדואר במקום לעזוב את המחשב.'
@@ -386,7 +377,6 @@ hi:
       active: 'ईमेल द्वारा भेजा गया कोड मांगे, फिर साइन इन करें'
       locked: 'अस्वीकृत, खाता लॉक है'
       inactive: 'अस्वीकृत, खाता सक्रिय नहीं है'
-      admin: 'साइन इन करें, और अन्य खातों का प्रबंधन करें'
   magic_link:
     title: 'जादुई लिंक'
     intro: 'लिंक ईमेल द्वारा भेजा गया है। विकास के दौरान, यह मशीन छोड़ने के बजाय मेलबॉक्स में आता है।'
@@ -427,7 +417,6 @@ id:
       active: 'Meminta kode yang dikirim melalui email, lalu masuk'
       locked: 'Ditolak, akun terkunci'
       inactive: 'Ditolak, akun belum diaktifkan'
-      admin: 'Masuk, dan mengelola akun lainnya'
   magic_link:
     title: 'Tautan ajaib'
     intro: 'Tautan dikirim melalui email. Dalam pengembangan, itu masuk ke kotak surat alih-alih meninggalkan mesin.'
@@ -468,7 +457,6 @@ it:
       active: 'Richiede il codice inviato via email, poi accede'
       locked: "Rifiutato, l'account è bloccato"
       inactive: "Rifiutato, l'account non è attivato"
-      admin: 'Accede e gestisce gli altri account'
   magic_link:
     title: 'Link magico'
     intro: 'Il link viene inviato via email. In fase di sviluppo, atterra nella casella di posta invece di lasciare la macchina.'
@@ -509,7 +497,6 @@ ja:
       active: メールで送信されたコードを要求し、サインインします
       locked: 拒否されました。アカウントはロックされています
       inactive: 拒否されました。アカウントはアクティベートされていません
-      admin: サインインし、他のアカウントを管理します
   magic_link:
     title: マジックリンク
     intro: リンクはメールで送信されます。開発中は、マシンを離れることなくメールボックスに届きます。
@@ -550,7 +537,6 @@ ko:
       active: '이메일로 전송된 코드를 요청한 후 로그인합니다.'
       locked: '거부됨, 계정이 잠겼습니다'
       inactive: '거부됨, 계정이 활성화되지 않았습니다'
-      admin: '로그인하고 다른 계정을 관리합니다.'
   magic_link:
     title: '매직 링크'
     intro: '링크는 이메일로 전송됩니다. 개발 중에는 머신을 떠나는 대신 메일박스에 도착합니다.'
@@ -591,7 +577,6 @@ nl:
       active: 'Vraagt de code die per e-mail is verzonden, en logt in'
       locked: 'Weigerd, het account is vergrendeld'
       inactive: 'Weigerd, het account is niet geactiveerd'
-      admin: 'Logt in en beheert de andere accounts'
   magic_link:
     title: 'Magische link'
     intro: 'De link wordt per e-mail verzonden. In ontwikkeling komt deze in de mailbox in plaats van de machine te verlaten.'
@@ -632,7 +617,6 @@ pl:
       active: 'Prosi o kod wysłany e-mailem, a następnie loguje się'
       locked: 'Odmowa, konto jest zablokowane'
       inactive: 'Odmowa, konto nie jest aktywowane'
-      admin: 'Loguje się i zarządza innymi kontami'
   magic_link:
     title: 'Magiczny link'
     intro: 'Link jest wysyłany e-mailem. W trakcie rozwoju ląduje w skrzynce odbiorczej zamiast opuszczać maszynę.'
@@ -673,7 +657,6 @@ pt_BR:
       active: 'Pede o código enviado por e-mail, depois faz o login'
       locked: 'Recusado, a conta está bloqueada'
       inactive: 'Recusado, a conta não está ativada'
-      admin: 'Faz o login e administra as outras contas'
   magic_link:
     title: 'Link mágico'
     intro: 'O link é enviado por e-mail. Em desenvolvimento, vai para a caixa de entrada em vez de sair da máquina.'
@@ -714,7 +697,6 @@ ru:
       active: 'Запрашивает код, отправленный на email, затем выполняет вход'
       locked: 'Отказано, аккаунт заблокирован'
       inactive: 'Отказано, аккаунт не активирован'
-      admin: 'Входит и управляет другими аккаунтами'
   magic_link:
     title: 'Волшебная ссылка'
     intro: 'Ссылка отправляется на email. В разработке она попадает в почтовый ящик, а не покидает машину.'
@@ -755,7 +737,6 @@ th:
       active: 'ขอรหัสที่ส่งทางอีเมล จากนั้นเข้าสู่ระบบ'
       locked: 'ปฏิเสธ บัญชีถูกล็อก'
       inactive: 'ปฏิเสธ บัญชียังไม่ได้เปิดใช้งาน'
-      admin: 'เข้าสู่ระบบ และจัดการบัญชีอื่นๆ'
   magic_link:
     title: ลิงก์มหัศจรรย์
     intro: 'ลิงก์ถูกส่งทางอีเมล ในระหว่างการพัฒนา มันจะไปอยู่ในกล่องจดหมายแทนที่จะออกจากเครื่อง'
@@ -796,7 +777,6 @@ tr:
       active: 'E-posta ile gönderilen kodu ister, ardından oturum açar'
       locked: 'Reddedildi, hesap kilitli'
       inactive: 'Reddedildi, hesap etkinleştirilmemiş'
-      admin: 'Oturum açar ve diğer hesapları yönetir'
   magic_link:
     title: 'Sihirli bağlantı'
     intro: 'Bağlantı e-posta ile gönderilir. Geliştirme aşamasında, makineden çıkmak yerine gelen kutusuna düşer.'
@@ -837,7 +817,6 @@ ur:
       active: 'ایمیل کے ذریعے بھیجا گیا کوڈ مانگتا ہے، پھر سائن ان کرتا ہے'
       locked: 'انکار، اکاؤنٹ لاک ہو چکا ہے'
       inactive: 'انکار، اکاؤنٹ فعال نہیں ہے'
-      admin: 'سائن ان کرتا ہے، اور دوسرے اکاؤنٹس کا انتظام کرتا ہے'
   magic_link:
     title: 'جادوئی لنک'
     intro: 'لنک ای میل کے ذریعے بھیجا جاتا ہے۔ ترقی کے دوران، یہ مشین چھوڑنے کے بجائے میل باکس میں پہنچتا ہے۔'
@@ -878,7 +857,6 @@ vi:
       active: 'Yêu cầu mã được gửi qua email, sau đó đăng nhập'
       locked: 'Từ chối, tài khoản đã bị khóa'
       inactive: 'Từ chối, tài khoản chưa được kích hoạt'
-      admin: 'Đăng nhập và quản lý các tài khoản khác'
   magic_link:
     title: 'Liên kết ma thuật'
     intro: 'Liên kết được gửi qua email. Trong quá trình phát triển, nó sẽ đến hộp thư thay vì rời khỏi máy.'
@@ -919,7 +897,6 @@ zh:
       active: 请求通过电子邮件发送的代码，然后登录
       locked: 拒绝，账户已锁定
       inactive: 拒绝，账户未激活
-      admin: 登录并管理其他账户
   magic_link:
     title: 魔法链接
     intro: 链接通过电子邮件发送。在开发中，它会落入邮箱，而不是离开机器。

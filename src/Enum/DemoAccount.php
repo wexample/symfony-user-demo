@@ -14,9 +14,6 @@ enum DemoAccount: string
 
     case INACTIVE = 'demo-inactive';
 
-    /** The one that opens the administration screens of symfony-user-ds. */
-    case ADMIN = 'demo-admin';
-
     public function getUsername(): string
     {
         return $this->value;
@@ -33,11 +30,14 @@ enum DemoAccount: string
     }
 
     /**
+     * None: an administrator is no demo account whose password the page
+     * prints, but the application's own (`user:create-admin`).
+     *
      * @return list<string>
      */
     public function getRoles(): array
     {
-        return $this === self::ADMIN ? ['ROLE_ADMIN'] : [];
+        return [];
     }
 
     public function isEnabled(): bool

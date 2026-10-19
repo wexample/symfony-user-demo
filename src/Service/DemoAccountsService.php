@@ -9,6 +9,7 @@ use Wexample\SymfonyUserDemo\Entity\DemoTeamMembership;
 use Wexample\SymfonyUserDemo\Entity\DemoUser;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
+use Wexample\SymfonyHelpers\Helper\RoleHelper;
 
 /**
  * Creates the demo accounts and their teams, or puts them back as DemoAccount
@@ -17,6 +18,12 @@ use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
  */
 class DemoAccountsService
 {
+    /**
+     * The administrator the demo once had, its password printed on the page:
+     * removed whatever its roles, an administrator being kept otherwise.
+     */
+    private const string RETIRED_ADMIN_EMAIL = 'demo-admin@example.com';
+
     /** Each demo team, with the grants the demo account holds there. */
     private const array TEAMS = [
         'Editorial' => ['administrator'],
@@ -37,10 +44,14 @@ class DemoAccountsService
 
     public function reset(): void
     {
-        // The accounts the sign-up tunnel created for visitors' addresses.
+        // The accounts the sign-up tunnel created for visitors' addresses; never
+        // an administrator's, which is the application's and no visitor's.
         $demoEmails = array_map(static fn (DemoAccount $account): string => $account->getEmail(), DemoAccount::cases());
         foreach ($this->demoUserRepository->findAll() as $user) {
-            if (! in_array($user->getEmail(), $demoEmails, true)) {
+            if (self::RETIRED_ADMIN_EMAIL === $user->getEmail()
+                || (! in_array($user->getEmail(), $demoEmails, true)
+                    && ! in_array(RoleHelper::ROLE_ADMIN, $user->getRoles(), true))
+            ) {
                 $this->entityManager->remove($user);
             }
         }
@@ -73,8 +84,8 @@ class DemoAccountsService
     }
 
     /**
-     * Two teams: demo administers the first and watches the second, which
-     * demo-admin reaches through its platform role only.
+     * Two teams: demo administers the first and watches the second, which an
+     * administrator reaches through their platform role only.
      */
     private function resetTeams(): void
     {
