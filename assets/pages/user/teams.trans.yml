@@ -8,3 +8,36 @@ en:
   members: Members (%count%)
   closed: Not yours to see
   empty: No team yet. Reset the test accounts to create them.
+
+fr:
+  page_title: Équipes
+  page_icon: 'ph:bold/users-three'
+  intro: "Groupes de l'application, avec des membres et des accès qui s'incluent mutuellement — administrateur, contributeur, observateur, client. Le compte de démonstration administre Editorial et observe Studio ; le compte admin administre les deux via son rôle de plateforme."
+  column:
+    team: Équipe
+    grants: 'Votre accès'
+  members: 'Membres (%count%)'
+  closed: 'Pas à vous de voir'
+  empty: "Aucune équipe pour l'instant. Réinitialisez les comptes de test pour en créer."
+
+zh:
+  page_title: 团队
+  page_icon: 'ph:bold/users-three'
+  intro: 应用程序的组，包括彼此的成员和访问权限——管理员、贡献者、观察者、客户。演示账户管理编辑团队并观察工作室；管理员账户通过其平台角色管理两者。
+  column:
+    team: 团队
+    grants: 您的访问权限
+  members: '成员 (%count%)'
+  closed: 您无法查看
+  empty: 还没有团队。重置测试账户以创建它们。
+
+ar:
+  page_title: الفرق
+  page_icon: 'ph:bold/users-three'
+  intro: 'مجموعات التطبيق، مع الأعضاء والوصول الذي يشمل بعضهم البعض - المسؤول، المساهم، المراقب، العميل. الحساب التجريبي يدير قسم التحرير ويشاهد الاستوديو؛ حساب المسؤول يدير كلاهما من خلال دوره في المنصة.'
+  column:
+    team: فريق
+    grants: وصولك
+  members: 'الأعضاء (%count%)'
+  closed: 'ليس لك أن تراه'
+  empty: 'لا يوجد فريق حتى الآن. أعد تعيين الحسابات التجريبية لإنشائها.'

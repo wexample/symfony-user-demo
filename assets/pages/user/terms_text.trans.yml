@@ -3,3 +3,21 @@ en:
   page_icon: ph:bold/file-text
   intro: The terms an application declares in `wexample_symfony_user.terms`. Every signed-in user accepts their version before reaching anything else.
   body: This demo keeps nothing about you but the accounts and links you create on it, which resetting the demo accounts removes.
+
+fr:
+  page_title: "Conditions d'utilisation"
+  page_icon: 'ph:bold/file-text'
+  intro: "Les conditions qu'une application déclare dans `wexample_symfony_user.terms`. Chaque utilisateur connecté accepte sa version avant d'accéder à quoi que ce soit d'autre."
+  body: 'Cette démo ne conserve rien sur vous, sauf les comptes et les liens que vous créez, qui sont supprimés lors de la réinitialisation des comptes de démonstration.'
+
+zh:
+  page_title: 使用条款
+  page_icon: 'ph:bold/file-text'
+  intro: '应用程序在 `wexample_symfony_user.terms` 中声明的条款。每个登录用户在进行其他操作之前都接受他们的版本。'
+  body: 此演示不会保留关于您的任何信息，除了您在其中创建的帐户和链接，重置演示帐户会删除这些信息。
+
+ar:
+  page_title: 'شروط الاستخدام'
+  page_icon: 'ph:bold/file-text'
+  intro: 'الشروط التي يحددها التطبيق في `wexample_symfony_user.terms`. كل مستخدم مسجل يقبل نسخته قبل الوصول إلى أي شيء آخر.'
+  body: 'هذا العرض التوضيحي لا يحتفظ بأي شيء عنك سوى الحسابات والروابط التي تنشئها عليه، والتي يتم حذفها عند إعادة تعيين حسابات العرض التوضيحي.'

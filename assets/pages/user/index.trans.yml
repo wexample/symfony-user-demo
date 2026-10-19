@@ -42,7 +42,7 @@ en:
 ar:
   page_title: المستخدم
   page_icon: 'ph:bold/user'
-  intro: 'نموذج تسجيل الدخول لـ symfony-user، مُقدم عبر ajax. قم بتسجيل الدخول باستخدام أحد حسابات الاختبار أدناه، باستخدام البريد الإلكتروني أو اسم المستخدم. على جهاز غير موثوق به بعد، يتبع كلمة المرور رمز يتم إرساله إلى صندوق البريد التجريبي.'
+  intro: 'نموذج تسجيل الدخول لـ symfony-user، يتم إرساله عبر ajax. قم بتسجيل الدخول باستخدام إحدى حسابات الاختبار أدناه، عبر البريد الإلكتروني أو اسم المستخدم. على جهاز غير موثوق به بعد، يتبع الرمز كلمة المرور، المرسلة عبر البريد الإلكتروني.'
   signed_in: 'تم تسجيل الدخول كـ %name%.'
   accounts:
     title: 'حسابات الاختبار'
@@ -55,22 +55,27 @@ ar:
     reset_intro: 'قام زائر بتغيير كلمة المرور أو أغلق حسابه؟'
     reset: 'إعادة تعيين حسابات الاختبار'
     result:
-      active: 'يطلب رمز صندوق البريد التجريبي، ثم يسجل الدخول'
+      active: 'يطلب الرمز المرسل عبر البريد الإلكتروني، ثم يسجل الدخول'
       locked: 'مرفوض، الحساب مقفول'
       inactive: 'مرفوض، الحساب غير مفعل'
+      admin: 'يسجل الدخول، ويدير الحسابات الأخرى'
   magic_link:
     title: 'رابط سحري'
-    intro: 'لا يرسل العرض أي بريد إلكتروني. الرابط يصل إلى صندوق البريد التجريبي، مرئي لك فقط.'
+    intro: 'الرابط يُرسل عبر البريد الإلكتروني. في مرحلة التطوير، يصل إلى صندوق البريد بدلاً من مغادرة الجهاز.'
   signup:
     title: 'نفق التسجيل'
     intro: 'خطوات البريد الإلكتروني وتسجيل الدخول لـ symfony-user، في نفق. عنوان به حساب يطلب تسجيل الدخول؛ أي عنوان آخر ينشئ حسابًا، غير مفعل.'
     open: 'استكشاف النفق'
   forgot:
     title: 'كلمة المرور المنسية'
-    intro: 'يرسل رابط إعادة التعيين إلى صندوق البريد التجريبي أيضًا.'
+    intro: 'رابط إعادة التعيين يُرسل عبر البريد الإلكتروني أيضًا.'
   action:
     forgot: 'نسيت كلمة المرور؟'
-    mailbox: 'فتح صندوق البريد التجريبي'
+    mailbox: 'فتح صندوق البريد'
+    authenticator: 'رمز تطبيق المصادقة'
+    profile: حسابي
+    teams: الفرق
+    accounts: الحسابات
     logout: 'تسجيل الخروج'
   login:
     title: 'تسجيل الدخول'
@@ -258,7 +263,7 @@ fi:
 fr:
   page_title: Utilisateur
   page_icon: 'ph:bold/user'
-  intro: "Le formulaire de connexion de symfony-user, soumis par ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par e-mail ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par e-mail."
+  intro: "Le formulaire de connexion de symfony-user, soumis via ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par email ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par email."
   signed_in: 'Connecté en tant que %name%.'
   accounts:
     title: 'Comptes de test'
@@ -271,25 +276,26 @@ fr:
     reset_intro: "Un visiteur a changé un mot de passe ou s'est verrouillé dehors ?"
     reset: 'Réinitialiser les comptes de test'
     result:
-      active: 'Demande le code envoyé par e-mail, puis se connecte'
+      active: 'Demande le code envoyé par email, puis se connecte'
       locked: 'Refusé, le compte est verrouillé'
       inactive: "Refusé, le compte n'est pas activé"
       admin: 'Se connecte, et administre les autres comptes'
   magic_link:
     title: 'Lien magique'
-    intro: "Le lien est envoyé par e-mail. En développement, il arrive dans la boîte mail au lieu de quitter la machine."
+    intro: 'Le lien est envoyé par email. En développement, il atterrit dans la boîte aux lettres au lieu de quitter la machine.'
   signup:
     title: "Tunnel d'inscription"
     intro: "Les étapes d'e-mail et de connexion de symfony-user, dans un tunnel. Une adresse avec un compte demande à se connecter ; toute autre crée un compte, non activé."
     open: 'Parcourir le tunnel'
   forgot:
     title: 'Mot de passe oublié'
-    intro: 'Le lien de réinitialisation est lui aussi envoyé par e-mail.'
+    intro: 'Le lien de réinitialisation est également envoyé par email.'
   action:
     forgot: 'Mot de passe oublié ?'
-    mailbox: 'Ouvrir la boîte mail'
+    mailbox: 'Ouvrir la boîte aux lettres'
     authenticator: "Code de l'application d'authentification"
     profile: 'Mon compte'
+    teams: Équipes
     accounts: Comptes
     logout: 'Se déconnecter'
   login:
@@ -802,7 +808,7 @@ vi:
 zh:
   page_title: 用户
   page_icon: 'ph:bold/user'
-  intro: 'symfony-user 的登录表单，通过 ajax 提交。使用下面的测试账户之一，通过电子邮件或用户名登录。在尚未信任的设备上，密码后会跟随一个代码，发送到演示邮箱。'
+  intro: 'symfony-user 的登录表单，通过 ajax 提交。请使用下面的测试账户登录，可以通过电子邮件或用户名登录。在未被信任的设备上，密码后会有一个通过电子邮件发送的代码。'
   signed_in: '以 %name% 身份登录。'
   accounts:
     title: 测试账户
@@ -815,22 +821,27 @@ zh:
     reset_intro: 访客更改了密码或锁定了自己？
     reset: 重置测试账户
     result:
-      active: 请求演示邮箱的代码，然后登录
+      active: 请求通过电子邮件发送的代码，然后登录
       locked: 拒绝，账户已锁定
       inactive: 拒绝，账户未激活
+      admin: 登录并管理其他账户
   magic_link:
     title: 魔法链接
-    intro: 演示不发送电子邮件。链接进入演示邮箱，仅对你可见。
+    intro: 链接通过电子邮件发送。在开发中，它会落入邮箱，而不是离开机器。
   signup:
     title: 注册隧道
     intro: 'symfony-user 的电子邮件和登录步骤，位于隧道中。带有账户的地址请求登录；其他任何地址则创建一个未激活的账户。'
     open: 走过隧道
   forgot:
     title: 忘记密码
-    intro: 重置链接也进入演示邮箱。
+    intro: 重置链接也会通过电子邮件发送。
   action:
     forgot: 忘记密码？
-    mailbox: 打开演示邮箱
+    mailbox: 打开邮箱
+    authenticator: 身份验证器应用代码
+    profile: 我的账户
+    teams: 团队
+    accounts: 账户
     logout: 登出
   login:
     title: 登录

@@ -1,70 +1,4 @@
 {
-    "pages/user/account.ar.yml": {
-        "action.logout": {
-            "hash": "acf10dbb1cba787368657cd3d6d67a73",
-            "engine": "syrtis"
-        },
-        "authenticator.off": {
-            "hash": "132d815f68fb1f22b74d3e7b65c8f059",
-            "engine": "syrtis"
-        },
-        "authenticator.on": {
-            "hash": "5b8840be2f4fcd8a3d582bf4501c06e1",
-            "engine": "syrtis"
-        },
-        "authenticator.open": {
-            "hash": "b7a0fb36e2f5945592c8bf31e5758741",
-            "engine": "syrtis"
-        },
-        "authenticator.title": {
-            "hash": "1f2ccb564147feeb5516caee727a654f",
-            "engine": "syrtis"
-        },
-        "change_password": {
-            "hash": "2fe49b3267a912d3d343471c35ebfee0",
-            "engine": "syrtis"
-        },
-        "devices.intro": {
-            "hash": "463a2fbfe1e6c0826fe454cc87597a95",
-            "engine": "syrtis"
-        },
-        "devices.revoke": {
-            "hash": "e4b31abe569d2b74c0b4a076b736b933",
-            "engine": "syrtis"
-        },
-        "devices.title": {
-            "hash": "7aceff206881d7849f940d8e3cb3f8e1",
-            "engine": "syrtis"
-        },
-        "field.date_created": {
-            "hash": "422ce8c0cab0d472cfd2be8bd2497829",
-            "engine": "syrtis"
-        },
-        "field.date_last_login": {
-            "hash": "f8c3473acf0ae9372dda6b08d16129bc",
-            "engine": "syrtis"
-        },
-        "field.email": {
-            "hash": "2598beb66d173eff6b50a4377fca718d",
-            "engine": "syrtis"
-        },
-        "field.roles": {
-            "hash": "6aad9e33c415e510161fd3925cb977a4",
-            "engine": "syrtis"
-        },
-        "field.username": {
-            "hash": "561c61b58a31ea0b22febc09c6fbf885",
-            "engine": "syrtis"
-        },
-        "page_icon": {
-            "hash": "f0e26f09c2ed4da6bafc78634e4ddab6",
-            "engine": "syrtis"
-        },
-        "page_title": {
-            "hash": "00fc5daacd225edfff7f52bf5bb1f4b5",
-            "engine": "syrtis"
-        }
-    },
     "pages/user/account.bn.yml": {
         "action.logout": {
             "hash": "acf10dbb1cba787368657cd3d6d67a73",
@@ -330,72 +264,6 @@
         }
     },
     "pages/user/account.fi.yml": {
-        "action.logout": {
-            "hash": "acf10dbb1cba787368657cd3d6d67a73",
-            "engine": "syrtis"
-        },
-        "authenticator.off": {
-            "hash": "132d815f68fb1f22b74d3e7b65c8f059",
-            "engine": "syrtis"
-        },
-        "authenticator.on": {
-            "hash": "5b8840be2f4fcd8a3d582bf4501c06e1",
-            "engine": "syrtis"
-        },
-        "authenticator.open": {
-            "hash": "b7a0fb36e2f5945592c8bf31e5758741",
-            "engine": "syrtis"
-        },
-        "authenticator.title": {
-            "hash": "1f2ccb564147feeb5516caee727a654f",
-            "engine": "syrtis"
-        },
-        "change_password": {
-            "hash": "2fe49b3267a912d3d343471c35ebfee0",
-            "engine": "syrtis"
-        },
-        "devices.intro": {
-            "hash": "463a2fbfe1e6c0826fe454cc87597a95",
-            "engine": "syrtis"
-        },
-        "devices.revoke": {
-            "hash": "e4b31abe569d2b74c0b4a076b736b933",
-            "engine": "syrtis"
-        },
-        "devices.title": {
-            "hash": "7aceff206881d7849f940d8e3cb3f8e1",
-            "engine": "syrtis"
-        },
-        "field.date_created": {
-            "hash": "422ce8c0cab0d472cfd2be8bd2497829",
-            "engine": "syrtis"
-        },
-        "field.date_last_login": {
-            "hash": "f8c3473acf0ae9372dda6b08d16129bc",
-            "engine": "syrtis"
-        },
-        "field.email": {
-            "hash": "2598beb66d173eff6b50a4377fca718d",
-            "engine": "syrtis"
-        },
-        "field.roles": {
-            "hash": "6aad9e33c415e510161fd3925cb977a4",
-            "engine": "syrtis"
-        },
-        "field.username": {
-            "hash": "561c61b58a31ea0b22febc09c6fbf885",
-            "engine": "syrtis"
-        },
-        "page_icon": {
-            "hash": "f0e26f09c2ed4da6bafc78634e4ddab6",
-            "engine": "syrtis"
-        },
-        "page_title": {
-            "hash": "00fc5daacd225edfff7f52bf5bb1f4b5",
-            "engine": "syrtis"
-        }
-    },
-    "pages/user/account.fr.yml": {
         "action.logout": {
             "hash": "acf10dbb1cba787368657cd3d6d67a73",
             "engine": "syrtis"
@@ -1385,69 +1253,15 @@
             "engine": "syrtis"
         }
     },
-    "pages/user/account.zh.yml": {
-        "action.logout": {
-            "hash": "acf10dbb1cba787368657cd3d6d67a73",
+    "pages/user/authenticator.ar.yml": {
+        "empty": {
+            "hash": "a86386bde7a994b92307a00eaa1a9cfd",
             "engine": "syrtis"
-        },
-        "authenticator.off": {
-            "hash": "132d815f68fb1f22b74d3e7b65c8f059",
-            "engine": "syrtis"
-        },
-        "authenticator.on": {
-            "hash": "5b8840be2f4fcd8a3d582bf4501c06e1",
-            "engine": "syrtis"
-        },
-        "authenticator.open": {
-            "hash": "b7a0fb36e2f5945592c8bf31e5758741",
-            "engine": "syrtis"
-        },
-        "authenticator.title": {
-            "hash": "1f2ccb564147feeb5516caee727a654f",
-            "engine": "syrtis"
-        },
-        "change_password": {
-            "hash": "2fe49b3267a912d3d343471c35ebfee0",
-            "engine": "syrtis"
-        },
-        "devices.intro": {
-            "hash": "463a2fbfe1e6c0826fe454cc87597a95",
-            "engine": "syrtis"
-        },
-        "devices.revoke": {
-            "hash": "e4b31abe569d2b74c0b4a076b736b933",
-            "engine": "syrtis"
-        },
-        "devices.title": {
-            "hash": "7aceff206881d7849f940d8e3cb3f8e1",
-            "engine": "syrtis"
-        },
-        "field.date_created": {
-            "hash": "422ce8c0cab0d472cfd2be8bd2497829",
-            "engine": "syrtis"
-        },
-        "field.date_last_login": {
-            "hash": "f8c3473acf0ae9372dda6b08d16129bc",
-            "engine": "syrtis"
-        },
-        "field.email": {
-            "hash": "2598beb66d173eff6b50a4377fca718d",
-            "engine": "syrtis"
-        },
-        "field.roles": {
-            "hash": "6aad9e33c415e510161fd3925cb977a4",
-            "engine": "syrtis"
-        },
-        "field.username": {
-            "hash": "561c61b58a31ea0b22febc09c6fbf885",
-            "engine": "syrtis"
-        },
-        "page_icon": {
-            "hash": "f0e26f09c2ed4da6bafc78634e4ddab6",
-            "engine": "syrtis"
-        },
-        "page_title": {
-            "hash": "00fc5daacd225edfff7f52bf5bb1f4b5",
+        }
+    },
+    "pages/user/authenticator.zh.yml": {
+        "empty": {
+            "hash": "a86386bde7a994b92307a00eaa1a9cfd",
             "engine": "syrtis"
         }
     },
@@ -1481,7 +1295,11 @@
             "engine": "syrtis"
         },
         "accounts.result.active": {
-            "hash": "3fff1e22a13f1948f2baae58ce4fe4e9",
+            "hash": "e23dd6d57225cf306641590f2e9492be",
+            "engine": "syrtis"
+        },
+        "accounts.result.admin": {
+            "hash": "5427937e8e057cc16f4076197ec9d10e",
             "engine": "syrtis"
         },
         "accounts.result.inactive": {
@@ -1500,8 +1318,12 @@
             "hash": "561c61b58a31ea0b22febc09c6fbf885",
             "engine": "syrtis"
         },
-        "action.account": {
-            "hash": "00fc5daacd225edfff7f52bf5bb1f4b5",
+        "action.accounts": {
+            "hash": "c731545a28290ac50a52ee83525837dc",
+            "engine": "syrtis"
+        },
+        "action.authenticator": {
+            "hash": "928ee90692a77ff040a6dd290a2f7c39",
             "engine": "syrtis"
         },
         "action.forgot": {
@@ -1513,11 +1335,19 @@
             "engine": "syrtis"
         },
         "action.mailbox": {
-            "hash": "9642c0d9fc425ec806f523eb124359ca",
+            "hash": "0ef8ec644a79cf1ee21df96945df5a6c",
+            "engine": "syrtis"
+        },
+        "action.profile": {
+            "hash": "6bdfc3380908e7fca1192851199493ea",
+            "engine": "syrtis"
+        },
+        "action.teams": {
+            "hash": "bb5a789a810074535ff28c6df7e31927",
             "engine": "syrtis"
         },
         "forgot.intro": {
-            "hash": "34ea7994ca58346cfda0a20b10774f3f",
+            "hash": "efc04d207b2f078e1ffece6493374b8a",
             "engine": "syrtis"
         },
         "forgot.title": {
@@ -1525,7 +1355,7 @@
             "engine": "syrtis"
         },
         "intro": {
-            "hash": "973dd0bb7f1cd702a9ab4ea9321ce12c",
+            "hash": "3e8ef7145fb0b4264abdbc6dffa4de24",
             "engine": "syrtis"
         },
         "login.title": {
@@ -1533,7 +1363,7 @@
             "engine": "syrtis"
         },
         "magic_link.intro": {
-            "hash": "38bfccb53451320071fab5dd0fac25a4",
+            "hash": "66bdc5e3913c18aa0bf2f1bb1e7cb117",
             "engine": "syrtis"
         },
         "magic_link.title": {
@@ -2165,7 +1995,7 @@
             "engine": "syrtis"
         },
         "accounts.result.active": {
-            "hash": "3fff1e22a13f1948f2baae58ce4fe4e9",
+            "hash": "e23dd6d57225cf306641590f2e9492be",
             "engine": "syrtis"
         },
         "accounts.result.inactive": {
@@ -2184,10 +2014,6 @@
             "hash": "561c61b58a31ea0b22febc09c6fbf885",
             "engine": "syrtis"
         },
-        "action.account": {
-            "hash": "00fc5daacd225edfff7f52bf5bb1f4b5",
-            "engine": "syrtis"
-        },
         "action.forgot": {
             "hash": "173b71823ac074fbad1afe8f2637ad8e",
             "engine": "syrtis"
@@ -2197,11 +2023,15 @@
             "engine": "syrtis"
         },
         "action.mailbox": {
-            "hash": "9642c0d9fc425ec806f523eb124359ca",
+            "hash": "0ef8ec644a79cf1ee21df96945df5a6c",
+            "engine": "syrtis"
+        },
+        "action.teams": {
+            "hash": "bb5a789a810074535ff28c6df7e31927",
             "engine": "syrtis"
         },
         "forgot.intro": {
-            "hash": "34ea7994ca58346cfda0a20b10774f3f",
+            "hash": "efc04d207b2f078e1ffece6493374b8a",
             "engine": "syrtis"
         },
         "forgot.title": {
@@ -2209,7 +2039,7 @@
             "engine": "syrtis"
         },
         "intro": {
-            "hash": "973dd0bb7f1cd702a9ab4ea9321ce12c",
+            "hash": "3e8ef7145fb0b4264abdbc6dffa4de24",
             "engine": "syrtis"
         },
         "login.title": {
@@ -2217,7 +2047,7 @@
             "engine": "syrtis"
         },
         "magic_link.intro": {
-            "hash": "38bfccb53451320071fab5dd0fac25a4",
+            "hash": "66bdc5e3913c18aa0bf2f1bb1e7cb117",
             "engine": "syrtis"
         },
         "magic_link.title": {
@@ -3875,7 +3705,11 @@
             "engine": "syrtis"
         },
         "accounts.result.active": {
-            "hash": "3fff1e22a13f1948f2baae58ce4fe4e9",
+            "hash": "e23dd6d57225cf306641590f2e9492be",
+            "engine": "syrtis"
+        },
+        "accounts.result.admin": {
+            "hash": "5427937e8e057cc16f4076197ec9d10e",
             "engine": "syrtis"
         },
         "accounts.result.inactive": {
@@ -3894,8 +3728,12 @@
             "hash": "561c61b58a31ea0b22febc09c6fbf885",
             "engine": "syrtis"
         },
-        "action.account": {
-            "hash": "00fc5daacd225edfff7f52bf5bb1f4b5",
+        "action.accounts": {
+            "hash": "c731545a28290ac50a52ee83525837dc",
+            "engine": "syrtis"
+        },
+        "action.authenticator": {
+            "hash": "928ee90692a77ff040a6dd290a2f7c39",
             "engine": "syrtis"
         },
         "action.forgot": {
@@ -3907,11 +3745,19 @@
             "engine": "syrtis"
         },
         "action.mailbox": {
-            "hash": "9642c0d9fc425ec806f523eb124359ca",
+            "hash": "0ef8ec644a79cf1ee21df96945df5a6c",
+            "engine": "syrtis"
+        },
+        "action.profile": {
+            "hash": "6bdfc3380908e7fca1192851199493ea",
+            "engine": "syrtis"
+        },
+        "action.teams": {
+            "hash": "bb5a789a810074535ff28c6df7e31927",
             "engine": "syrtis"
         },
         "forgot.intro": {
-            "hash": "34ea7994ca58346cfda0a20b10774f3f",
+            "hash": "efc04d207b2f078e1ffece6493374b8a",
             "engine": "syrtis"
         },
         "forgot.title": {
@@ -3919,7 +3765,7 @@
             "engine": "syrtis"
         },
         "intro": {
-            "hash": "973dd0bb7f1cd702a9ab4ea9321ce12c",
+            "hash": "3e8ef7145fb0b4264abdbc6dffa4de24",
             "engine": "syrtis"
         },
         "login.title": {
@@ -3927,7 +3773,7 @@
             "engine": "syrtis"
         },
         "magic_link.intro": {
-            "hash": "38bfccb53451320071fab5dd0fac25a4",
+            "hash": "66bdc5e3913c18aa0bf2f1bb1e7cb117",
             "engine": "syrtis"
         },
         "magic_link.title": {
@@ -3956,68 +3802,6 @@
         },
         "signup.title": {
             "hash": "1f81217900ef56ac0f3046bc85209b3c",
-            "engine": "syrtis"
-        }
-    },
-    "pages/user/mailbox.ar.yml": {
-        "action.back": {
-            "hash": "90d7af3df0a51a881de619e08563c6a2",
-            "engine": "syrtis"
-        },
-        "action.follow": {
-            "hash": "e8a2d6e8b37ce6b86191e6375888ef81",
-            "engine": "syrtis"
-        },
-        "empty": {
-            "hash": "6f588a284173148d0c6d7af75d0e761b",
-            "engine": "syrtis"
-        },
-        "field.code": {
-            "hash": "11e9db450ffa5b86fd347ddb84aa84cd",
-            "engine": "syrtis"
-        },
-        "field.expires_at": {
-            "hash": "2de93d74f8cab864482ecb2762adf897",
-            "engine": "syrtis"
-        },
-        "field.to": {
-            "hash": "d105a8f987dd5e12fe3ba58a34ac265d",
-            "engine": "syrtis"
-        },
-        "field.type": {
-            "hash": "61b5316b359ccbdb90fd2fb36ce80802",
-            "engine": "syrtis"
-        },
-        "intro": {
-            "hash": "804f75d6fd2c322ee18c91c26771441f",
-            "engine": "syrtis"
-        },
-        "page_icon": {
-            "hash": "0526872ea61103f4490cd2c4acbcc61e",
-            "engine": "syrtis"
-        },
-        "page_title": {
-            "hash": "9ea5d137efb55d53bb96d98b331aa804",
-            "engine": "syrtis"
-        },
-        "totp.intro": {
-            "hash": "9e1452e6c5002dcbeacb5a3905cd25e1",
-            "engine": "syrtis"
-        },
-        "totp.title": {
-            "hash": "1f2ccb564147feeb5516caee727a654f",
-            "engine": "syrtis"
-        },
-        "type.magic_link": {
-            "hash": "1ebb266299624b4dd7751c06cf211b9b",
-            "engine": "syrtis"
-        },
-        "type.password_reset": {
-            "hash": "8a96d5ead829bbcf256a2bc6016b63b8",
-            "engine": "syrtis"
-        },
-        "type.two_factor_code": {
-            "hash": "5a8f88d6a10dcffd0330a6c20ff1d5b6",
             "engine": "syrtis"
         }
     },
@@ -4270,68 +4054,6 @@
         }
     },
     "pages/user/mailbox.fi.yml": {
-        "action.back": {
-            "hash": "90d7af3df0a51a881de619e08563c6a2",
-            "engine": "syrtis"
-        },
-        "action.follow": {
-            "hash": "e8a2d6e8b37ce6b86191e6375888ef81",
-            "engine": "syrtis"
-        },
-        "empty": {
-            "hash": "6f588a284173148d0c6d7af75d0e761b",
-            "engine": "syrtis"
-        },
-        "field.code": {
-            "hash": "11e9db450ffa5b86fd347ddb84aa84cd",
-            "engine": "syrtis"
-        },
-        "field.expires_at": {
-            "hash": "2de93d74f8cab864482ecb2762adf897",
-            "engine": "syrtis"
-        },
-        "field.to": {
-            "hash": "d105a8f987dd5e12fe3ba58a34ac265d",
-            "engine": "syrtis"
-        },
-        "field.type": {
-            "hash": "61b5316b359ccbdb90fd2fb36ce80802",
-            "engine": "syrtis"
-        },
-        "intro": {
-            "hash": "804f75d6fd2c322ee18c91c26771441f",
-            "engine": "syrtis"
-        },
-        "page_icon": {
-            "hash": "0526872ea61103f4490cd2c4acbcc61e",
-            "engine": "syrtis"
-        },
-        "page_title": {
-            "hash": "9ea5d137efb55d53bb96d98b331aa804",
-            "engine": "syrtis"
-        },
-        "totp.intro": {
-            "hash": "9e1452e6c5002dcbeacb5a3905cd25e1",
-            "engine": "syrtis"
-        },
-        "totp.title": {
-            "hash": "1f2ccb564147feeb5516caee727a654f",
-            "engine": "syrtis"
-        },
-        "type.magic_link": {
-            "hash": "1ebb266299624b4dd7751c06cf211b9b",
-            "engine": "syrtis"
-        },
-        "type.password_reset": {
-            "hash": "8a96d5ead829bbcf256a2bc6016b63b8",
-            "engine": "syrtis"
-        },
-        "type.two_factor_code": {
-            "hash": "5a8f88d6a10dcffd0330a6c20ff1d5b6",
-            "engine": "syrtis"
-        }
-    },
-    "pages/user/mailbox.fr.yml": {
         "action.back": {
             "hash": "90d7af3df0a51a881de619e08563c6a2",
             "engine": "syrtis"
@@ -5261,65 +4983,159 @@
             "engine": "syrtis"
         }
     },
-    "pages/user/mailbox.zh.yml": {
-        "action.back": {
-            "hash": "90d7af3df0a51a881de619e08563c6a2",
+    "pages/user/teams.ar.yml": {
+        "closed": {
+            "hash": "59ea0aaa04c70e698b1655bbe82f4b75",
             "engine": "syrtis"
         },
-        "action.follow": {
-            "hash": "e8a2d6e8b37ce6b86191e6375888ef81",
+        "column.grants": {
+            "hash": "37ee87e4c0f76ad1fad0c1e501dd5d56",
+            "engine": "syrtis"
+        },
+        "column.team": {
+            "hash": "d050bfef74ae79c7dbae6361b140eb53",
             "engine": "syrtis"
         },
         "empty": {
-            "hash": "6f588a284173148d0c6d7af75d0e761b",
-            "engine": "syrtis"
-        },
-        "field.code": {
-            "hash": "11e9db450ffa5b86fd347ddb84aa84cd",
-            "engine": "syrtis"
-        },
-        "field.expires_at": {
-            "hash": "2de93d74f8cab864482ecb2762adf897",
-            "engine": "syrtis"
-        },
-        "field.to": {
-            "hash": "d105a8f987dd5e12fe3ba58a34ac265d",
-            "engine": "syrtis"
-        },
-        "field.type": {
-            "hash": "61b5316b359ccbdb90fd2fb36ce80802",
+            "hash": "990681ce5ec75d5b51d59de7238ff1c3",
             "engine": "syrtis"
         },
         "intro": {
-            "hash": "804f75d6fd2c322ee18c91c26771441f",
+            "hash": "90681f91424bd24bb07bd14ef69d8d92",
+            "engine": "syrtis"
+        },
+        "members": {
+            "hash": "735dbbc0e10c4d7f0d247a0b7819a9b6",
             "engine": "syrtis"
         },
         "page_icon": {
-            "hash": "0526872ea61103f4490cd2c4acbcc61e",
+            "hash": "d8e87446324f47029bad81d8003a7560",
             "engine": "syrtis"
         },
         "page_title": {
-            "hash": "9ea5d137efb55d53bb96d98b331aa804",
+            "hash": "bb5a789a810074535ff28c6df7e31927",
+            "engine": "syrtis"
+        }
+    },
+    "pages/user/teams.fr.yml": {
+        "closed": {
+            "hash": "59ea0aaa04c70e698b1655bbe82f4b75",
             "engine": "syrtis"
         },
-        "totp.intro": {
-            "hash": "9e1452e6c5002dcbeacb5a3905cd25e1",
+        "column.grants": {
+            "hash": "37ee87e4c0f76ad1fad0c1e501dd5d56",
             "engine": "syrtis"
         },
-        "totp.title": {
-            "hash": "1f2ccb564147feeb5516caee727a654f",
+        "column.team": {
+            "hash": "d050bfef74ae79c7dbae6361b140eb53",
             "engine": "syrtis"
         },
-        "type.magic_link": {
-            "hash": "1ebb266299624b4dd7751c06cf211b9b",
+        "empty": {
+            "hash": "990681ce5ec75d5b51d59de7238ff1c3",
             "engine": "syrtis"
         },
-        "type.password_reset": {
-            "hash": "8a96d5ead829bbcf256a2bc6016b63b8",
+        "intro": {
+            "hash": "90681f91424bd24bb07bd14ef69d8d92",
             "engine": "syrtis"
         },
-        "type.two_factor_code": {
-            "hash": "5a8f88d6a10dcffd0330a6c20ff1d5b6",
+        "members": {
+            "hash": "735dbbc0e10c4d7f0d247a0b7819a9b6",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "d8e87446324f47029bad81d8003a7560",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "bb5a789a810074535ff28c6df7e31927",
+            "engine": "syrtis"
+        }
+    },
+    "pages/user/teams.zh.yml": {
+        "closed": {
+            "hash": "59ea0aaa04c70e698b1655bbe82f4b75",
+            "engine": "syrtis"
+        },
+        "column.grants": {
+            "hash": "37ee87e4c0f76ad1fad0c1e501dd5d56",
+            "engine": "syrtis"
+        },
+        "column.team": {
+            "hash": "d050bfef74ae79c7dbae6361b140eb53",
+            "engine": "syrtis"
+        },
+        "empty": {
+            "hash": "990681ce5ec75d5b51d59de7238ff1c3",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "90681f91424bd24bb07bd14ef69d8d92",
+            "engine": "syrtis"
+        },
+        "members": {
+            "hash": "735dbbc0e10c4d7f0d247a0b7819a9b6",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "d8e87446324f47029bad81d8003a7560",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "bb5a789a810074535ff28c6df7e31927",
+            "engine": "syrtis"
+        }
+    },
+    "pages/user/terms_text.ar.yml": {
+        "body": {
+            "hash": "d71fbe4a9bdf5f8d8038040c5ed89a04",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "c822093391464c4755d61acace8303af",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "506711f8101b53943cab4d636dd033a7",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "8b8104593a09ef87067ea99a684ce960",
+            "engine": "syrtis"
+        }
+    },
+    "pages/user/terms_text.fr.yml": {
+        "body": {
+            "hash": "d71fbe4a9bdf5f8d8038040c5ed89a04",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "c822093391464c4755d61acace8303af",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "506711f8101b53943cab4d636dd033a7",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "8b8104593a09ef87067ea99a684ce960",
+            "engine": "syrtis"
+        }
+    },
+    "pages/user/terms_text.zh.yml": {
+        "body": {
+            "hash": "d71fbe4a9bdf5f8d8038040c5ed89a04",
+            "engine": "syrtis"
+        },
+        "intro": {
+            "hash": "c822093391464c4755d61acace8303af",
+            "engine": "syrtis"
+        },
+        "page_icon": {
+            "hash": "506711f8101b53943cab4d636dd033a7",
+            "engine": "syrtis"
+        },
+        "page_title": {
+            "hash": "8b8104593a09ef87067ea99a684ce960",
             "engine": "syrtis"
         }
     },

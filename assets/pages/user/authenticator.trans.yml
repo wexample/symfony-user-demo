@@ -9,13 +9,14 @@ en:
     back: Back to the login forms
 
 ar:
-  page_title: تطبيق المصادقة
-  page_icon: ph:bold/device-mobile
-  intro: ما يظهره التطبيق على هذا الحساب الآن. يتغير كل 30 ثانية.
+  page_title: 'تطبيق المصادقة'
+  page_icon: 'ph:bold/device-mobile'
+  intro: 'ما يظهره التطبيق على هذا الحساب الآن. يتغير كل 30 ثانية.'
+  empty: 'لا توجد تطبيقات مصادقة تم إعدادها على الحساب الحالي. قم بإعداد واحدة من صفحة الحساب، ثم قم بتسجيل الدخول مرة أخرى: الخطوة الثانية تطلب الرمز المعروض هنا.'
   field:
     code: 'الكود:'
   action:
-    back: ارجع إلى نماذج تسجيل الدخول
+    back: 'ارجع إلى نماذج تسجيل الدخول'
 
 bn:
   page_title: অথেনটিকেটর অ্যাপ
@@ -200,8 +201,9 @@ vi:
 
 zh:
   page_title: 身份验证器应用
-  page_icon: ph:bold/device-mobile
+  page_icon: 'ph:bold/device-mobile'
   intro: 该应用在此账户上当前显示的内容。每30秒更换一次。
+  empty: 当前账户未设置身份验证应用。请在账户页面设置一个，然后重新登录：第二步会要求输入此处显示的代码。
   field:
     code: 代码：
   action:
