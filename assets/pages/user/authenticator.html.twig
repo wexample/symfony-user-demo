@@ -14,8 +14,4 @@
     {%- else -%}
         <div class="block block--padded empty">{{ '@page::empty' | trans }}</div>
     {%- endif -%}
-
-    <div class="cluster">
-        {{ button_link('ph:bold/arrow-left', '@page::action.back' | trans, path('user_index'), { class: 'button--flat' }) }}
-    </div>
 {%- endblock -%}
