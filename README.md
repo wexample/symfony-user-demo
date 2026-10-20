@@ -1,6 +1,6 @@
 # symfony-user-demo
 
-Version: 7.0.0
+Version: 7.0.1
 
 User accounts showcase pages for Symfony
 
@@ -25,7 +25,7 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.1.0
+- wexample/symfony-loader: >=23.2.0
 - wexample/symfony-design-system: >=37.0.0
 - wexample/symfony-design-system-demo: >=11.1.0
 - wexample/symfony-routing: >=2.2.0
