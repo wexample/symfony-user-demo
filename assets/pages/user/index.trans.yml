@@ -3,7 +3,11 @@ en:
   document_title: "Login form with email codes on new devices"
   page_description: "A login form submitted over Ajax with test accounts, sign-in by email or username, and a code sent by email on untrusted devices."
   page_icon: ph:bold/user
-  intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, sent by email.
+  intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username.
+  intro_code: On a device not trusted yet, a code follows the password, sent by email to the development mailbox.
+  dev:
+    label: Dev
+    title: Development only — the demo addresses receive no mail, the development mailbox keeps it.
   signed_in: Signed in as %name%.
   accounts:
     title: Test accounts
@@ -17,6 +21,7 @@ en:
     reset: Reset the test accounts
     result:
       active: Asks the code sent by email, then signs in
+      active_password: Signs in with the password
       locked: Refused, the account is locked
       inactive: Refused, the account is not activated
   magic_link:
@@ -290,7 +295,11 @@ fr:
   page_title: Utilisateur
   page_description: "Un formulaire de connexion envoyé en Ajax avec des comptes de test, connexion par e-mail ou nom d'utilisateur, et un code envoyé par e-mail sur les appareils non reconnus."
   page_icon: 'ph:bold/user'
-  intro: "Le formulaire de connexion de symfony-user, soumis via ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par email ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par email."
+  intro: "Le formulaire de connexion de symfony-user, soumis via ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par email ou par nom d'utilisateur."
+  intro_code: "Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par email dans la boîte de développement."
+  dev:
+    label: Dev
+    title: "Développement uniquement — les adresses de démo ne reçoivent aucun mail, la boîte de développement les garde."
   signed_in: 'Connecté en tant que %name%.'
   accounts:
     title: 'Comptes de test'
@@ -304,6 +313,7 @@ fr:
     reset: 'Réinitialiser les comptes de test'
     result:
       active: 'Demande le code envoyé par email, puis se connecte'
+      active_password: 'Se connecte avec le mot de passe'
       locked: 'Refusé, le compte est verrouillé'
       inactive: "Refusé, le compte n'est pas activé"
   magic_link:

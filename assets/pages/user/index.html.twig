@@ -20,7 +20,13 @@
             </div>
         </section>
     {%- else -%}
+        {#- A mark the development alone shows: what reads mail sent to the
+            demo addresses, nowhere else. -#}
+        {%- set dev_marker -%}{{ marker('dev', '@page::dev.label' | trans, { compact: true, title: '@page::dev.title' | trans }) }}{%- endset -%}
         <p class="lead">{{ '@page::intro' | trans }}</p>
+        {%- if email_two_factor -%}
+            <p class="cluster">{{ dev_marker }} <span class="text-secondary">{{ '@page::intro_code' | trans }}</span></p>
+        {%- endif -%}
 
         {#- The accounts to try, and how each one is meant to end. -#}
         <h2>{{ '@page::accounts.title' | trans }}</h2>
@@ -31,7 +37,7 @@
                     email: account.email,
                     username: account.username,
                     password: '<code>' ~ account.password|e ~ '</code>',
-                    expected: ('@page::accounts.result.' ~ account.name|lower) | trans,
+                    expected: ('@page::accounts.result.' ~ account.name|lower ~ (email_two_factor or account.name != 'ACTIVE' ? '' : '_password')) | trans,
                 }]) -%}
             {%- endfor -%}
             {{ data_table([
@@ -51,15 +57,22 @@
             <div class="block--body">
                 {{ form_load(render_pass, login_form, '@WexampleSymfonyUserDsBundle/forms/login_form.html.twig') }}
             </div>
+            <div class="block--footer">
+                <span></span>
+                {{ button_link('ph:bold/device-mobile', '@page::action.authenticator' | trans, path('user_authenticator'), { class: 'button--flat' }) }}
+            </div>
         </section>
 
         {#- The two ways in without the password, side by side: both send a
-            real mail, which lands in the development mailbox of symfony-mail. -#}
+            mail, which a visitor reads in the development mailbox of
+            symfony-mail only — the demo addresses receive nothing. -#}
+        {%- if app.environment in ['dev', 'test'] -%}
         <div class="grid grid--2">
             <section class="block block--card">
                 <div class="block--title">
                     <span class="block--title-leading">{{ icon('ph:bold/envelope-simple') }}</span>
                     <span class="block--title-label">{{ '@page::magic_link.title' | trans }}</span>
+                    {{ dev_marker }}
                 </div>
                 <div class="block--body stack--vertical">
                     <p class="text-secondary">{{ '@page::magic_link.intro' | trans }}</p>
@@ -71,20 +84,18 @@
                 <div class="block--title">
                     <span class="block--title-leading">{{ icon('ph:bold/key') }}</span>
                     <span class="block--title-label">{{ '@page::forgot.title' | trans }}</span>
+                    {{ dev_marker }}
                 </div>
                 <div class="block--body">
                     <p class="text-secondary">{{ '@page::forgot.intro' | trans }}</p>
                 </div>
                 <div class="block--footer">
                     {{ button_link('ph:bold/key', '@page::action.forgot' | trans, path('user_password_forgot')) }}
-                    {#- The mailbox is routed in dev and test only. -#}
-                    {%- if app.environment in ['dev', 'test'] -%}
-                        {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('mailbox_index'), { class: 'button--flat' }) }}
-                    {%- endif -%}
-                    {{ button_link('ph:bold/device-mobile', '@page::action.authenticator' | trans, path('user_authenticator'), { class: 'button--flat' }) }}
+                    {{ button_link('ph:bold/envelope-simple', '@page::action.mailbox' | trans, path('mailbox_index'), { class: 'button--flat' }) }}
                 </div>
             </section>
         </div>
+        {%- endif -%}
     {%- endif -%}
 
     {#- The two user steps of symfony-user, in a tunnel: open to anyone, a

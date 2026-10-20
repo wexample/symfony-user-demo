@@ -50,7 +50,8 @@ final class UserController extends AbstractPagesController
         LoginFormProcessor $loginFormProcessor,
         MagicLinkRequestFormProcessor $magicLinkRequestFormProcessor,
         DemoAccountsService $demoAccounts,
-        AccountAdministrationService $administration
+        AccountAdministrationService $administration,
+        bool $demoEmailTwoFactor
     ): Response {
         // The page decides where a successful login lands, the way a tunnel
         // step embedding the form would.
@@ -65,6 +66,7 @@ final class UserController extends AbstractPagesController
             'magic_link_request_form' => $magicLinkRequestFormProcessor->createForm()->createView(),
             'accounts' => DemoAccount::cases(),
             'accounts_created' => $demoAccounts->exist(),
+            'email_two_factor' => $demoEmailTwoFactor,
             // The administration screens are symfony-user-ds's, and there
             // only where the application declared administration.page_role.
             'may_administer' => $administration->canAdminister(),

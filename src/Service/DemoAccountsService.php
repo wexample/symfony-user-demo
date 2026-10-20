@@ -34,6 +34,7 @@ class DemoAccountsService
         private readonly EntityManagerInterface $entityManager,
         private readonly DemoUserRepository $demoUserRepository,
         private readonly UserPasswordHasherInterface $passwordHasher,
+        private readonly bool $demoEmailTwoFactor,
     ) {
     }
 
@@ -70,7 +71,7 @@ class DemoAccountsService
                 ->setRoles($account->getRoles())
                 ->setEnabled($account->isEnabled())
                 ->setLocked($account->isLocked())
-                ->setEmailTwoFactorEnabled(true)
+                ->setEmailTwoFactorEnabled($this->demoEmailTwoFactor)
                 ->setTotpSecret(null, null)
                 ->setBackupCodes([])
                 ->revokeTrustedDevices();

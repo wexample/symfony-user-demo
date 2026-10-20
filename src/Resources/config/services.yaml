@@ -3,6 +3,8 @@ services:
         autowire: true
         autoconfigure: true
         public: false
+        bind:
+            $demoEmailTwoFactor: '%wexample_symfony_user_demo.email_two_factor%'
 
     Wexample\SymfonyUserDemo\:
         resource: '../../{Command,Membership,Repository,Service}'
