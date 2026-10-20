@@ -1,5 +1,6 @@
 en:
   page_title: User
+  document_title: "Login form with email codes on new devices"
   page_description: "A login form submitted over Ajax with test accounts, sign-in by email or username, and a code sent by email on untrusted devices."
   page_icon: ph:bold/user
   intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, sent by email.

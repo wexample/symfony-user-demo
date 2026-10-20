@@ -1,5 +1,6 @@
 en:
   page_title: Authenticator
+  document_title: "Two-factor authentication with an authenticator app"
   page_description: "Two-factor authentication with an authenticator app: the time-based code currently expected for the signed-in account, renewed every 30 seconds."
   page_icon: ph:bold/device-mobile
   intro: What the app set up on this account shows right now. It changes every 30 seconds.
