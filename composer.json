@@ -3,7 +3,7 @@
   "description": "User accounts showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "6.1.0",
+  "version": "7.0.0",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyUserDemo\\": "src/"
@@ -17,16 +17,16 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-helpers": ">=16.0.0",
-    "wexample/symfony-loader": ">=23.0.0",
-    "wexample/symfony-design-system": ">=35.0.0",
-    "wexample/symfony-design-system-demo": ">=11.0.0",
-    "wexample/symfony-routing": ">=2.1.0",
-    "wexample/symfony-user": ">=12.0.0",
-    "wexample/symfony-user-ds": ">=5.0.0",
+    "wexample/symfony-helpers": ">=17.0.0",
+    "wexample/symfony-loader": ">=23.1.0",
+    "wexample/symfony-design-system": ">=37.0.0",
+    "wexample/symfony-design-system-demo": ">=11.1.0",
+    "wexample/symfony-routing": ">=2.2.0",
+    "wexample/symfony-user": ">=13.0.0",
+    "wexample/symfony-user-ds": ">=5.1.0",
     "wexample/symfony-mail-ds": ">=2.1.0",
-    "wexample/symfony-organization": ">=2.0.0",
-    "wexample/symfony-search": ">=4.1.0"
+    "wexample/symfony-organization": ">=3.0.0",
+    "wexample/symfony-search": ">=4.2.0"
   },
   "repositories": [
     {

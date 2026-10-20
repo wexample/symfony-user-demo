@@ -4,12 +4,12 @@ namespace Wexample\SymfonyUserDemo\Service;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
+use Wexample\SymfonyHelpers\Helper\RoleHelper;
 use Wexample\SymfonyUserDemo\Entity\DemoTeam;
 use Wexample\SymfonyUserDemo\Entity\DemoTeamMembership;
 use Wexample\SymfonyUserDemo\Entity\DemoUser;
 use Wexample\SymfonyUserDemo\Enum\DemoAccount;
 use Wexample\SymfonyUserDemo\Repository\DemoUserRepository;
-use Wexample\SymfonyHelpers\Helper\RoleHelper;
 
 /**
  * Creates the demo accounts and their teams, or puts them back as DemoAccount
