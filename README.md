@@ -1,11 +1,22 @@
 # symfony-user-demo
 
-Version: 7.0.1
+Version: 8.0.0
 
-User accounts showcase pages for Symfony
+## The code by mail
+
+The demo accounts' addresses are `@example.com`: they receive nothing, and the code sent at sign-in is read only in the development mailbox. So the accounts sign in with their password alone unless the application asks for the code, where the mailbox exists:
+
+```yaml
+when@dev:
+  wexample_symfony_user_demo:
+    email_two_factor: true
+```
+
+Taken on the next reset of the accounts. The page marks what only the development shows (`marker('dev')`): the code, the magic link and the forgotten password, both of which send a mail — shown in dev and test only.
 
 ## Table of Contents
 
+- [The code by mail](#the-code-by-mail)
 - [Integration in the Suite](#integration-in-the-suite)
 - [Dependencies](#dependencies)
 - [Versioning & Compatibility Policy](#versioning--compatibility-policy)
@@ -25,13 +36,13 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.2.0
-- wexample/symfony-design-system: >=37.0.0
+- wexample/symfony-loader: >=23.3.0
+- wexample/symfony-design-system: >=38.0.0
 - wexample/symfony-design-system-demo: >=11.1.0
 - wexample/symfony-routing: >=2.2.0
-- wexample/symfony-user: >=13.0.0
+- wexample/symfony-user: >=14.0.0
 - wexample/symfony-user-ds: >=5.1.0
-- wexample/symfony-mail-ds: >=2.1.0
+- wexample/symfony-mail-ds: >=2.2.0
 - wexample/symfony-organization: >=3.0.0
 - wexample/symfony-search: >=4.2.0
 
