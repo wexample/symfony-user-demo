@@ -1,137 +1,160 @@
 en:
   page_title: Terms of use
+  page_description: "The terms of use an application declares, accepted in their current version by every signed-in user before anything else."
   page_icon: ph:bold/file-text
   intro: The terms an application declares in `wexample_symfony_user.terms`. Every signed-in user accepts their version before reaching anything else.
   body: This demo keeps nothing about you but the accounts and links you create on it, which resetting the demo accounts removes.
 
 fr:
   page_title: "Conditions d'utilisation"
+  page_description: "Les conditions d'utilisation qu'une application déclare, acceptées dans leur version en vigueur par chaque utilisateur connecté avant toute autre chose."
   page_icon: 'ph:bold/file-text'
   intro: "Les conditions qu'une application déclare dans `wexample_symfony_user.terms`. Chaque utilisateur connecté accepte sa version avant d'accéder à quoi que ce soit d'autre."
   body: 'Cette démo ne conserve rien sur vous, sauf les comptes et les liens que vous créez, qui sont supprimés lors de la réinitialisation des comptes de démonstration.'
 
 zh:
   page_title: 使用条款
+  page_description: "应用声明的使用条款，每位登录用户在进行其他操作前都需接受其当前版本。"
   page_icon: 'ph:bold/file-text'
   intro: '应用程序在 `wexample_symfony_user.terms` 中声明的条款。每个登录用户在进行其他操作之前都接受他们的版本。'
   body: 此演示不会保留关于您的任何信息，除了您在其中创建的帐户和链接，重置演示帐户会删除这些信息。
 
 ar:
   page_title: 'شروط الاستخدام'
+  page_description: "شروط الاستخدام التي يعلنها التطبيق، ويقبل كل مستخدم مسجّل نسختها الحالية قبل أي شيء آخر."
   page_icon: 'ph:bold/file-text'
   intro: 'الشروط التي يحددها التطبيق في `wexample_symfony_user.terms`. كل مستخدم مسجل يقبل نسخته قبل الوصول إلى أي شيء آخر.'
   body: 'هذا العرض التوضيحي لا يحتفظ بأي شيء عنك سوى الحسابات والروابط التي تنشئها عليه، والتي يتم حذفها عند إعادة تعيين حسابات العرض التوضيحي.'
 
 hi:
   page_title: 'उपयोग की शर्तें'
+  page_description: "किसी ऐप्लिकेशन द्वारा घोषित उपयोग की शर्तें, जिन्हें हर साइन-इन उपयोगकर्ता कुछ भी करने से पहले उनके वर्तमान संस्करण में स्वीकार करता है।"
   page_icon: 'ph:bold/file-text'
   intro: 'एक एप्लिकेशन में `wexample_symfony_user.terms` में घोषित की गई शर्तें। प्रत्येक साइन इन उपयोगकर्ता अपने संस्करण को स्वीकार करता है इससे पहले कि वह कुछ और पहुंच सके।'
   body: 'यह डेमो आपके बारे में कुछ भी नहीं रखता सिवाय उन खातों और लिंक के जो आप इस पर बनाते हैं, जिन्हें डेमो खातों को रिसेट करने पर हटा दिया जाता है।'
 
 he:
   page_title: 'תנאי שימוש'
+  page_description: "תנאי השימוש שאפליקציה מצהירה עליהם, שכל משתמש מחובר מאשר בגרסתם הנוכחית לפני כל דבר אחר."
   page_icon: 'ph:bold/file-text'
   intro: 'התנאים שהיישום מצהיר ב`wexample_symfony_user.terms`. כל משתמש מחובר מקבל את הגרסה שלו לפני שהוא מגיע לכל דבר אחר.'
   body: 'הדמו הזה לא שומר שום דבר לגביך אלא את החשבונות והקישורים שאתה יוצר בו, אשר מחיקת החשבונות בדמו מסירה.'
 
 fa:
   page_title: 'شرایط استفاده'
+  page_description: "شرایط استفاده‌ای که یک اپلیکیشن اعلام می‌کند و هر کاربر واردشده پیش از هر کاری نسخه کنونی آن را می‌پذیرد."
   page_icon: 'ph:bold/file-text'
   intro: 'شرایطی که یک برنامه در `wexample_symfony_user.terms` اعلام می‌کند. هر کاربر وارد شده نسخه خود را قبل از رسیدن به هر چیز دیگری می‌پذیرد.'
   body: 'این دمو هیچ چیزی درباره شما نگه نمی‌دارد جز حساب‌ها و لینک‌هایی که در آن ایجاد می‌کنید، که با بازنشانی حساب‌های دمو حذف می‌شود.'
 
 ur:
   page_title: 'استعمال کی شرائط'
+  page_description: "کسی ایپلیکیشن کی اعلان کردہ شرائطِ استعمال، جنہیں ہر سائن ان صارف کسی بھی چیز سے پہلے ان کے موجودہ ورژن میں قبول کرتا ہے۔"
   page_icon: 'ph:bold/file-text'
   intro: 'وہ شرائط جو ایک ایپلیکیشن `wexample_symfony_user.terms` میں بیان کرتی ہے۔ ہر سائن ان شدہ صارف اپنی ورژن کو قبول کرتا ہے اس سے پہلے کہ وہ کچھ اور تک پہنچے۔'
   body: 'یہ ڈیمو آپ کے بارے میں کچھ بھی محفوظ نہیں رکھتا سوائے ان اکاؤنٹس اور روابط کے جو آپ اس پر بناتے ہیں، جنہیں ڈیمو اکاؤنٹس کو ری سیٹ کرنے سے ہٹا دیا جاتا ہے۔'
 
 ja:
   page_title: 利用規約
+  page_description: "アプリケーションが定める利用規約。サインインしたユーザーは、何よりも先に現行バージョンに同意します。"
   page_icon: 'ph:bold/file-text'
   intro: アプリケーションが`wexample_symfony_user.terms`で宣言する条件です。サインインした全てのユーザーは、他の機能にアクセスする前に自分のバージョンに同意します。
   body: このデモは、あなたに関する情報を保持せず、作成したアカウントやリンクだけを保持します。デモアカウントをリセットすると、それらが削除されます。
 
 ko:
   page_title: '이용 약관'
+  page_description: "애플리케이션이 정한 이용 약관으로, 로그인한 모든 사용자가 다른 무엇보다 먼저 현재 버전에 동의합니다."
   page_icon: 'ph:bold/file-text'
   intro: '`wexample_symfony_user.terms`에서 애플리케이션이 선언하는 약관. 모든 로그인한 사용자는 다른 내용을 보기 전에 해당 버전을 수락합니다.'
   body: '이 데모는 당신에 대한 정보를 아무것도 저장하지 않으며, 당신이 생성하는 계정과 링크만을 유지하며, 데모 계정을 초기화하면 해당 내용이 삭제됩니다.'
 
 bn:
   page_title: 'ব্যবহারের শর্তাবলী'
+  page_description: "একটি অ্যাপ্লিকেশনের ঘোষিত ব্যবহারের শর্তাবলি, যা প্রতিটি সাইন-ইন ব্যবহারকারী অন্য কিছুর আগে বর্তমান সংস্করণে গ্রহণ করেন।"
   page_icon: 'ph:bold/file-text'
   intro: 'একটি অ্যাপ্লিকেশন যে শর্তাবলী ঘোষণা করে সেগুলি `wexample_symfony_user.terms`-এ। প্রত্যেক সাইন ইন করা ব্যবহারকারী তাদের সংস্করণ গ্রহণ করে অন্য কিছুতে পৌঁছানোর আগে।'
   body: 'এই ডেমো আপনার সম্পর্কে কিছুই রাখে না কেবলমাত্র আপনি এতে যে অ্যাকাউন্ট এবং লিঙ্কগুলি তৈরি করেন, যেগুলি ডেমো অ্যাকাউন্ট পুনরায় সেট করা হলে মুছে ফেলা হয়।'
 
 th:
   page_title: เงื่อนไขการใช้งาน
+  page_description: "ข้อกำหนดการใช้งานที่แอปพลิเคชันประกาศ ซึ่งผู้ใช้ที่เข้าสู่ระบบทุกคนต้องยอมรับฉบับปัจจุบันก่อนสิ่งอื่นใด"
   page_icon: 'ph:bold/file-text'
   intro: 'เงื่อนไขที่แอปพลิเคชันประกาศใน `wexample_symfony_user.terms` ผู้ใช้ที่เข้าสู่ระบบทุกคนยอมรับเงื่อนไขเวอร์ชันของตนก่อนที่จะไปยังสิ่งอื่น ๆ'
   body: 'เดโมนี้จะเก็บข้อมูลเกี่ยวกับคุณเพียงแค่บัญชีและลิงก์ที่คุณสร้างขึ้น ซึ่งการรีเซ็ตบัญชีเดโมจะทำให้ข้อมูลทั้งหมดหายไป.'
 
 de:
   page_title: Nutzungsbedingungen
+  page_description: "Die Nutzungsbedingungen einer Anwendung, die jeder angemeldete Nutzer in ihrer aktuellen Fassung vor allem anderen akzeptiert."
   page_icon: 'ph:bold/file-text'
   intro: 'Die Bedingungen, die eine Anwendung in `wexample_symfony_user.terms` erklärt. Jeder angemeldete Benutzer akzeptiert seine Version, bevor er auf etwas anderes zugreift.'
   body: 'Diese Demo speichert nichts über Sie außer den Konten und Links, die Sie darauf erstellen, die durch das Zurücksetzen der Demokonten entfernt werden.'
 
 fi:
   page_title: Käyttöehdot
+  page_description: "Sovelluksen ilmoittamat käyttöehdot, jotka jokainen kirjautunut käyttäjä hyväksyy voimassa olevassa versiossaan ennen mitään muuta."
   page_icon: 'ph:bold/file-text'
   intro: 'Sovelluksen ilmoittamat ehdot `wexample_symfony_user.terms`. Jokainen kirjautunut käyttäjä hyväksyy oman versionsa ennen kuin siirtyy mihinkään muuhun.'
   body: 'Tämä demo ei tallenna mitään sinusta, paitsi luomasi tilit ja linkit, jotka poistuvat demo-tilien resetoinnin yhteydessä.'
 
 ru:
   page_title: 'Условия использования'
+  page_description: "Условия использования, которые объявляет приложение: каждый вошедший пользователь принимает их текущую версию прежде всего остального."
   page_icon: 'ph:bold/file-text'
   intro: 'Условия, которые приложение указывает в `wexample_symfony_user.terms`. Каждый вошедший пользователь принимает свою версию перед тем, как перейти к чему-либо еще.'
   body: 'Этот демо-пример ничего о вас не сохраняет, кроме учетных записей и ссылок, которые вы создаете в нем, и сброс демо-учетных записей удаляет их.'
 
 pl:
   page_title: 'Warunki korzystania'
+  page_description: "Warunki korzystania, które deklaruje aplikacja, akceptowane w bieżącej wersji przez każdego zalogowanego użytkownika przed czymkolwiek innym."
   page_icon: 'ph:bold/file-text'
   intro: 'Warunki, które aplikacja deklaruje w `wexample_symfony_user.terms`. Każdy zalogowany użytkownik akceptuje swoją wersję przed przejściem do czegokolwiek innego.'
   body: 'Ta wersja demonstracyjna nie przechowuje żadnych informacji o Tobie, poza kontami i linkami, które na niej tworzysz, które zostaną usunięte po zresetowaniu kont demonstracyjnych.'
 
 es:
   page_title: 'Términos de uso'
+  page_description: "Las condiciones de uso que declara una aplicación, aceptadas en su versión vigente por cada usuario conectado antes que nada."
   page_icon: 'ph:bold/file-text'
   intro: 'Los términos que una aplicación declara en `wexample_symfony_user.terms`. Cada usuario que inicia sesión acepta su versión antes de acceder a cualquier otra cosa.'
   body: 'Esta demostración no guarda nada sobre ti excepto las cuentas y enlaces que creas en ella, los cuales se eliminan al restablecer las cuentas de demostración.'
 
 it:
   page_title: 'Termini di utilizzo'
+  page_description: "Le condizioni d'uso dichiarate da un'applicazione, accettate nella versione in vigore da ogni utente connesso prima di ogni altra cosa."
   page_icon: 'ph:bold/file-text'
   intro: "I termini che un'applicazione dichiara in `wexample_symfony_user.terms`. Ogni utente connesso accetta la propria versione prima di accedere ad altro."
   body: 'Questa demo non conserva nulla su di te tranne gli account e i link che crei, che vengono rimossi ripristinando gli account demo.'
 
 pt_BR:
   page_title: 'Termos de uso'
+  page_description: "Os termos de uso que um aplicativo declara, aceitos em sua versão atual por cada usuário conectado antes de qualquer outra coisa."
   page_icon: 'ph:bold/file-text'
   intro: 'Os termos que um aplicativo declara em `wexample_symfony_user.terms`. Todo usuário logado aceita sua versão antes de acessar qualquer outra coisa.'
   body: 'Esta demonstração não armazena nada sobre você, exceto as contas e links que você cria nela, os quais são removidos ao redefinir as contas de demonstração.'
 
 tr:
   page_title: 'Kullanım şartları'
+  page_description: "Bir uygulamanın beyan ettiği kullanım koşulları; oturum açan her kullanıcı her şeyden önce güncel sürümünü kabul eder."
   page_icon: 'ph:bold/file-text'
   intro: 'Bir uygulamanın `wexample_symfony_user.terms` içinde belirttiği şartlar. Her giriş yapmış kullanıcı, başka bir şeye ulaşmadan önce kendi versiyonunu kabul eder.'
   body: 'Bu demo, yalnızca oluşturduğunuz hesaplar ve bağlantılar hakkında bilgi tutar; demo hesaplarını sıfırlamak bu bilgileri kaldırır.'
 
 vi:
   page_title: 'Điều khoản sử dụng'
+  page_description: "Điều khoản sử dụng mà ứng dụng công bố, được mọi người dùng đã đăng nhập chấp nhận phiên bản hiện hành trước mọi thứ khác."
   page_icon: 'ph:bold/file-text'
   intro: 'Các điều khoản mà ứng dụng tuyên bố trong `wexample_symfony_user.terms`. Mọi người dùng đã đăng nhập đều chấp nhận phiên bản của họ trước khi truy cập bất kỳ điều gì khác.'
   body: 'Bản demo này không lưu giữ thông tin gì về bạn ngoài các tài khoản và liên kết bạn tạo ra trên đó, mà việc thiết lập lại các tài khoản demo sẽ xóa bỏ.'
 
 id:
   page_title: 'Syarat penggunaan'
+  page_description: "Ketentuan penggunaan yang dinyatakan aplikasi, diterima dalam versi terkininya oleh setiap pengguna yang masuk sebelum hal lain."
   page_icon: 'ph:bold/file-text'
   intro: 'Syarat yang dinyatakan aplikasi dalam `wexample_symfony_user.terms`. Setiap pengguna yang masuk harus menerima versi mereka sebelum melanjutkan.'
   body: 'Demo ini tidak menyimpan apa pun tentang Anda kecuali akun dan tautan yang Anda buat di dalamnya, yang akan dihapus saat mengatur ulang akun demo.'
 
 nl:
   page_title: Gebruiksvoorwaarden
+  page_description: "De gebruiksvoorwaarden die een applicatie vastlegt, door elke ingelogde gebruiker in hun huidige versie aanvaard vóór al het andere."
   page_icon: 'ph:bold/file-text'
   intro: 'De voorwaarden die een applicatie verklaart in `wexample_symfony_user.terms`. Elke ingelogde gebruiker accepteert hun versie voordat ze verder gaan.'
   body: 'Deze demo houdt niets over jou bij behalve de accounts en links die je erop aanmaakt, welke verwijderd worden bij het resetten van de demorekeningen.'

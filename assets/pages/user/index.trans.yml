@@ -1,5 +1,6 @@
 en:
   page_title: User
+  page_description: "A login form submitted over Ajax with test accounts, sign-in by email or username, and a code sent by email on untrusted devices."
   page_icon: ph:bold/user
   intro: The login form of symfony-user, submitted over ajax. Sign in with one of the test accounts below, by email or by username. On a device not trusted yet, a code follows the password, sent by email.
   signed_in: Signed in as %name%.
@@ -40,6 +41,7 @@ en:
 
 ar:
   page_title: المستخدم
+  page_description: "نموذج تسجيل دخول يُرسل عبر Ajax مع حسابات تجريبية، الدخول بالبريد الإلكتروني أو اسم المستخدم، ورمز يُرسل بالبريد على الأجهزة غير الموثوقة."
   page_icon: 'ph:bold/user'
   intro: 'نموذج تسجيل الدخول لـ symfony-user، يتم إرساله عبر ajax. قم بتسجيل الدخول باستخدام إحدى حسابات الاختبار أدناه، عبر البريد الإلكتروني أو اسم المستخدم. على جهاز غير موثوق به بعد، يتبع الرمز كلمة المرور، المرسلة عبر البريد الإلكتروني.'
   signed_in: 'تم تسجيل الدخول كـ %name%.'
@@ -80,6 +82,7 @@ ar:
 
 bn:
   page_title: ব্যবহারকারী
+  page_description: "Ajax-এ জমা দেওয়া লগইন ফর্ম, পরীক্ষামূলক অ্যাকাউন্টসহ, ইমেল বা ইউজারনেমে সাইন-ইন, এবং অবিশ্বস্ত ডিভাইসে ইমেলে পাঠানো কোড।"
   page_icon: 'ph:bold/user'
   intro: 'symfony-user এর লগইন ফর্ম, ajax এর মাধ্যমে জমা দেওয়া হয়। নিচে দেওয়া পরীক্ষামূলক অ্যাকাউন্টগুলির মধ্যে একটি দিয়ে সাইন ইন করুন, ইমেইল বা ব্যবহারকারীর নাম দ্বারা। একটি এখনও বিশ্বস্ত ডিভাইসে, পাসওয়ার্ডের পরে একটি কোড আসে, যা ইমেইলের মাধ্যমে পাঠানো হয়।'
   signed_in: 'সাইন ইন করা হয়েছে %name% হিসাবে।'
@@ -120,6 +123,7 @@ bn:
 
 de:
   page_title: Benutzer
+  page_description: "Ein per Ajax gesendetes Anmeldeformular mit Testkonten, Anmeldung per E-Mail oder Benutzername und einem per E-Mail gesendeten Code auf nicht vertrauenswürdigen Geräten."
   page_icon: 'ph:bold/user'
   intro: 'Das Anmeldeformular von symfony-user, über Ajax übermittelt. Melden Sie sich mit einem der untenstehenden Testkonten an, entweder per E-Mail oder Benutzername. Auf einem noch nicht vertrauenswürdigen Gerät folgt ein Code nach dem Passwort, der per E-Mail gesendet wird.'
   signed_in: 'Angemeldet als %name%.'
@@ -160,6 +164,7 @@ de:
 
 es:
   page_title: Usuario
+  page_description: "Un formulario de inicio de sesión enviado por Ajax con cuentas de prueba, acceso por correo o nombre de usuario y un código enviado por correo en dispositivos no reconocidos."
   page_icon: 'ph:bold/user'
   intro: 'El formulario de inicio de sesión de symfony-user, enviado por ajax. Inicie sesión con una de las cuentas de prueba a continuación, por correo electrónico o por nombre de usuario. En un dispositivo que aún no es de confianza, un código sigue a la contraseña, enviado por correo electrónico.'
   signed_in: 'Conectado como %name%.'
@@ -200,6 +205,7 @@ es:
 
 fa:
   page_title: کاربر
+  page_description: "فرم ورود که با Ajax ارسال می‌شود، همراه حساب‌های آزمایشی، ورود با ایمیل یا نام کاربری، و کدی که در دستگاه‌های ناشناس با ایمیل فرستاده می‌شود."
   page_icon: 'ph:bold/user'
   intro: 'فرم ورود symfony-user که از طریق ajax ارسال می‌شود. با یکی از حساب‌های آزمایشی زیر، از طریق ایمیل یا نام کاربری وارد شوید. در دستگاهی که هنوز مورد اعتماد نیست، یک کد پس از گذرواژه ارسال می‌شود که به ایمیل فرستاده شده است.'
   signed_in: 'وارد شده به عنوان %name%.'
@@ -240,6 +246,7 @@ fa:
 
 fi:
   page_title: Käyttäjä
+  page_description: "Ajaxilla lähetettävä kirjautumislomake testitileineen, kirjautuminen sähköpostilla tai käyttäjänimellä ja sähköpostiin lähetettävä koodi tuntemattomilla laitteilla."
   page_icon: 'ph:bold/user'
   intro: 'Symfony-userin kirjautumislomake, lähetetty ajaxin kautta. Kirjaudu sisään jollain alla olevista testitileistä, sähköpostilla tai käyttäjänimellä. Laitteella, jota ei vielä luoteta, salasanan jälkeen tulee koodi, joka lähetetään sähköpostilla.'
   signed_in: 'Kirjautunut sisään käyttäjänä %name%.'
@@ -280,6 +287,7 @@ fi:
 
 fr:
   page_title: Utilisateur
+  page_description: "Un formulaire de connexion envoyé en Ajax avec des comptes de test, connexion par e-mail ou nom d'utilisateur, et un code envoyé par e-mail sur les appareils non reconnus."
   page_icon: 'ph:bold/user'
   intro: "Le formulaire de connexion de symfony-user, soumis via ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par email ou par nom d'utilisateur. Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par email."
   signed_in: 'Connecté en tant que %name%.'
@@ -320,6 +328,7 @@ fr:
 
 he:
   page_title: משתמש
+  page_description: "טופס התחברות הנשלח ב-Ajax עם חשבונות בדיקה, כניסה באימייל או בשם משתמש, וקוד הנשלח באימייל במכשירים לא מוכרים."
   page_icon: 'ph:bold/user'
   intro: 'טופס ההתחברות של symfony-user, שנשלח דרך ajax. התחבר עם אחד מחשבונות הבדיקה למטה, באמצעות אימייל או שם משתמש. במכשיר שלא הוסמך עדיין, קוד יגיע לאחר הסיסמה, שנשלח באימייל.'
   signed_in: 'מחובר כ-%name%.'
@@ -360,6 +369,7 @@ he:
 
 hi:
   page_title: उपयोगकर्ता
+  page_description: "Ajax से सबमिट होने वाला लॉगिन फ़ॉर्म, टेस्ट खातों के साथ, ईमेल या यूज़रनेम से साइन-इन, और अविश्वसनीय डिवाइस पर ईमेल से भेजा गया कोड।"
   page_icon: 'ph:bold/user'
   intro: 'symfony-user का लॉगिन फॉर्म, ajax के माध्यम से सबमिट किया गया। नीचे दिए गए परीक्षण खातों में से किसी एक से, ईमेल या उपयोगकर्ता नाम द्वारा साइन इन करें। एक ऐसे डिवाइस पर जो अभी तक विश्वसनीय नहीं है, पासवर्ड के बाद एक कोड आता है, जो ईमेल द्वारा भेजा जाता है।'
   signed_in: '%name% के रूप में साइन इन किया गया।'
@@ -400,6 +410,7 @@ hi:
 
 id:
   page_title: Pengguna
+  page_description: "Formulir masuk yang dikirim lewat Ajax dengan akun uji, masuk dengan email atau nama pengguna, dan kode yang dikirim lewat email di perangkat yang belum tepercaya."
   page_icon: 'ph:bold/user'
   intro: 'Form login dari symfony-user, dikirim melalui ajax. Masuk dengan salah satu akun percobaan di bawah ini, menggunakan email atau nama pengguna. Di perangkat yang belum dipercaya, kode mengikuti kata sandi, dikirim melalui email.'
   signed_in: 'Masuk sebagai %name%.'
@@ -440,6 +451,7 @@ id:
 
 it:
   page_title: Utente
+  page_description: "Un modulo di accesso inviato via Ajax con account di prova, accesso con email o nome utente e un codice inviato via email sui dispositivi non riconosciuti."
   page_icon: 'ph:bold/user'
   intro: 'Il modulo di accesso di symfony-user, inviato tramite ajax. Accedi con uno dei seguenti account di prova, tramite email o nome utente. Su un dispositivo non ancora fidato, un codice segue la password, inviato via email.'
   signed_in: 'Accesso effettuato come %name%.'
@@ -480,6 +492,7 @@ it:
 
 ja:
   page_title: ユーザー
+  page_description: "Ajax で送信するログインフォーム。テストアカウント付きで、メールアドレスかユーザー名でサインインでき、未登録の端末ではメールでコードが届きます。"
   page_icon: 'ph:bold/user'
   intro: symfony-userのログインフォームで、ajaxを介して送信されます。以下のテストアカウントのいずれかで、メールアドレスまたはユーザー名を使用してサインインしてください。まだ信頼されていないデバイスでは、パスワードの後にメールで送信されたコードが必要です。
   signed_in: '%name% としてサインインしました。'
@@ -520,6 +533,7 @@ ja:
 
 ko:
   page_title: 사용자
+  page_description: "Ajax로 제출되는 로그인 폼. 테스트 계정이 있으며, 이메일이나 사용자 이름으로 로그인하고, 신뢰되지 않은 기기에서는 이메일로 코드가 전송됩니다."
   page_icon: 'ph:bold/user'
   intro: 'symfony-user의 로그인 양식으로, ajax를 통해 제출됩니다. 아래의 테스트 계정 중 하나로 이메일 또는 사용자 이름으로 로그인하세요. 아직 신뢰되지 않는 장치에서는 비밀번호 다음에 이메일로 전송된 코드가 필요합니다.'
   signed_in: '%name%으로 로그인했습니다.'
@@ -560,6 +574,7 @@ ko:
 
 nl:
   page_title: Gebruiker
+  page_description: "Een inlogformulier verzonden via Ajax met testaccounts, inloggen met e-mail of gebruikersnaam en een code per e-mail op niet-vertrouwde apparaten."
   page_icon: 'ph:bold/user'
   intro: 'Het inlogformulier van symfony-user, ingediend via ajax. Meld je aan met een van de testaccounts hieronder, per e-mail of gebruikersnaam. Op een apparaat dat nog niet vertrouwd is, volgt een code na het wachtwoord, verzonden per e-mail.'
   signed_in: 'Ingelogd als %name%.'
@@ -600,6 +615,7 @@ nl:
 
 pl:
   page_title: Użytkownik
+  page_description: "Formularz logowania wysyłany przez Ajax, z kontami testowymi, logowaniem e-mailem lub nazwą użytkownika i kodem wysyłanym e-mailem na niezaufanych urządzeniach."
   page_icon: 'ph:bold/user'
   intro: 'Formularz logowania symfony-user, przesyłany przez ajax. Zaloguj się jednym z poniższych kont testowych, używając adresu e-mail lub nazwy użytkownika. Na urządzeniu, które nie jest jeszcze zaufane, kod następuje po haśle, wysyłany e-mailem.'
   signed_in: 'Zalogowano jako %name%.'
@@ -640,6 +656,7 @@ pl:
 
 pt_BR:
   page_title: Usuário
+  page_description: "Um formulário de login enviado por Ajax com contas de teste, acesso por e-mail ou nome de usuário e um código enviado por e-mail em dispositivos não confiáveis."
   page_icon: 'ph:bold/user'
   intro: 'O formulário de login do symfony-user, enviado via ajax. Faça login com uma das contas de teste abaixo, pelo e-mail ou pelo nome de usuário. Em um dispositivo ainda não confiável, um código segue a senha, enviado por e-mail.'
   signed_in: 'Conectado como %name%.'
@@ -680,6 +697,7 @@ pt_BR:
 
 ru:
   page_title: Пользователь
+  page_description: "Форма входа с отправкой через Ajax и тестовыми аккаунтами: вход по email или имени пользователя, код по почте на недоверенных устройствах."
   page_icon: 'ph:bold/user'
   intro: 'Форма входа symfony-user, отправленная через ajax. Войдите с одним из тестовых аккаунтов ниже, используя email или имя пользователя. На устройстве, которому еще не доверяют, после пароля вводится код, отправленный на email.'
   signed_in: 'Вошли как %name%.'
@@ -720,6 +738,7 @@ ru:
 
 th:
   page_title: ผู้ใช้
+  page_description: "ฟอร์มเข้าสู่ระบบที่ส่งผ่าน Ajax พร้อมบัญชีทดสอบ เข้าสู่ระบบด้วยอีเมลหรือชื่อผู้ใช้ และรหัสที่ส่งทางอีเมลบนอุปกรณ์ที่ยังไม่เชื่อถือ"
   page_icon: 'ph:bold/user'
   intro: 'แบบฟอร์มเข้าสู่ระบบของ symfony-user ที่ส่งผ่าน ajax เข้าสู่ระบบด้วยหนึ่งในบัญชีทดสอบด้านล่าง โดยใช้ อีเมล หรือ ชื่อผู้ใช้ บนอุปกรณ์ที่ยังไม่เชื่อถือ รหัสจะตามมาหลังรหัสผ่าน ซึ่งส่งทางอีเมล'
   signed_in: 'ลงชื่อเข้าใช้เป็น %name%.'
@@ -760,6 +779,7 @@ th:
 
 tr:
   page_title: Kullanıcı
+  page_description: "Ajax ile gönderilen, test hesaplı bir giriş formu: e-posta veya kullanıcı adıyla giriş, güvenilmeyen cihazlarda e-postayla gönderilen bir kod."
   page_icon: 'ph:bold/user'
   intro: "symfony-user'ın ajax ile gönderilen giriş formu. Aşağıdaki test hesaplarından biriyle, e-posta veya kullanıcı adı ile oturum açın. Henüz güvenilir olmayan bir cihazda, e-posta ile gönderilen bir kod şifreyi takip eder."
   signed_in: 'Oturum açıldı: %name%.'
@@ -800,6 +820,7 @@ tr:
 
 ur:
   page_title: صارف
+  page_description: "Ajax کے ذریعے بھیجا جانے والا لاگ ان فارم، ٹیسٹ اکاؤنٹس کے ساتھ، ای میل یا یوزرنیم سے سائن ان، اور غیر معتبر آلات پر ای میل سے بھیجا گیا کوڈ۔"
   page_icon: 'ph:bold/user'
   intro: 'symfony-user کا لاگ ان فارم، ajax کے ذریعے جمع کرایا گیا۔ نیچے دی گئی ٹیسٹ اکاؤنٹس میں سے کسی ایک کے ساتھ، ای میل یا صارف نام کے ذریعے سائن ان کریں۔ کسی غیر معتبر ڈیوائس پر، پاس ورڈ کے بعد ایک کوڈ بھیجا جاتا ہے، جو ای میل کے ذریعے آتا ہے۔'
   signed_in: 'کے طور پر لاگ ان ہوا %name%۔'
@@ -840,6 +861,7 @@ ur:
 
 vi:
   page_title: 'Người dùng'
+  page_description: "Biểu mẫu đăng nhập gửi qua Ajax với tài khoản thử nghiệm, đăng nhập bằng email hoặc tên người dùng, và mã gửi qua email trên thiết bị chưa tin cậy."
   page_icon: 'ph:bold/user'
   intro: 'Biểu mẫu đăng nhập của symfony-user, được gửi qua ajax. Đăng nhập bằng một trong các tài khoản thử nghiệm dưới đây, bằng email hoặc tên người dùng. Trên một thiết bị chưa được tin cậy, một mã sẽ theo sau mật khẩu, được gửi qua email.'
   signed_in: 'Đăng nhập với tư cách %name%.'
@@ -880,6 +902,7 @@ vi:
 
 zh:
   page_title: 用户
+  page_description: "通过 Ajax 提交的登录表单，附测试账号，可用邮箱或用户名登录，在未受信任的设备上会通过邮件发送验证码。"
   page_icon: 'ph:bold/user'
   intro: 'symfony-user 的登录表单，通过 ajax 提交。请使用下面的测试账户登录，可以通过电子邮件或用户名登录。在未被信任的设备上，密码后会有一个通过电子邮件发送的代码。'
   signed_in: '以 %name% 身份登录。'

@@ -1,5 +1,6 @@
 en:
   page_title: Authenticator
+  page_description: "Two-factor authentication with an authenticator app: the time-based code currently expected for the signed-in account, renewed every 30 seconds."
   page_icon: ph:bold/device-mobile
   intro: What the app set up on this account shows right now. It changes every 30 seconds.
   empty: 'No authenticator app is set up on the account at hand. Set one up from the account page, then sign in again: the second step asks for the code shown here.'
@@ -10,6 +11,7 @@ en:
 
 ar:
   page_title: 'تطبيق المصادقة'
+  page_description: "المصادقة الثنائية بتطبيق مصادقة: الرمز الزمني المطلوب حاليًا للحساب المسجّل، يتجدد كل 30 ثانية."
   page_icon: 'ph:bold/device-mobile'
   intro: 'ما يظهره التطبيق على هذا الحساب الآن. يتغير كل 30 ثانية.'
   empty: 'لا توجد تطبيقات مصادقة تم إعدادها على الحساب الحالي. قم بإعداد واحدة من صفحة الحساب، ثم قم بتسجيل الدخول مرة أخرى: الخطوة الثانية تطلب الرمز المعروض هنا.'
@@ -20,6 +22,7 @@ ar:
 
 bn:
   page_title: 'অথেনটিকেটর অ্যাপ'
+  page_description: "অথেন্টিকেটর অ্যাপ দিয়ে দুই-ধাপের প্রমাণীকরণ: সাইন-ইন করা অ্যাকাউন্টের জন্য এখন প্রত্যাশিত সময়ভিত্তিক কোড, প্রতি ৩০ সেকেন্ডে নতুন।"
   page_icon: 'ph:bold/device-mobile'
   intro: 'এই অ্যাকাউন্টে অ্যাপের সেটআপ বর্তমানে কী দেখাচ্ছে। এটি প্রতি 30 সেকেন্ডে পরিবর্তিত হয়।'
   empty: 'অ্যাকাউন্টে কোন অটেনটিকেটর অ্যাপ সেট আপ করা হয়নি। অ্যাকাউন্ট পৃষ্ঠা থেকে একটি সেট আপ করুন, তারপর আবার সাইন ইন করুন: দ্বিতীয় ধাপে এখানে প্রদর্শিত কোডটি চাইবে।'
@@ -30,6 +33,7 @@ bn:
 
 de:
   page_title: Authentifizierungs-App
+  page_description: "Zwei-Faktor-Authentifizierung mit einer Authenticator-App: der zeitbasierte Code, den das angemeldete Konto gerade erwartet, alle 30 Sekunden erneuert."
   page_icon: 'ph:bold/device-mobile'
   intro: 'Was die App für dieses Konto gerade anzeigt. Es ändert sich alle 30 Sekunden.'
   empty: 'Es ist keine Authenticator-App für das aktuelle Konto eingerichtet. Richten Sie eine auf der Kontoseite ein und melden Sie sich dann erneut an: Der zweite Schritt fragt nach dem hier angezeigten Code.'
@@ -40,6 +44,7 @@ de:
 
 es:
   page_title: 'Aplicación de autenticador'
+  page_description: "Autenticación en dos pasos con una app de autenticación: el código temporal que espera ahora la cuenta conectada, renovado cada 30 segundos."
   page_icon: 'ph:bold/device-mobile'
   intro: 'Lo que la aplicación configurada en esta cuenta muestra en este momento. Cambia cada 30 segundos.'
   empty: 'No se ha configurado ninguna aplicación de autenticación en la cuenta actual. Configura una desde la página de la cuenta y luego inicia sesión de nuevo: el segundo paso solicita el código que se muestra aquí.'
@@ -50,6 +55,7 @@ es:
 
 fa:
   page_title: 'برنامه احراز هویت'
+  page_description: "احراز هویت دومرحله‌ای با اپ احراز هویت: کد زمان‌محوری که هم‌اکنون برای حساب واردشده انتظار می‌رود، هر ۳۰ ثانیه نو می‌شود."
   page_icon: 'ph:bold/device-mobile'
   intro: 'آنچه که برنامه در این حساب نشان می‌دهد. هر 30 ثانیه تغییر می‌کند.'
   empty: 'هیچ برنامه احراز هویت روی حساب کاربری فعلی تنظیم نشده است. یکی را از صفحه حساب تنظیم کنید، سپس دوباره وارد شوید: مرحله دوم از شما کدی را می‌خواهد که در اینجا نمایش داده شده است.'
@@ -60,6 +66,7 @@ fa:
 
 fi:
   page_title: Todennusapp
+  page_description: "Kaksivaiheinen tunnistautuminen todennussovelluksella: kirjautuneelta tililtä juuri nyt odotettu aikaperusteinen koodi, joka vaihtuu 30 sekunnin välein."
   page_icon: 'ph:bold/device-mobile'
   intro: 'Mitä sovellus näyttää tällä tilillä juuri nyt. Se vaihtuu 30 sekunnin välein.'
   empty: 'Tilillä ei ole asetettu todennusohjelmaa. Aseta sellainen tilisivulta ja kirjaudu sitten uudelleen: toinen vaihe kysyy täällä näkyvää koodia.'
@@ -70,6 +77,7 @@ fi:
 
 fr:
   page_title: Authentificateur
+  page_description: "L'authentification à deux facteurs par application d'authentification : le code temporaire attendu en ce moment pour le compte connecté, renouvelé toutes les 30 secondes."
   page_icon: ph:bold/device-mobile
   intro: Ce que l'application configurée sur ce compte montre actuellement. Il change toutes les 30 secondes.
   empty: 'Aucune application d''authentification n''est configurée sur ce compte. Configurez-en une depuis la page du compte, puis reconnectez-vous : la seconde étape demande le code affiché ici.'
@@ -80,6 +88,7 @@ fr:
 
 he:
   page_title: 'אפליקציית Authenticator'
+  page_description: "אימות דו־שלבי עם אפליקציית מאמת: הקוד מבוסס הזמן הצפוי כרגע לחשבון המחובר, מתחדש כל 30 שניות."
   page_icon: 'ph:bold/device-mobile'
   intro: 'מה שהאפליקציה שהוגדרה על חשבון זה מראה כרגע. זה משתנה כל 30 שניות.'
   empty: 'לא הוגדרה אפליקציית אימות על החשבון הנוכחי. הגדר אחת מעמוד החשבון, ואז התחבר שוב: השלב השני מבקש את הקוד המוצג כאן.'
@@ -90,6 +99,7 @@ he:
 
 hi:
   page_title: 'ऑथेंटिकेटर ऐप'
+  page_description: "ऑथेंटिकेटर ऐप से दो-चरणीय प्रमाणीकरण: साइन-इन खाते के लिए इस समय अपेक्षित समय-आधारित कोड, हर 30 सेकंड में नवीनीकृत।"
   page_icon: 'ph:bold/device-mobile'
   intro: 'जो ऐप इस खाते पर सेटअप किया गया है, वह अभी क्या दिखा रहा है। यह हर 30 सेकंड में बदलता है।'
   empty: 'इस खाते पर कोई ऑथेंटिकेटर ऐप सेट नहीं किया गया है। इसे खाता पृष्ठ से सेट करें, फिर फिर से साइन इन करें: दूसरा चरण यहां दिखाए गए कोड के लिए पूछता है।'
@@ -100,6 +110,7 @@ hi:
 
 id:
   page_title: 'Aplikasi autentikator'
+  page_description: "Autentikasi dua faktor dengan aplikasi autentikator: kode berbasis waktu yang saat ini diharapkan untuk akun yang masuk, diperbarui setiap 30 detik."
   page_icon: 'ph:bold/device-mobile'
   intro: 'Apa yang ditampilkan aplikasi yang diatur pada akun ini saat ini. Ini berubah setiap 30 detik.'
   empty: 'Tidak ada aplikasi autentikator yang disetel di akun ini. Atur satu dari halaman akun, lalu masuk lagi: langkah kedua meminta kode yang ditampilkan di sini.'
@@ -110,6 +121,7 @@ id:
 
 it:
   page_title: 'App Authenticator'
+  page_description: "Autenticazione a due fattori con un'app di autenticazione: il codice temporaneo atteso ora per l'account connesso, rinnovato ogni 30 secondi."
   page_icon: 'ph:bold/device-mobile'
   intro: "Cosa mostra l'app impostata su questo account in questo momento. Cambia ogni 30 secondi."
   empty: "Non è stata configurata alcuna app di autenticazione per l'account in questione. Configurane una dalla pagina dell'account, poi accedi di nuovo: il secondo passaggio richiede il codice mostrato qui."
@@ -120,6 +132,7 @@ it:
 
 ja:
   page_title: 認証アプリ
+  page_description: "認証アプリによる二要素認証。サインイン中のアカウントで今求められている時間ベースのコードを表示し、30秒ごとに更新。"
   page_icon: 'ph:bold/device-mobile'
   intro: このアカウントに設定されたアプリが現在表示している内容です。30秒ごとに変わります。
   empty: このアカウントには認証アプリが設定されていません。アカウントページから設定し、再度サインインしてください。2段階目でここに表示されたコードの入力が求められます。
@@ -130,6 +143,7 @@ ja:
 
 ko:
   page_title: '인증 앱'
+  page_description: "인증 앱을 이용한 2단계 인증: 로그인한 계정에 지금 필요한 시간 기반 코드를 보여 주며, 30초마다 갱신됩니다."
   page_icon: 'ph:bold/device-mobile'
   intro: '이 계정에서 앱이 현재 보여주는 내용입니다. 30초마다 변경됩니다.'
   empty: '현재 계정에 인증기 앱이 설정되어 있지 않습니다. 계정 페이지에서 앱을 설정한 후 다시 로그인하세요: 두 번째 단계에서 여기 표시된 코드를 입력하라는 요청이 있습니다.'
@@ -140,6 +154,7 @@ ko:
 
 nl:
   page_title: Authenticator-app
+  page_description: "Tweestapsverificatie met een authenticator-app: de tijdgebonden code die het ingelogde account nu verwacht, elke 30 seconden vernieuwd."
   page_icon: 'ph:bold/device-mobile'
   intro: 'Wat de app op dit account momenteel weergeeft. Het verandert elke 30 seconden.'
   empty: 'Er is geen authenticator-app ingesteld voor het desbetreffende account. Stel er een in op de accountpagina en log daarna opnieuw in: de tweede stap vraagt om de code die hier wordt weergegeven.'
@@ -150,6 +165,7 @@ nl:
 
 pl:
   page_title: 'Aplikacja uwierzytelniająca'
+  page_description: "Uwierzytelnianie dwuskładnikowe aplikacją uwierzytelniającą: kod czasowy oczekiwany teraz dla zalogowanego konta, odnawiany co 30 sekund."
   page_icon: 'ph:bold/device-mobile'
   intro: 'To, co aplikacja skonfigurowana na tym koncie pokazuje w tej chwili. Zmienia się co 30 sekund.'
   empty: 'Nie skonfigurowano aplikacji uwierzytelniającej na tym koncie. Skonfiguruj ją na stronie konta, a następnie zaloguj się ponownie: drugi krok poprosi o kod wyświetlony tutaj.'
@@ -160,6 +176,7 @@ pl:
 
 pt_BR:
   page_title: 'Aplicativo autenticador'
+  page_description: "Autenticação em dois fatores com um app autenticador: o código temporário esperado agora pela conta conectada, renovado a cada 30 segundos."
   page_icon: 'ph:bold/device-mobile'
   intro: 'O que o aplicativo configurado nesta conta mostra agora. Muda a cada 30 segundos.'
   empty: 'Nenhum aplicativo autenticador está configurado na conta em questão. Configure um na página da conta e, em seguida, faça o login novamente: o segundo passo solicita o código exibido aqui.'
@@ -170,6 +187,7 @@ pt_BR:
 
 ru:
   page_title: 'Приложение аутентификатора'
+  page_description: "Двухфакторная аутентификация через приложение: текущий одноразовый код по времени для вошедшего аккаунта, обновляется каждые 30 секунд."
   page_icon: 'ph:bold/device-mobile'
   intro: 'То, что приложение показывает в данный момент для этой учетной записи. Меняется каждые 30 секунд.'
   empty: 'В учетной записи не настроено приложение аутентификации. Настройте его на странице учетной записи, затем войдите снова: на втором этапе потребуется ввести код, показанный здесь.'
@@ -180,6 +198,7 @@ ru:
 
 th:
   page_title: แอปตรวจสอบตัวตน
+  page_description: "การยืนยันตัวตนสองขั้นด้วยแอปยืนยันตัวตน: รหัสตามเวลาที่บัญชีที่เข้าสู่ระบบต้องใช้ในขณะนี้ เปลี่ยนใหม่ทุก 30 วินาที"
   page_icon: 'ph:bold/device-mobile'
   intro: 'สิ่งที่แอปตั้งค่าในบัญชีนี้แสดงอยู่ตอนนี้ เปลี่ยนทุก 30 วินาที'
   empty: 'ไม่มีแอปตรวจสอบตัวตนที่ตั้งค่าไว้ในบัญชีนี้ กรุณาตั้งค่าแอปจากหน้าบัญชี แล้วลงชื่อเข้าใช้ใหม่: ขั้นตอนที่สองจะขอรหัสที่แสดงในที่นี้.'
@@ -190,6 +209,7 @@ th:
 
 tr:
   page_title: 'Kimlik doğrulayıcı uygulama'
+  page_description: "Doğrulama uygulamasıyla iki adımlı kimlik doğrulama: oturum açmış hesap için şu anda beklenen zamana dayalı kod, her 30 saniyede yenilenir."
   page_icon: 'ph:bold/device-mobile'
   intro: 'Bu hesapta uygulamanın şu anda gösterdiği şey. Her 30 saniyede bir değişir.'
   empty: 'Bu hesapta herhangi bir kimlik doğrulayıcı uygulama ayarlanmamış. Hesap sayfasından bir tane ayarlayın, ardından tekrar oturum açın: ikinci adım burada gösterilen kodu isteyecek.'
@@ -200,6 +220,7 @@ tr:
 
 ur:
   page_title: 'توثیق کرنے والا ایپ'
+  page_description: "آتھنٹیکیٹر ایپ کے ساتھ دو مرحلہ تصدیق: سائن ان اکاؤنٹ کے لیے اس وقت متوقع وقت پر مبنی کوڈ، ہر 30 سیکنڈ میں نیا۔"
   page_icon: 'ph:bold/device-mobile'
   intro: 'اس اکاؤنٹ پر ایپ نے جو سیٹ کیا ہے، وہ ابھی کیا دکھاتا ہے۔ یہ ہر 30 سیکنڈ میں تبدیل ہوتا ہے۔'
   empty: 'اکاؤنٹ پر کوئی تصدیق کرنے والی ایپ سیٹ اپ نہیں کی گئی ہے۔ اکاؤنٹ کے صفحے سے ایک سیٹ اپ کریں، پھر دوبارہ سائن ان کریں: دوسرا مرحلہ یہاں دکھائے گئے کوڈ کی درخواست کرتا ہے۔'
@@ -210,6 +231,7 @@ ur:
 
 vi:
   page_title: 'Ứng dụng xác thực'
+  page_description: "Xác thực hai lớp bằng ứng dụng xác thực: mã theo thời gian mà tài khoản đang đăng nhập cần lúc này, đổi mới mỗi 30 giây."
   page_icon: 'ph:bold/device-mobile'
   intro: 'Những gì ứng dụng thiết lập trên tài khoản này đang hiển thị ngay bây giờ. Nó thay đổi mỗi 30 giây.'
   empty: 'Không có ứng dụng xác thực nào được thiết lập cho tài khoản này. Hãy thiết lập một ứng dụng từ trang tài khoản, sau đó đăng nhập lại: bước thứ hai yêu cầu mã được hiển thị ở đây.'
@@ -220,6 +242,7 @@ vi:
 
 zh:
   page_title: 身份验证器应用
+  page_description: "使用身份验证器应用的双重认证：当前登录账号此刻所需的基于时间的验证码，每 30 秒更新一次。"
   page_icon: 'ph:bold/device-mobile'
   intro: 该应用在此账户上当前显示的内容。每30秒更换一次。
   empty: 当前账户未设置身份验证应用。请在账户页面设置一个，然后重新登录：第二步会要求输入此处显示的代码。
