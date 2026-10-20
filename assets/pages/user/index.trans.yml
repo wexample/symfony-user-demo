@@ -47,9 +47,14 @@ en:
 
 ar:
   page_title: المستخدم
-  page_description: "نموذج تسجيل دخول يُرسل عبر Ajax مع حسابات تجريبية، الدخول بالبريد الإلكتروني أو اسم المستخدم، ورمز يُرسل بالبريد على الأجهزة غير الموثوقة."
+  document_title: 'نموذج تسجيل الدخول مع رموز البريد الإلكتروني على الأجهزة الجديدة'
+  page_description: 'نموذج تسجيل دخول يُرسل عبر Ajax مع حسابات تجريبية، الدخول بالبريد الإلكتروني أو اسم المستخدم، ورمز يُرسل بالبريد على الأجهزة غير الموثوقة.'
   page_icon: 'ph:bold/user'
-  intro: 'نموذج تسجيل الدخول لـ symfony-user، يتم إرساله عبر ajax. قم بتسجيل الدخول باستخدام إحدى حسابات الاختبار أدناه، عبر البريد الإلكتروني أو اسم المستخدم. على جهاز غير موثوق به بعد، يتبع الرمز كلمة المرور، المرسلة عبر البريد الإلكتروني.'
+  intro: 'نموذج تسجيل الدخول لمستخدم Symfony، يتم إرساله عبر Ajax. سجّل الدخول باستخدام إحدى حسابات الاختبار أدناه، عن طريق البريد الإلكتروني أو اسم المستخدم.'
+  intro_code: 'على جهاز غير موثوق به بعد، يتبع رمز كلمة المرور، يتم إرساله عبر البريد الإلكتروني إلى صندوق البريد الخاص بالتطوير.'
+  dev:
+    label: تطوير
+    title: 'للتطوير فقط — عناوين العرض لا تتلقى بريدًا، صندوق البريد الخاص بالتطوير يحتفظ به.'
   signed_in: 'تم تسجيل الدخول كـ %name%.'
   accounts:
     title: 'حسابات الاختبار'
@@ -63,6 +68,7 @@ ar:
     reset: 'إعادة تعيين حسابات الاختبار'
     result:
       active: 'يطلب الرمز المرسل عبر البريد الإلكتروني، ثم يسجل الدخول'
+      active_password: 'يسجل الدخول باستخدام كلمة المرور'
       locked: 'مرفوض، الحساب مقفول'
       inactive: 'مرفوض، الحساب غير مفعل'
   magic_link:
@@ -88,9 +94,14 @@ ar:
 
 bn:
   page_title: ব্যবহারকারী
-  page_description: "Ajax-এ জমা দেওয়া লগইন ফর্ম, পরীক্ষামূলক অ্যাকাউন্টসহ, ইমেল বা ইউজারনেমে সাইন-ইন, এবং অবিশ্বস্ত ডিভাইসে ইমেলে পাঠানো কোড।"
+  document_title: 'নতুন ডিভাইসে ইমেইল কোড সহ লগইন ফর্ম'
+  page_description: 'Ajax-এ জমা দেওয়া লগইন ফর্ম, পরীক্ষামূলক অ্যাকাউন্টসহ, ইমেল বা ইউজারনেমে সাইন-ইন, এবং অবিশ্বস্ত ডিভাইসে ইমেলে পাঠানো কোড।'
   page_icon: 'ph:bold/user'
-  intro: 'symfony-user এর লগইন ফর্ম, ajax এর মাধ্যমে জমা দেওয়া হয়। নিচে দেওয়া পরীক্ষামূলক অ্যাকাউন্টগুলির মধ্যে একটি দিয়ে সাইন ইন করুন, ইমেইল বা ব্যবহারকারীর নাম দ্বারা। একটি এখনও বিশ্বস্ত ডিভাইসে, পাসওয়ার্ডের পরে একটি কোড আসে, যা ইমেইলের মাধ্যমে পাঠানো হয়।'
+  intro: 'সিম্ফনি-ইউজারের লগইন ফর্ম, যা অ্যাজাক্সের মাধ্যমে পাঠানো হয়েছে। নিচের পরীক্ষামূলক অ্যাকাউন্টগুলোর মধ্যে একটি দিয়ে সাইন ইন করুন, ইমেইল বা ব্যবহারকারীর নাম দিয়ে।'
+  intro_code: 'যেকোনো ডিভাইসে যা এখনও বিশ্বাসযোগ্য নয়, পাসওয়ার্ডের পর একটি কোড আসে, যা ডেভেলপমেন্ট মেইলবক্সে ইমেইলে পাঠানো হয়।'
+  dev:
+    label: ডেভ
+    title: 'শুধুমাত্র ডেভেলপমেন্ট — ডেমো ঠিকানাগুলোতে কোনো মেইল যায় না, ডেভেলপমেন্ট মেইলবক্স এটি রাখে।'
   signed_in: 'সাইন ইন করা হয়েছে %name% হিসাবে।'
   accounts:
     title: 'পরীক্ষামূলক অ্যাকাউন্ট'
@@ -104,6 +115,7 @@ bn:
     reset: 'পরীক্ষামূলক অ্যাকাউন্টগুলি রিসেট করুন'
     result:
       active: 'ইমেইলে পাঠানো কোডের জন্য অনুরোধ করে, তারপর সাইন ইন করে'
+      active_password: 'পাসওয়ার্ড দিয়ে সাইন ইন করে'
       locked: 'প্রত্যাখ্যান, অ্যাকাউন্টটি লক করা হয়েছে'
       inactive: 'প্রত্যাখ্যান, অ্যাকাউন্টটি সক্রিয় করা হয়নি'
   magic_link:
@@ -129,9 +141,14 @@ bn:
 
 de:
   page_title: Benutzer
-  page_description: "Ein per Ajax gesendetes Anmeldeformular mit Testkonten, Anmeldung per E-Mail oder Benutzername und einem per E-Mail gesendeten Code auf nicht vertrauenswürdigen Geräten."
+  document_title: 'Anmeldeformular mit E-Mail-Codes auf neuen Geräten'
+  page_description: 'Ein per Ajax gesendetes Anmeldeformular mit Testkonten, Anmeldung per E-Mail oder Benutzername und einem per E-Mail gesendeten Code auf nicht vertrauenswürdigen Geräten.'
   page_icon: 'ph:bold/user'
-  intro: 'Das Anmeldeformular von symfony-user, über Ajax übermittelt. Melden Sie sich mit einem der untenstehenden Testkonten an, entweder per E-Mail oder Benutzername. Auf einem noch nicht vertrauenswürdigen Gerät folgt ein Code nach dem Passwort, der per E-Mail gesendet wird.'
+  intro: 'Das Anmeldeformular von symfony-user, über Ajax übermittelt. Melden Sie sich mit einem der untenstehenden Testkonten an, entweder per E-Mail oder Benutzername.'
+  intro_code: 'Auf einem noch nicht vertrauenswürdigen Gerät folgt ein Code auf das Passwort, der per E-Mail an das Entwicklungspostfach gesendet wird.'
+  dev:
+    label: Entw.
+    title: 'Nur für die Entwicklung — die Demoadressen erhalten keine E-Mails, das Entwicklungspostfach behält sie.'
   signed_in: 'Angemeldet als %name%.'
   accounts:
     title: Testkonten
@@ -145,6 +162,7 @@ de:
     reset: 'Setzen Sie die Testkonten zurück'
     result:
       active: 'Fragt den per E-Mail gesendeten Code an und meldet sich dann an'
+      active_password: 'Meldet sich mit dem Passwort an'
       locked: 'Abgelehnt, das Konto ist gesperrt'
       inactive: 'Abgelehnt, das Konto ist nicht aktiviert'
   magic_link:
@@ -170,9 +188,14 @@ de:
 
 es:
   page_title: Usuario
-  page_description: "Un formulario de inicio de sesión enviado por Ajax con cuentas de prueba, acceso por correo o nombre de usuario y un código enviado por correo en dispositivos no reconocidos."
+  document_title: 'Formulario de inicio de sesión con códigos de email en nuevos dispositivos'
+  page_description: 'Un formulario de inicio de sesión enviado por Ajax con cuentas de prueba, acceso por correo o nombre de usuario y un código enviado por correo en dispositivos no reconocidos.'
   page_icon: 'ph:bold/user'
-  intro: 'El formulario de inicio de sesión de symfony-user, enviado por ajax. Inicie sesión con una de las cuentas de prueba a continuación, por correo electrónico o por nombre de usuario. En un dispositivo que aún no es de confianza, un código sigue a la contraseña, enviado por correo electrónico.'
+  intro: 'El formulario de inicio de sesión de symfony-user, enviado a través de ajax. Inicia sesión con una de las cuentas de prueba a continuación, por email o por nombre de usuario.'
+  intro_code: 'En un dispositivo que aún no es de confianza, un código sigue a la contraseña, enviado por email a la bandeja de entrada de desarrollo.'
+  dev:
+    label: Dev
+    title: 'Solo para desarrollo — las direcciones de demostración no reciben correo, la bandeja de entrada de desarrollo lo conserva.'
   signed_in: 'Conectado como %name%.'
   accounts:
     title: 'Cuentas de prueba'
@@ -186,6 +209,7 @@ es:
     reset: 'Restablecer las cuentas de prueba'
     result:
       active: 'Pide el código enviado por correo electrónico, luego inicia sesión'
+      active_password: 'Inicia sesión con la contraseña'
       locked: 'Rechazado, la cuenta está bloqueada'
       inactive: 'Rechazado, la cuenta no está activada'
   magic_link:
@@ -211,9 +235,14 @@ es:
 
 fa:
   page_title: کاربر
-  page_description: "فرم ورود که با Ajax ارسال می‌شود، همراه حساب‌های آزمایشی، ورود با ایمیل یا نام کاربری، و کدی که در دستگاه‌های ناشناس با ایمیل فرستاده می‌شود."
+  document_title: 'فرم ورود با کدهای ایمیل در دستگاه‌های جدید'
+  page_description: 'فرم ورود که با Ajax ارسال می‌شود، همراه حساب‌های آزمایشی، ورود با ایمیل یا نام کاربری، و کدی که در دستگاه‌های ناشناس با ایمیل فرستاده می‌شود.'
   page_icon: 'ph:bold/user'
-  intro: 'فرم ورود symfony-user که از طریق ajax ارسال می‌شود. با یکی از حساب‌های آزمایشی زیر، از طریق ایمیل یا نام کاربری وارد شوید. در دستگاهی که هنوز مورد اعتماد نیست، یک کد پس از گذرواژه ارسال می‌شود که به ایمیل فرستاده شده است.'
+  intro: 'فرم ورود symfony-user، که از طریق ajax ارسال شده است. با یکی از حساب‌های آزمایشی زیر، با ایمیل یا نام کاربری وارد شوید.'
+  intro_code: 'در دستگاهی که هنوز معتبر نیست، یک کد پس از رمز عبور ارسال می‌شود که به ایمیل جعبه توسعه ارسال می‌شود.'
+  dev:
+    label: توسعه
+    title: 'فقط برای توسعه — آدرس‌های نمایشی هیچ ایمیلی دریافت نمی‌کنند، جعبه توسعه آن را نگه می‌دارد.'
   signed_in: 'وارد شده به عنوان %name%.'
   accounts:
     title: 'حساب‌های آزمایشی'
@@ -227,6 +256,7 @@ fa:
     reset: 'حساب‌های آزمایشی را بازنشانی کنید'
     result:
       active: 'کد ارسال شده به ایمیل را می‌خواهد، سپس وارد می‌شود'
+      active_password: 'با رمز عبور وارد می‌شود'
       locked: 'رد شد، حساب قفل شده است'
       inactive: 'رد شد، حساب فعال نشده است'
   magic_link:
@@ -252,9 +282,14 @@ fa:
 
 fi:
   page_title: Käyttäjä
-  page_description: "Ajaxilla lähetettävä kirjautumislomake testitileineen, kirjautuminen sähköpostilla tai käyttäjänimellä ja sähköpostiin lähetettävä koodi tuntemattomilla laitteilla."
+  document_title: 'Kirjautumislomake sähköpostikoodilla uusilla laitteilla'
+  page_description: 'Ajaxilla lähetettävä kirjautumislomake testitileineen, kirjautuminen sähköpostilla tai käyttäjänimellä ja sähköpostiin lähetettävä koodi tuntemattomilla laitteilla.'
   page_icon: 'ph:bold/user'
-  intro: 'Symfony-userin kirjautumislomake, lähetetty ajaxin kautta. Kirjaudu sisään jollain alla olevista testitileistä, sähköpostilla tai käyttäjänimellä. Laitteella, jota ei vielä luoteta, salasanan jälkeen tulee koodi, joka lähetetään sähköpostilla.'
+  intro: 'Symfony-userin kirjautumislomake, lähetetty ajaxin kautta. Kirjaudu sisään yhdellä alla olevista testitileistä, sähköpostilla tai käyttäjänimellä.'
+  intro_code: 'Laitteella, jota ei vielä luoteta, koodi seuraa salasanaa, lähetettynä sähköpostilla kehityspostilaatikkoon.'
+  dev:
+    label: Dev
+    title: 'Vain kehitykselle — demosoitteet eivät saa sähköpostia, kehityspostilaatikko säilyttää sen.'
   signed_in: 'Kirjautunut sisään käyttäjänä %name%.'
   accounts:
     title: Testitilit
@@ -268,6 +303,7 @@ fi:
     reset: 'Nollaa testitilit'
     result:
       active: 'Kysyy sähköpostilla lähetettyä koodia, sitten kirjautuu sisään'
+      active_password: 'Kirjautuu sisään salasanalla'
       locked: 'Kielletty, tili on lukittu'
       inactive: 'Kielletty, tili ei ole aktivoitu'
   magic_link:
@@ -293,13 +329,14 @@ fi:
 
 fr:
   page_title: Utilisateur
+  document_title: 'Formulaire de connexion avec des codes par e-mail sur de nouveaux appareils'
   page_description: "Un formulaire de connexion envoyé en Ajax avec des comptes de test, connexion par e-mail ou nom d'utilisateur, et un code envoyé par e-mail sur les appareils non reconnus."
   page_icon: 'ph:bold/user'
-  intro: "Le formulaire de connexion de symfony-user, soumis via ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par email ou par nom d'utilisateur."
-  intro_code: "Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par email dans la boîte de développement."
+  intro: "Le formulaire de connexion de symfony-user, soumis par ajax. Connectez-vous avec l'un des comptes de test ci-dessous, par e-mail ou par nom d'utilisateur."
+  intro_code: 'Sur un appareil non encore approuvé, un code suit le mot de passe, envoyé par email dans la boîte de développement.'
   dev:
     label: Dev
-    title: "Développement uniquement — les adresses de démo ne reçoivent aucun mail, la boîte de développement les garde."
+    title: 'Développement uniquement — les adresses de démo ne reçoivent aucun mail, la boîte de développement les garde.'
   signed_in: 'Connecté en tant que %name%.'
   accounts:
     title: 'Comptes de test'
@@ -339,9 +376,14 @@ fr:
 
 he:
   page_title: משתמש
-  page_description: "טופס התחברות הנשלח ב-Ajax עם חשבונות בדיקה, כניסה באימייל או בשם משתמש, וקוד הנשלח באימייל במכשירים לא מוכרים."
+  document_title: 'טופס כניסה עם קודי אימייל במכשירים חדשים'
+  page_description: 'טופס התחברות הנשלח ב-Ajax עם חשבונות בדיקה, כניסה באימייל או בשם משתמש, וקוד הנשלח באימייל במכשירים לא מוכרים.'
   page_icon: 'ph:bold/user'
-  intro: 'טופס ההתחברות של symfony-user, שנשלח דרך ajax. התחבר עם אחד מחשבונות הבדיקה למטה, באמצעות אימייל או שם משתמש. במכשיר שלא הוסמך עדיין, קוד יגיע לאחר הסיסמה, שנשלח באימייל.'
+  intro: 'טופס הכניסה של symfony-user, שנשלח דרך ajax. התחבר עם אחד מחשבונות הניסיון למטה, באמצעות אימייל או שם משתמש.'
+  intro_code: 'במכשיר שעדיין לא מהימן, קוד יתווסף לסיסמה, שנשלח באימייל לתיבת הדואר של הפיתוח.'
+  dev:
+    label: מפתחים
+    title: 'פיתוח בלבד — הכתובות הדמו לא מקבלות דואר, תיבת הדואר של הפיתוח שומרת את זה.'
   signed_in: 'מחובר כ-%name%.'
   accounts:
     title: 'חשבונות בדיקה'
@@ -355,6 +397,7 @@ he:
     reset: 'אפס את חשבונות הבדיקה'
     result:
       active: 'מבקש את הקוד שנשלח באימייל, ואז מתחבר'
+      active_password: 'נכנס עם הסיסמה'
       locked: 'סירוב, החשבון נעול'
       inactive: 'סירוב, החשבון לא פעיל'
   magic_link:
@@ -380,9 +423,14 @@ he:
 
 hi:
   page_title: उपयोगकर्ता
-  page_description: "Ajax से सबमिट होने वाला लॉगिन फ़ॉर्म, टेस्ट खातों के साथ, ईमेल या यूज़रनेम से साइन-इन, और अविश्वसनीय डिवाइस पर ईमेल से भेजा गया कोड।"
+  document_title: 'नए उपकरणों पर ईमेल कोड के साथ लॉगिन फॉर्म'
+  page_description: 'Ajax से सबमिट होने वाला लॉगिन फ़ॉर्म, टेस्ट खातों के साथ, ईमेल या यूज़रनेम से साइन-इन, और अविश्वसनीय डिवाइस पर ईमेल से भेजा गया कोड।'
   page_icon: 'ph:bold/user'
-  intro: 'symfony-user का लॉगिन फॉर्म, ajax के माध्यम से सबमिट किया गया। नीचे दिए गए परीक्षण खातों में से किसी एक से, ईमेल या उपयोगकर्ता नाम द्वारा साइन इन करें। एक ऐसे डिवाइस पर जो अभी तक विश्वसनीय नहीं है, पासवर्ड के बाद एक कोड आता है, जो ईमेल द्वारा भेजा जाता है।'
+  intro: 'symfony-user का लॉगिन फॉर्म, ajax के माध्यम से प्रस्तुत किया गया। नीचे दिए गए परीक्षण खातों में से किसी एक के माध्यम से, ईमेल या उपयोगकर्ता नाम द्वारा साइन इन करें।'
+  intro_code: 'ऐसे उपकरण पर जो अभी तक विश्वसनीय नहीं है, एक कोड पासवर्ड के बाद आता है, जो विकास मेलबॉक्स पर ईमेल द्वारा भेजा जाता है।'
+  dev:
+    label: डेव
+    title: 'केवल विकास — डेमो पते कोई मेल प्राप्त नहीं करते, विकास मेलबॉक्स इसे रखता है।'
   signed_in: '%name% के रूप में साइन इन किया गया।'
   accounts:
     title: 'परीक्षण खाते'
@@ -396,6 +444,7 @@ hi:
     reset: 'परीक्षण खातों को रीसेट करें'
     result:
       active: 'ईमेल द्वारा भेजा गया कोड मांगे, फिर साइन इन करें'
+      active_password: 'पासवर्ड के साथ साइन इन करता है'
       locked: 'अस्वीकृत, खाता लॉक है'
       inactive: 'अस्वीकृत, खाता सक्रिय नहीं है'
   magic_link:
@@ -421,9 +470,14 @@ hi:
 
 id:
   page_title: Pengguna
-  page_description: "Formulir masuk yang dikirim lewat Ajax dengan akun uji, masuk dengan email atau nama pengguna, dan kode yang dikirim lewat email di perangkat yang belum tepercaya."
+  document_title: 'Form login dengan kode email di perangkat baru'
+  page_description: 'Formulir masuk yang dikirim lewat Ajax dengan akun uji, masuk dengan email atau nama pengguna, dan kode yang dikirim lewat email di perangkat yang belum tepercaya.'
   page_icon: 'ph:bold/user'
-  intro: 'Form login dari symfony-user, dikirim melalui ajax. Masuk dengan salah satu akun percobaan di bawah ini, menggunakan email atau nama pengguna. Di perangkat yang belum dipercaya, kode mengikuti kata sandi, dikirim melalui email.'
+  intro: 'Form login dari symfony-user, dikirim melalui ajax. Masuk dengan salah satu akun uji di bawah ini, melalui email atau nama pengguna.'
+  intro_code: 'Di perangkat yang belum dipercaya, sebuah kode mengikuti kata sandi, yang dikirim melalui email ke kotak surat pengembangan.'
+  dev:
+    label: Dev
+    title: 'Hanya untuk pengembangan — alamat demo tidak menerima email, kotak surat pengembangan menyimpannya.'
   signed_in: 'Masuk sebagai %name%.'
   accounts:
     title: 'Akun percobaan'
@@ -437,6 +491,7 @@ id:
     reset: 'Atur ulang akun percobaan'
     result:
       active: 'Meminta kode yang dikirim melalui email, lalu masuk'
+      active_password: 'Masuk dengan kata sandi'
       locked: 'Ditolak, akun terkunci'
       inactive: 'Ditolak, akun belum diaktifkan'
   magic_link:
@@ -462,9 +517,14 @@ id:
 
 it:
   page_title: Utente
-  page_description: "Un modulo di accesso inviato via Ajax con account di prova, accesso con email o nome utente e un codice inviato via email sui dispositivi non riconosciuti."
+  document_title: 'Modulo di accesso con codici email su nuovi dispositivi'
+  page_description: 'Un modulo di accesso inviato via Ajax con account di prova, accesso con email o nome utente e un codice inviato via email sui dispositivi non riconosciuti.'
   page_icon: 'ph:bold/user'
-  intro: 'Il modulo di accesso di symfony-user, inviato tramite ajax. Accedi con uno dei seguenti account di prova, tramite email o nome utente. Su un dispositivo non ancora fidato, un codice segue la password, inviato via email.'
+  intro: 'Il modulo di accesso di symfony-user, inviato tramite ajax. Accedi con uno dei seguenti account di test, tramite email o nome utente.'
+  intro_code: 'Su un dispositivo non ancora fidato, un codice segue la password, inviato via email alla casella di posta dello sviluppo.'
+  dev:
+    label: Sviluppo
+    title: 'Solo per sviluppo — gli indirizzi demo non ricevono email, la casella di posta dello sviluppo la conserva.'
   signed_in: 'Accesso effettuato come %name%.'
   accounts:
     title: 'Account di test'
@@ -478,6 +538,7 @@ it:
     reset: 'Reimposta gli account di test'
     result:
       active: 'Richiede il codice inviato via email, poi accede'
+      active_password: 'Accede con la password'
       locked: "Rifiutato, l'account è bloccato"
       inactive: "Rifiutato, l'account non è attivato"
   magic_link:
@@ -503,9 +564,14 @@ it:
 
 ja:
   page_title: ユーザー
-  page_description: "Ajax で送信するログインフォーム。テストアカウント付きで、メールアドレスかユーザー名でサインインでき、未登録の端末ではメールでコードが届きます。"
+  document_title: 新しいデバイスでのメールコードによるログインフォーム
+  page_description: 'Ajax で送信するログインフォーム。テストアカウント付きで、メールアドレスかユーザー名でサインインでき、未登録の端末ではメールでコードが届きます。'
   page_icon: 'ph:bold/user'
-  intro: symfony-userのログインフォームで、ajaxを介して送信されます。以下のテストアカウントのいずれかで、メールアドレスまたはユーザー名を使用してサインインしてください。まだ信頼されていないデバイスでは、パスワードの後にメールで送信されたコードが必要です。
+  intro: ajax経由で送信されたsymfony-userのログインフォーム。以下のテストアカウントのいずれかで、メールまたはユーザー名でサインインしてください。
+  intro_code: まだ信頼されていないデバイスでは、パスワードの後にコードが続き、開発用メールボックスにメールで送信されます。
+  dev:
+    label: 開発者
+    title: '開発専用 — デモアドレスにはメールが送信されず、開発用メールボックスが保持します。'
   signed_in: '%name% としてサインインしました。'
   accounts:
     title: テストアカウント
@@ -519,6 +585,7 @@ ja:
     reset: テストアカウントをリセットする
     result:
       active: メールで送信されたコードを要求し、サインインします
+      active_password: パスワードでサインインします
       locked: 拒否されました。アカウントはロックされています
       inactive: 拒否されました。アカウントはアクティベートされていません
   magic_link:
@@ -544,9 +611,14 @@ ja:
 
 ko:
   page_title: 사용자
-  page_description: "Ajax로 제출되는 로그인 폼. 테스트 계정이 있으며, 이메일이나 사용자 이름으로 로그인하고, 신뢰되지 않은 기기에서는 이메일로 코드가 전송됩니다."
+  document_title: '새로운 기기에서 이메일 코드로 로그인 폼'
+  page_description: 'Ajax로 제출되는 로그인 폼. 테스트 계정이 있으며, 이메일이나 사용자 이름으로 로그인하고, 신뢰되지 않은 기기에서는 이메일로 코드가 전송됩니다.'
   page_icon: 'ph:bold/user'
-  intro: 'symfony-user의 로그인 양식으로, ajax를 통해 제출됩니다. 아래의 테스트 계정 중 하나로 이메일 또는 사용자 이름으로 로그인하세요. 아직 신뢰되지 않는 장치에서는 비밀번호 다음에 이메일로 전송된 코드가 필요합니다.'
+  intro: 'ajax를 통해 제출된 symfony-user의 로그인 폼입니다. 아래의 테스트 계정 중 하나로 이메일 또는 사용자 이름으로 로그인하세요.'
+  intro_code: '신뢰되지 않은 기기에서는 비밀번호 뒤에 코드가 따라오며, 개발 메일박스에 이메일로 전송됩니다.'
+  dev:
+    label: 개발자
+    title: '개발 전용 — 데모 주소는 메일을 받지 않으며, 개발 메일박스가 이를 유지합니다.'
   signed_in: '%name%으로 로그인했습니다.'
   accounts:
     title: '테스트 계정'
@@ -560,6 +632,7 @@ ko:
     reset: '테스트 계정을 초기화하세요'
     result:
       active: '이메일로 전송된 코드를 요청한 후 로그인합니다.'
+      active_password: '비밀번호로 로그인합니다.'
       locked: '거부됨, 계정이 잠겼습니다'
       inactive: '거부됨, 계정이 활성화되지 않았습니다'
   magic_link:
@@ -585,9 +658,14 @@ ko:
 
 nl:
   page_title: Gebruiker
-  page_description: "Een inlogformulier verzonden via Ajax met testaccounts, inloggen met e-mail of gebruikersnaam en een code per e-mail op niet-vertrouwde apparaten."
+  document_title: 'Inlogformulier met e-mailcodes op nieuwe apparaten'
+  page_description: 'Een inlogformulier verzonden via Ajax met testaccounts, inloggen met e-mail of gebruikersnaam en een code per e-mail op niet-vertrouwde apparaten.'
   page_icon: 'ph:bold/user'
-  intro: 'Het inlogformulier van symfony-user, ingediend via ajax. Meld je aan met een van de testaccounts hieronder, per e-mail of gebruikersnaam. Op een apparaat dat nog niet vertrouwd is, volgt een code na het wachtwoord, verzonden per e-mail.'
+  intro: 'Het inlogformulier van symfony-user, ingediend via ajax. Meld je aan met een van de testaccounts hieronder, via e-mail of gebruikersnaam.'
+  intro_code: 'Op een apparaat dat nog niet vertrouwd is, volgt een code na het wachtwoord, verzonden per e-mail naar de ontwikkelmailbox.'
+  dev:
+    label: Dev
+    title: 'Alleen voor ontwikkeling — de demo-adressen ontvangen geen e-mail, de ontwikkelmailbox houdt het bij.'
   signed_in: 'Ingelogd als %name%.'
   accounts:
     title: Testaccounts
@@ -601,6 +679,7 @@ nl:
     reset: 'Stel de testaccounts opnieuw in'
     result:
       active: 'Vraagt de code die per e-mail is verzonden, en logt in'
+      active_password: 'Meldt je aan met het wachtwoord'
       locked: 'Weigerd, het account is vergrendeld'
       inactive: 'Weigerd, het account is niet geactiveerd'
   magic_link:
@@ -626,9 +705,14 @@ nl:
 
 pl:
   page_title: Użytkownik
-  page_description: "Formularz logowania wysyłany przez Ajax, z kontami testowymi, logowaniem e-mailem lub nazwą użytkownika i kodem wysyłanym e-mailem na niezaufanych urządzeniach."
+  document_title: 'Formularz logowania z kodami e-mail na nowych urządzeniach'
+  page_description: 'Formularz logowania wysyłany przez Ajax, z kontami testowymi, logowaniem e-mailem lub nazwą użytkownika i kodem wysyłanym e-mailem na niezaufanych urządzeniach.'
   page_icon: 'ph:bold/user'
-  intro: 'Formularz logowania symfony-user, przesyłany przez ajax. Zaloguj się jednym z poniższych kont testowych, używając adresu e-mail lub nazwy użytkownika. Na urządzeniu, które nie jest jeszcze zaufane, kod następuje po haśle, wysyłany e-mailem.'
+  intro: 'Formularz logowania symfony-user, przesyłany przez ajax. Zaloguj się za pomocą jednego z poniższych kont testowych, korzystając z adresu e-mail lub nazwy użytkownika.'
+  intro_code: 'Na urządzeniu, które nie jest jeszcze zaufane, kod następuje po haśle, wysyłany e-mailem na skrzynkę dewelopera.'
+  dev:
+    label: Dev
+    title: 'Tylko do celów rozwojowych — adresy demo nie otrzymują wiadomości, skrzynka dewelopera je przechowuje.'
   signed_in: 'Zalogowano jako %name%.'
   accounts:
     title: 'Konta testowe'
@@ -642,6 +726,7 @@ pl:
     reset: 'Zresetuj konta testowe'
     result:
       active: 'Prosi o kod wysłany e-mailem, a następnie loguje się'
+      active_password: 'Loguje się za pomocą hasła'
       locked: 'Odmowa, konto jest zablokowane'
       inactive: 'Odmowa, konto nie jest aktywowane'
   magic_link:
@@ -667,9 +752,14 @@ pl:
 
 pt_BR:
   page_title: Usuário
-  page_description: "Um formulário de login enviado por Ajax com contas de teste, acesso por e-mail ou nome de usuário e um código enviado por e-mail em dispositivos não confiáveis."
+  document_title: 'Formulário de login com códigos de email em novos dispositivos'
+  page_description: 'Um formulário de login enviado por Ajax com contas de teste, acesso por e-mail ou nome de usuário e um código enviado por e-mail em dispositivos não confiáveis.'
   page_icon: 'ph:bold/user'
-  intro: 'O formulário de login do symfony-user, enviado via ajax. Faça login com uma das contas de teste abaixo, pelo e-mail ou pelo nome de usuário. Em um dispositivo ainda não confiável, um código segue a senha, enviado por e-mail.'
+  intro: 'O formulário de login do symfony-user, enviado via ajax. Faça login com uma das contas de teste abaixo, por email ou nome de usuário.'
+  intro_code: 'Em um dispositivo ainda não confiável, um código segue a senha, enviado por email para a caixa de entrada de desenvolvimento.'
+  dev:
+    label: Dev
+    title: 'Apenas para desenvolvimento — os endereços de demonstração não recebem email, a caixa de entrada de desenvolvimento o mantém.'
   signed_in: 'Conectado como %name%.'
   accounts:
     title: 'Contas de teste'
@@ -683,6 +773,7 @@ pt_BR:
     reset: 'Redefinir as contas de teste'
     result:
       active: 'Pede o código enviado por e-mail, depois faz o login'
+      active_password: 'Faz login com a senha'
       locked: 'Recusado, a conta está bloqueada'
       inactive: 'Recusado, a conta não está ativada'
   magic_link:
@@ -708,9 +799,14 @@ pt_BR:
 
 ru:
   page_title: Пользователь
-  page_description: "Форма входа с отправкой через Ajax и тестовыми аккаунтами: вход по email или имени пользователя, код по почте на недоверенных устройствах."
+  document_title: 'Форма входа с кодами на новых устройствах'
+  page_description: 'Форма входа с отправкой через Ajax и тестовыми аккаунтами: вход по email или имени пользователя, код по почте на недоверенных устройствах.'
   page_icon: 'ph:bold/user'
-  intro: 'Форма входа symfony-user, отправленная через ajax. Войдите с одним из тестовых аккаунтов ниже, используя email или имя пользователя. На устройстве, которому еще не доверяют, после пароля вводится код, отправленный на email.'
+  intro: 'Форма входа symfony-user, отправляемая через ajax. Войдите с помощью одной из тестовых учетных записей ниже, по электронной почте или имени пользователя.'
+  intro_code: 'На устройстве, которое еще не доверено, код следует за паролем и отправляется по электронной почте на почтовый ящик разработчиков.'
+  dev:
+    label: Разработка
+    title: 'Только для разработки — демонстрационные адреса не получают почту, почтовый ящик разработки хранит её.'
   signed_in: 'Вошли как %name%.'
   accounts:
     title: 'Тестовые аккаунты'
@@ -724,6 +820,7 @@ ru:
     reset: 'Сбросить тестовые аккаунты'
     result:
       active: 'Запрашивает код, отправленный на email, затем выполняет вход'
+      active_password: 'Входит с помощью пароля'
       locked: 'Отказано, аккаунт заблокирован'
       inactive: 'Отказано, аккаунт не активирован'
   magic_link:
@@ -749,9 +846,14 @@ ru:
 
 th:
   page_title: ผู้ใช้
-  page_description: "ฟอร์มเข้าสู่ระบบที่ส่งผ่าน Ajax พร้อมบัญชีทดสอบ เข้าสู่ระบบด้วยอีเมลหรือชื่อผู้ใช้ และรหัสที่ส่งทางอีเมลบนอุปกรณ์ที่ยังไม่เชื่อถือ"
+  document_title: แบบฟอร์มเข้าสู่ระบบด้วยรหัสอีเมลบนอุปกรณ์ใหม่
+  page_description: 'ฟอร์มเข้าสู่ระบบที่ส่งผ่าน Ajax พร้อมบัญชีทดสอบ เข้าสู่ระบบด้วยอีเมลหรือชื่อผู้ใช้ และรหัสที่ส่งทางอีเมลบนอุปกรณ์ที่ยังไม่เชื่อถือ'
   page_icon: 'ph:bold/user'
-  intro: 'แบบฟอร์มเข้าสู่ระบบของ symfony-user ที่ส่งผ่าน ajax เข้าสู่ระบบด้วยหนึ่งในบัญชีทดสอบด้านล่าง โดยใช้ อีเมล หรือ ชื่อผู้ใช้ บนอุปกรณ์ที่ยังไม่เชื่อถือ รหัสจะตามมาหลังรหัสผ่าน ซึ่งส่งทางอีเมล'
+  intro: 'แบบฟอร์มเข้าสู่ระบบของ symfony-user ที่ส่งผ่าน ajax เข้าสู่ระบบด้วยบัญชีทดสอบด้านล่าง โดยใช้อีเมลหรือชื่อผู้ใช้'
+  intro_code: 'บนอุปกรณ์ที่ยังไม่เชื่อถือ รหัสจะตามหลังรหัสผ่าน ซึ่งส่งไปยังอีเมลของกล่องจดหมายพัฒนา'
+  dev:
+    label: นักพัฒนา
+    title: 'เฉพาะการพัฒนา — ที่อยู่สาธิตจะไม่ได้รับอีเมล กล่องจดหมายพัฒนาจะเก็บไว้'
   signed_in: 'ลงชื่อเข้าใช้เป็น %name%.'
   accounts:
     title: บัญชีทดสอบ
@@ -765,6 +867,7 @@ th:
     reset: รีเซ็ตบัญชีทดสอบ
     result:
       active: 'ขอรหัสที่ส่งทางอีเมล จากนั้นเข้าสู่ระบบ'
+      active_password: เข้าสู่ระบบด้วยรหัสผ่าน
       locked: 'ปฏิเสธ บัญชีถูกล็อก'
       inactive: 'ปฏิเสธ บัญชียังไม่ได้เปิดใช้งาน'
   magic_link:
@@ -790,9 +893,14 @@ th:
 
 tr:
   page_title: Kullanıcı
-  page_description: "Ajax ile gönderilen, test hesaplı bir giriş formu: e-posta veya kullanıcı adıyla giriş, güvenilmeyen cihazlarda e-postayla gönderilen bir kod."
+  document_title: 'Yeni cihazlarda e-posta kodları ile giriş formu'
+  page_description: 'Ajax ile gönderilen, test hesaplı bir giriş formu: e-posta veya kullanıcı adıyla giriş, güvenilmeyen cihazlarda e-postayla gönderilen bir kod.'
   page_icon: 'ph:bold/user'
-  intro: "symfony-user'ın ajax ile gönderilen giriş formu. Aşağıdaki test hesaplarından biriyle, e-posta veya kullanıcı adı ile oturum açın. Henüz güvenilir olmayan bir cihazda, e-posta ile gönderilen bir kod şifreyi takip eder."
+  intro: "Symfony-user'ın ajax ile gönderilen giriş formu. Aşağıdaki test hesaplarından biri ile, e-posta veya kullanıcı adı ile oturum açın."
+  intro_code: 'Henüz güvenilir olmayan bir cihazda, şifreyi takip eden bir kod, geliştirme posta kutusuna e-posta olarak gönderilir.'
+  dev:
+    label: Geliştirici
+    title: 'Sadece geliştirme — demo adresleri e-posta almaz, geliştirme posta kutusu bunu saklar.'
   signed_in: 'Oturum açıldı: %name%.'
   accounts:
     title: 'Test hesapları'
@@ -806,6 +914,7 @@ tr:
     reset: 'Test hesaplarını sıfırla'
     result:
       active: 'E-posta ile gönderilen kodu ister, ardından oturum açar'
+      active_password: 'Şifre ile oturum açar'
       locked: 'Reddedildi, hesap kilitli'
       inactive: 'Reddedildi, hesap etkinleştirilmemiş'
   magic_link:
@@ -831,9 +940,14 @@ tr:
 
 ur:
   page_title: صارف
-  page_description: "Ajax کے ذریعے بھیجا جانے والا لاگ ان فارم، ٹیسٹ اکاؤنٹس کے ساتھ، ای میل یا یوزرنیم سے سائن ان، اور غیر معتبر آلات پر ای میل سے بھیجا گیا کوڈ۔"
+  document_title: 'نئے آلات پر ای میل کوڈز کے ساتھ لاگ ان فارم'
+  page_description: 'Ajax کے ذریعے بھیجا جانے والا لاگ ان فارم، ٹیسٹ اکاؤنٹس کے ساتھ، ای میل یا یوزرنیم سے سائن ان، اور غیر معتبر آلات پر ای میل سے بھیجا گیا کوڈ۔'
   page_icon: 'ph:bold/user'
-  intro: 'symfony-user کا لاگ ان فارم، ajax کے ذریعے جمع کرایا گیا۔ نیچے دی گئی ٹیسٹ اکاؤنٹس میں سے کسی ایک کے ساتھ، ای میل یا صارف نام کے ذریعے سائن ان کریں۔ کسی غیر معتبر ڈیوائس پر، پاس ورڈ کے بعد ایک کوڈ بھیجا جاتا ہے، جو ای میل کے ذریعے آتا ہے۔'
+  intro: 'symfony-user کا لاگ ان فارم، ajax کے ذریعے جمع کرایا گیا۔ نیچے دیے گئے ٹیسٹ اکاؤنٹس میں سے کسی ایک کے ذریعے، ای میل یا صارف نام کے ساتھ سائن ان کریں۔'
+  intro_code: 'ایسے آلے پر جو ابھی تک قابل اعتماد نہیں ہے، پاس ورڈ کے بعد ایک کوڈ ہوتا ہے، جو ترقیاتی میل باکس میں ای میل کے ذریعے بھیجا جاتا ہے۔'
+  dev:
+    label: ڈیولپمنٹ
+    title: 'صرف ترقی کے لیے — ڈیمو ایڈریسز کو کوئی ای میل نہیں ملتی، ترقیاتی میل باکس اسے رکھتا ہے۔'
   signed_in: 'کے طور پر لاگ ان ہوا %name%۔'
   accounts:
     title: 'ٹیسٹ اکاؤنٹس'
@@ -847,6 +961,7 @@ ur:
     reset: 'ٹیسٹ اکاؤنٹس کو ری سیٹ کریں'
     result:
       active: 'ایمیل کے ذریعے بھیجا گیا کوڈ مانگتا ہے، پھر سائن ان کرتا ہے'
+      active_password: 'پاس ورڈ کے ساتھ سائن ان کرتا ہے'
       locked: 'انکار، اکاؤنٹ لاک ہو چکا ہے'
       inactive: 'انکار، اکاؤنٹ فعال نہیں ہے'
   magic_link:
@@ -872,9 +987,14 @@ ur:
 
 vi:
   page_title: 'Người dùng'
-  page_description: "Biểu mẫu đăng nhập gửi qua Ajax với tài khoản thử nghiệm, đăng nhập bằng email hoặc tên người dùng, và mã gửi qua email trên thiết bị chưa tin cậy."
+  document_title: 'Biểu mẫu đăng nhập bằng mã email trên thiết bị mới'
+  page_description: 'Biểu mẫu đăng nhập gửi qua Ajax với tài khoản thử nghiệm, đăng nhập bằng email hoặc tên người dùng, và mã gửi qua email trên thiết bị chưa tin cậy.'
   page_icon: 'ph:bold/user'
-  intro: 'Biểu mẫu đăng nhập của symfony-user, được gửi qua ajax. Đăng nhập bằng một trong các tài khoản thử nghiệm dưới đây, bằng email hoặc tên người dùng. Trên một thiết bị chưa được tin cậy, một mã sẽ theo sau mật khẩu, được gửi qua email.'
+  intro: 'Biểu mẫu đăng nhập của symfony-user, được gửi qua ajax. Đăng nhập bằng một trong các tài khoản thử nghiệm dưới đây, bằng email hoặc tên người dùng.'
+  intro_code: 'Trên một thiết bị chưa được tin cậy, một mã sẽ theo sau mật khẩu, được gửi qua email đến hộp thư phát triển.'
+  dev:
+    label: Dev
+    title: 'Chỉ dành cho phát triển — các địa chỉ demo sẽ không nhận được email, hộp thư phát triển giữ lại nó.'
   signed_in: 'Đăng nhập với tư cách %name%.'
   accounts:
     title: 'Tài khoản thử nghiệm'
@@ -888,6 +1008,7 @@ vi:
     reset: 'Đặt lại các tài khoản thử nghiệm'
     result:
       active: 'Yêu cầu mã được gửi qua email, sau đó đăng nhập'
+      active_password: 'Đăng nhập bằng mật khẩu'
       locked: 'Từ chối, tài khoản đã bị khóa'
       inactive: 'Từ chối, tài khoản chưa được kích hoạt'
   magic_link:
@@ -913,9 +1034,14 @@ vi:
 
 zh:
   page_title: 用户
-  page_description: "通过 Ajax 提交的登录表单，附测试账号，可用邮箱或用户名登录，在未受信任的设备上会通过邮件发送验证码。"
+  document_title: 新设备上的电子邮件验证码登录表单
+  page_description: '通过 Ajax 提交的登录表单，附测试账号，可用邮箱或用户名登录，在未受信任的设备上会通过邮件发送验证码。'
   page_icon: 'ph:bold/user'
-  intro: 'symfony-user 的登录表单，通过 ajax 提交。请使用下面的测试账户登录，可以通过电子邮件或用户名登录。在未被信任的设备上，密码后会有一个通过电子邮件发送的代码。'
+  intro: 'symfony-user 的登录表单，通过 ajax 提交。使用下面的测试账户之一，通过电子邮件或用户名登录。'
+  intro_code: 在尚未信任的设备上，密码后会跟随一个代码，该代码通过电子邮件发送到开发邮箱。
+  dev:
+    label: 开发
+    title: '仅限开发 — 演示地址不接收邮件，开发邮箱会保留邮件。'
   signed_in: '以 %name% 身份登录。'
   accounts:
     title: 测试账户
@@ -929,6 +1055,7 @@ zh:
     reset: 重置测试账户
     result:
       active: 请求通过电子邮件发送的代码，然后登录
+      active_password: 使用密码登录
       locked: 拒绝，账户已锁定
       inactive: 拒绝，账户未激活
   magic_link:
