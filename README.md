@@ -1,6 +1,6 @@
 # symfony-user-demo
 
-Version: 8.0.1
+Version: 8.0.2
 
 ## The code by mail
 
@@ -36,7 +36,7 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=24.0.0
+- wexample/symfony-loader: >=25.0.0
 - wexample/symfony-design-system: >=39.0.0
 - wexample/symfony-design-system-demo: >=11.1.0
 - wexample/symfony-routing: >=2.2.0
