@@ -3,7 +3,7 @@
   "description": "User accounts showcase pages for Symfony",
   "type": "library",
   "license": "MIT",
-  "version": "8.0.5",
+  "version": "8.0.6",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyUserDemo\\": "src/"
@@ -18,12 +18,12 @@
   "require": {
     "php": ">=8.5",
     "wexample/symfony-helpers": ">=18.0.2",
-    "wexample/symfony-loader": ">=25.1.0",
+    "wexample/symfony-loader": ">=25.3.0",
     "wexample/symfony-design-system": ">=39.0.3",
     "wexample/symfony-design-system-demo": ">=11.1.5",
     "wexample/symfony-routing": ">=2.2.0",
-    "wexample/symfony-user": ">=15.0.0",
-    "wexample/symfony-user-ds": ">=5.1.5",
+    "wexample/symfony-user": ">=16.0.0",
+    "wexample/symfony-user-ds": ">=6.0.0",
     "wexample/symfony-mail-ds": ">=2.2.3",
     "wexample/symfony-organization": ">=3.0.3",
     "wexample/symfony-search": ">=4.2.5"
