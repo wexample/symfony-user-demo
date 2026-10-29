@@ -1,6 +1,6 @@
 # symfony-user-demo
 
-Version: 8.0.9
+Version: 8.0.10
 
 User accounts showcase pages for Symfony
 
